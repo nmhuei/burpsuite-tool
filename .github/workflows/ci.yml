@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  lint-and-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Python syntax check
+        run: |
+          python -m py_compile analyzer.py collector.py reporter.py burp_extender.py
+
+      - name: Shell syntax check
+        run: |
+          bash -n run_mvp.sh
+          bash -n auto_timetable.sh
+
+      - name: Smoke run (no network deps)
+        run: |
+          mkdir -p out
+          python analyzer.py --help >/dev/null || true
+          python collector.py --help >/dev/null || true

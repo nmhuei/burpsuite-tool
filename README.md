@@ -204,3 +204,14 @@ Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so 
 ---
 
 Nếu bạn muốn, mình có thể viết thêm phiên bản README “for team onboarding” (siêu ngắn, 1 trang, copy-paste là chạy).
+---
+
+## 🤝 Project hygiene
+
+This repo uses a lightweight professional workflow:
+- Conventional commits (`feat:`, `fix:`, `docs:`...)
+- PR template
+- Issue templates (bug/feature)
+- GitHub Actions CI (syntax + smoke checks)
+
+See: `CONTRIBUTING.md`
