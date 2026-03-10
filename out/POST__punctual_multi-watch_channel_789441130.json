@@ -1,0 +1,53 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://accounts.google.com",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "signaler-pa.googleapis.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Content-Length": "63",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\"",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&SID=QWA275LnfmviSP3IIZabUw&RID=33029&AID=5&zx=v14e8k8pk39n&t=1",
+    "source": "burp",
+    "body": "count=1&ofs=1&req0___data__=%5B%5B%5B1%2Cnull%2C%5B%5D%5D%5D%5D",
+    "url": "https://signaler-pa.googleapis.com:443/punctual/multi-watch/channel?VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&SID=QWA275LnfmviSP3IIZabUw&RID=33029&AID=5&zx=v14e8k8pk39n&t=1",
+    "path": "/punctual/multi-watch/channel",
+    "host": "signaler-pa.googleapis.com",
+    "id": "POST:/punctual/multi-watch/channel:789441130",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

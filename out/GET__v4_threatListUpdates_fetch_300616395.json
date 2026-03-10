@@ -1,0 +1,54 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "safebrowsing.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Http-Method-Override": "POST"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "$req=ChgKCGNocm9taXVtEgwxNDUuMS44Ny4xOTIaKQgFEAIaGwoNCAUQBhgBIgMwMDEwARCu_R4aAhgJQB3RwiIEIAEgAigBGikIARACGhsKDQgBEAYYASIDMDAxMAEQ_6IUGgIYCcsb99MiBCABIAIoARopCAMQAhobCg0IAxAGGAEiAzAwMTABEICcFBoCGAncloORIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBDXPxoCGAmR6Eb9IgQgASACKAQaKQgPEAIaGwoNCA8QBhgBIgMwMDEwARDN3AgaAhgJylPXgCIEIAEgAigBGikIBxACGhsKDQgHEAYYASIDMDAxMAEQ1JQUGgIYCfZTO34iBCABIAIoARonCAkQAhoZCg0ICRAGGAEiAzAwMTABECQaAhgJRoTu3yIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken",
+    "response_body": "\nß\b\b\u0005\u0010\u0001\u0018\u0002 \u0001*¶\u0005\b\u0002\"±\u0005\bñ\u000e\u0010\u0018\u0018Ñ\u0001\"¤\u0005°\u0006Z6kËð\u001eR{\na±\u0001ì»¥¯$¢M$Ús{MwÖ~ÏÞ<Æ(ñq§á¢\bg\"\u001aªE\u0019]#\u000b\u001f\t\bÅgòz( þÄ,+§h÷°\tpo­_\u000bÙÓÌ|\u0012ÇÜØOù.I·\u0006\u001a§\u001bÊÄ-\u001b»Fà¶¯÷d0\u00131×Ï\rñ¤~ûpþ²º\u0006¡R\f oìNÌ\u0007Å<®LÉ¡°\u0011E\bM%Äê\u0003~\u0010KQ}V\u0007µ£4Ýb;*[êOPnûf \u0017,®·*rëyªÄðX\u0010/±\u000eWºÂ9$Û&\u0019ûÏ\u0006\u000fÉãu\u000bÿI\u000bQ<\u0003ð·ÜÂz¹í×\u001d`\b(Ð\u001a\u0016ó\u000b\u0006w\tx0\u0001\u001b5lUóbÓ¦±\u0001\\µ\u00131±\b{`Ë\u0004mÜÈÚ¼JÎjzþ¡hÓDà§ÛåÓq.;»³´Uqr\u001b\bÞüÛvK%9\u0011¹6ê¸u {JGP¢\u0004G×\u0004f\u0007Ýíà@à\u0012\u0000r§]Ò£Êi¯µét\f\u0002ùå\u0012O&\u001fÿ¯ÿnKmÀ\u0016\u000fðóÁ6¿Ý¤©Wg\u0010Ü,S\u0002Èy+[&¨*\"ÁÂäwÜ./\u001cÄ\tä0¹Ôµ\u0019\u0016®ýCÏÈ@IDmÚ\nWÖtÄH\n¡B­ò|ìW\u001a¶\tç1!þÖ\u0019½5dCÝÎ¥Zq\u0015\u001b\u0007­ÆmÀ\u0015@n\u000bµÎD´r,\b¯MAuÃ\u001d±«\u0003»t:6»Ýo½%×\u001b%ÈóèüFKôèðÈ /ïM`¿§¯n÷Ê#ãÔ@6øõåì¸*@v\u0001è q%m\t\u0006\u001cLK\u001bÎ]\u0000ID\u000b¾-¸X\u000etB­¾ÀÁbµ~0£\fªô7yYá%PXí5\u0004òdkzFYE_M^mÇ²rf-ÔÉ¥Þ®A8g¾)rï#RMu:\u0018\u000b&ã~eÕ\u0019(q r[Ã¸>\u0002d¨\t²O\u00012Ú\u0002\b\u0002*Õ\u0002\bÿ¢\u0002\u0010\u000e\u0018 \u0001\"É\u0002\rUä_~áâ&6é+)}Sêl=V×+XzK¬ÚøÀ\u0002ë\u0000õnðq]éHêÍÙè\\\u0001ú×ê)Î-\u0001l7ýWB!\u001a\u0001©¦À¢\u0011øÏI¿hIç\u0006¡\u000e7ù\u000f~ê2RUw%{á\u0007p£Ý8?êÖí|vµCøó\u001d'w$³o¿þ=g$R&g÷\u000fQ\u0002_Hgå6ç\u0011\u0014\u001b,vkY\u0007¯|ª\u0011õ¡wá®ûöNH¸6ðØ»EÂ]pÆ\bÆ{\u000e\"ÏgÄÝÀÇÞ#²nOA2\u0005õög¶¦À³)\u0006´ò'æ&¼ÈÓ`îO¹ àfË!=ïv¸Ç>%NÇÌN:òËtg\u001d¬ÈÓ[\u0014ôÛOE9éÄÞí?«\u0014\u001aÏ}{^çÅ2×\u0003=Täq\u001c\u0004\u0003?ð0ÓÈ\u0014Ðã\u000e îè÷`@¼\rZ}twHÐÄì+OÚ³¥âK+Âµ@ÆûUZô'tV\u0001:\u001b\n\r\b\u0005\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010°ý\u001e\u001a\u0002\u0018\tqBB\"\n qo\u0015±¡\u0018büàÎök\u001bzDkÎnA¹{\t\u0014Õ\u0006É\nç\u0001\b\u0001\u0010\u0001\u0018\u0002 \u0001*z\b\u0002\"v\bå0\u0010\u001b\u0018\u001e\"k_¤½\u001eu-0\u0006ì¼ÌÀzé®ÒöáOp\u001bS#sp*¡,0ïMb¼µÂlÄ\\/¾ò\tCË+¡óÔb·\b:.àéí±c'\u0006I\u001ben·Èt$2!v?2`é\bq!E0²GkXU&Ñ ®ø\u0004°2 \b\u0002*\u001c\b×\u0007\u0010\t\u0018\r\"\u00137B\u0006\u0013ïÍÒ}e\u0001Ê`ð°£\u0004:\u001b\n\r\b\u0001\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010£\u0014\u001a\u0002\u0018\tPÞáB\"\n \u0019¬ïÙ);óÏò1¼K&áz¸ìjµÏKvU_\u0001\u0003i8Öxa\nÂ\u0001\b\u0003\u0010\u0001\u0018\u0002 \u0001*J\b\u0002\"F\bÊêêV\u0010\u001c\u0018\u0010\";¹mg´ã'º,±¶\u0014\u0002ãºÇ9ä\u001bºÔJ¬L\nEV[ÈSq¬?IK]0! Ñ*)Óó¸Ê)¹;2+\b\u0002*'\bæ\u0001\u0010\n\u0018\u0014\"\u001eR\u001aØ\u001b\u0000\u0005E»ù\u0019WWÀt\u0014²$\\X·ýaØhFÐ«S:\u001b\n\r\b\u0003\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010\u0014\u001a\u0002\u0018\t\u001fdºB\"\n ¹\u0015ÕÄ\u0012\u0012Ø Üàm;zve&Öé~ZõÀH+`\u0016^Ç¤)X\nH\b\u0001\u0010\u0004\u0018\b \u0001:\u001a\n\r\b\u0001\u0010\b\u0018\u0001\"\u00030010\u0004\u0010×?\u001a\u0002\u0018\tèFýB\"\n £\u001c±^¶ì\u001d(\u0015 »Ä'yè\u0006uÜ\u0005^·\n ~n\u000f\u0002¼Kí\n\u0001\b\u000f\u0010\u0001\u0018\u0002 \u0001*\u001c\b\u0002\"\u0018\bØóíò\u0003\u0010\u001c\u0018\u0003\"\fÿ\u001f7X³éy\\e2\u001d\b\u0002*\u0019\b\u0007\u0010\n\u0018\u000b\"\u0010ÙÝ^Ä\u0000IÕçäc\u0019\u001aW\u0004:\u001b\n\r\b\u000f\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010ÐÜ\b\u001a\u0002\u0018\t-OWB\"\n > n°7?\u0010[Ký\u001fP\u0001£`L\bzçJÍÕ^6¦\u001cj5²\ng\b\u0007\u0010\u0001\u0018\u0002 \u0001*\u001c\b\u0002\"\u0018\bâÞÑ\u0006\u0010\u001c\u0018\u0003\"\f¿ÏRÔó¸ÊÑåO\t:\u001b\n\r\b\u0007\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010×\u0014\u001a\u0002\u0018\t\f´ðB\"\n Ð®ò\u0007^ö\u0001¦»\u0018ãN\u000bü\b\u001cØ®My OB(ú,4j\nG\b\t\u0010\u0001\u0018\u0002 \u0001:\u0019\n\r\b\t\u0010\u0006\u0018\u0001\"\u00030010\u0001\u0010$\u001a\u0002\u0018\tFîßB\"\n 1¡5ð\u000fÖìáâæð5\u00168\u001fÂv86-ítj¿cl%/\u0012\t\b\u000e\u0010¾ºÄ\u0001",
+    "source": "burp",
+    "body": "",
+    "url": "https://safebrowsing.brave.com:443/v4/threatListUpdates:fetch?$req=ChgKCGNocm9taXVtEgwxNDUuMS44Ny4xOTIaKQgFEAIaGwoNCAUQBhgBIgMwMDEwARCu_R4aAhgJQB3RwiIEIAEgAigBGikIARACGhsKDQgBEAYYASIDMDAxMAEQ_6IUGgIYCcsb99MiBCABIAIoARopCAMQAhobCg0IAxAGGAEiAzAwMTABEICcFBoCGAncloORIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBDXPxoCGAmR6Eb9IgQgASACKAQaKQgPEAIaGwoNCA8QBhgBIgMwMDEwARDN3AgaAhgJylPXgCIEIAEgAigBGikIBxACGhsKDQgHEAYYASIDMDAxMAEQ1JQUGgIYCfZTO34iBCABIAIoARonCAkQAhoZCg0ICRAGGAEiAzAwMTABECQaAhgJRoTu3yIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken",
+    "path": "/v4/threatListUpdates:fetch",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Content-Type: application/x-protobuf",
+      "Content-Length: 1953",
+      "Date: Tue, 10 Mar 2026 16:54:13 GMT",
+      "Server: nginx",
+      "Content-Disposition: attachment",
+      "X-Xss-Protection: 0",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Content-Type-Options: nosniff",
+      "Vary: Accept-Encoding",
+      "X-Cache: Miss from cloudfront",
+      "Via: 1.1 0361f428634a3c0bc42e9b0f23e19ffe.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop: SEA900-P3",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "X-Amz-Cf-Id: MfXRlosXyqPR_yTxhw9URbqc4T4RHYMHLdPf6Hjrc_AFyp6ekoICkA==",
+      "Age: 206"
+    ],
+    "host": "safebrowsing.brave.com",
+    "id": "GET:/v4/threatListUpdates:fetch:300616395",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

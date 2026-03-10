@@ -1,0 +1,28 @@
+{
+  "event": {
+    "id": "manual-test-1",
+    "host": "portal.usth.edu.vn",
+    "url": "https://portal.usth.edu.vn/students/learn/timetable",
+    "path": "/students/learn/timetable",
+    "method": "GET",
+    "query": "week=11",
+    "headers": {
+      "authorization": "Bearer test"
+    },
+    "body": ""
+  },
+  "analysis": {
+    "risk_score": 4,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sensitive_data_exposure",
+        "score": 4,
+        "reason": "Sensitive key(s): authorization"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

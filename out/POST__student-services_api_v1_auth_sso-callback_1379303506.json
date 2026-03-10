@@ -1,0 +1,88 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; auth_redirect_uri=%2Fstudents; state=up943Fgp57; redirect_path=%2Flearn%2Ftimetable; x-sso-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmlnaW51cmwiOiJodHRwczovL2VycC51c3RoLmVkdS52bi9zdHVkZW50cy9hcGkvYXV0aC9zc28iLCJzZXNzaW9uaWQiOiJ1cDk0M0ZncDU3IiwiZXhwIjoxNzczMjQ4NjU1fQ.VDfV6CIB8O4vSppBMCmZ0loeYxSpwh1otLmGT0FtTpw",
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "X-Check-Sum": "29cc6683c645bf360bfacabaec4c599d0e0467d73788f550d516af06d9f00681",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Content-Length": "279",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"user\":{\"id\":5497557115469824,\"studentId\":\"23BA14112\",\"fullName\":\"Nguyá»n Minh Hiáº¿u\",\"birthdate\":1134493200000,\"birthdateStr\":\"14/12/2005\",\"birthPlace\":\"\",\"departmentId\":-1,\"programId\":6211384979226625,\"majorId\":4510819769384960,\"majorName\":\"An toÃ n thÃ´ng tin\",\"majorCode\":\"7480202\",\"studentYear\":\"2023-2027\",\"year\":2023,\"gender\":1,\"tokenKey\":\"\",\"ethnicity\":\"Kinh\",\"phoneNumber\":\"0984801274\",\"graduationDate\":-1,\"email\":\"hieunm.23ba14112@usth.edu.vn\",\"personalEmail\":\"hieunm.23ba14112@usth.edu.vn\",\"lastLoggedIn\":-1,\"status\":0,\"rootId\":4987306008117248,\"oldRootId\":-1,\"uniId\":-1,\"classId\":6678426228359168,\"lastSemester\":\"\",\"semesters\":[],\"vaccinated\":-1,\"familyPolicyId\":-1,\"docUrls\":[],\"classOrder\":0,\"cvUrl\":\"\",\"avatarUrl\":\"\",\"className\":\"B2-CS\",\"companyName\":\"\",\"scholarShip\":\"\",\"position\":\"\",\"notes\":\"\",\"countryId\":4881695532646400,\"countryName\":\"Viá»t Nam\",\"provinceId\":5106115620634624,\"districtId\":-1,\"communeId\":-1,\"homeCommune\":\"\",\"homeDistrict\":\"\",\"homeProvince\":\"Tá»nh VÄ©nh PhÃºc\",\"homeAddress\":\"\",\"facebookToken\":\"\",\"studyMode\":0,\"studentType\":\"\",\"profileUrl\":\"\",\"facebookId\":\"\",\"relatedEmail\":\"\",\"createdDate\":1748800250877,\"lastUpdate\":-1,\"tmpState\":-1,\"schoolName\":\"\",\"facebookName\":\"\",\"contactPerson\":\"\",\"contactProvinceId\":-1,\"contactDistrictId\":-1,\"contactCommuneId\":-1,\"contactCommune\":\"\",\"contactDistrict\":\"\",\"contactProvince\":\"\",\"contactAddress\":\"\",\"receptInfo\":\"\",\"groupName\":\"B2-CS\",\"sessionId\":null,\"admissionCode\":\"IT-E15\",\"admissionName\":\"An toÃ n khÃ´ng gian sá» (ChÆ°Æ¡ng trÃ¬nh tiÃªn tiáº¿n)\",\"bankName\":\"\",\"cpa\":0,\"gpa\":0,\"tpa\":0,\"ctpa\":0,\"gpa2s\":0,\"tpa2s\":0,\"totalCredit\":0,\"familyEcoType\":-1,\"familyInfo\":\"\",\"address\":\"VÄ©nh PhÃºc\",\"achievement\":\"\",\"otherAchievem\":\"\",\"reasonAward\":\"\",\"_academicResults\":[]}}",
+    "source": "burp",
+    "body": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmlnaW51cmwiOiJodHRwczovL2VycC51c3RoLmVkdS52bi9zdHVkZW50cy9hcGkvYXV0aC9zc28iLCJzZXNzaW9uaWQiOiJ1cDk0M0ZncDU3IiwiZXhwIjoxNzczMjQ4NjU1fQ.VDfV6CIB8O4vSppBMCmZ0loeYxSpwh1otLmGT0FtTpw\",\"state\":\"up943Fgp57\",\"clientId\":\"clientId_usth\"}",
+    "url": "https://erp.usth.edu.vn:443/student-services/api/v1/auth/sso-callback",
+    "path": "/student-services/api/v1/auth/sso-callback",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:04:16 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Access-Control-Allow-Origin: https://erp.usth.edu.vn",
+      "Vary: Origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-app-version",
+      "Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "Cross-Origin-Opener-Policy: same-origin",
+      "Cross-Origin-Resource-Policy: same-origin",
+      "Origin-Agent-Cluster: ?1",
+      "Referrer-Policy: no-referrer",
+      "Strict-Transport-Security: max-age=15552000; includeSubDomains",
+      "X-Content-Type-Options: nosniff",
+      "X-Dns-Prefetch-Control: off",
+      "X-Download-Options: noopen",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Permitted-Cross-Domain-Policies: none",
+      "X-Xss-Protection: 0",
+      "X-App-Version: 202603101628",
+      "Set-Cookie: x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoicFBBcXFLZzFqOWRVbTZyeGR2NVJoWXVZaHlIQVFUbEI1M2lhZ2w1T0hrU0lsaFRzdWNsNTg2b2pnTklCQlJ4TFNqc3RDMU0zOWRKSmxvOUd2L3J1RWhibTZENlBsSWVlRlVoOXl5eUVHcEZJL2tld0JuelMwOGhNNDY2MmV3MXgiLCJpYXQiOjE3NzMxNjIyNTYsImV4cCI6MTc3MzI0ODY1Nn0.h0dM-_m7HmxXozBAksy1mSwAL_h2cDeUfbotKW0zZ0Y; Max-Age=86400; Domain=.usth.edu.vn; Path=/; Expires=Wed, 11 Mar 2026 17:04:16 GMT; HttpOnly; Secure; SameSite=Lax",
+      "Etag: W/\"6d7-ptjXZ09OPfJxGVqENhnPyGynKKs\"",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nYDsWo6GlTbbnzAG3U71vjlGJ3lSbJN6i4geW7rvlWUcJGWERvMqIwa%2BeP7QVNno8jFzWLIcF23GzHdVncx192XLeManUZOXXaNsSLipEQ%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3e5c78e921bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "POST:/student-services/api/v1/auth/sso-callback:1379303506",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 9,
+    "severity": "high",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      },
+      {
+        "category": "sensitive_data_exposure",
+        "score": 4,
+        "reason": "Sensitive key(s): token"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

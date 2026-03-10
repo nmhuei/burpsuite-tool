@@ -1,0 +1,37 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "adcocjohghhfpidemphmcmlmhnfgikei",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "go-updater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "fg",
+      "Content-Length": "696",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"appid\":\"adcocjohghhfpidemphmcmlmhnfgikei\",\"enabled\":true,\"installdate\":6993,\"installsource\":\"ondemand\",\"ping\":{\"ping_freshness\":\"{94bb7b19-dd99-440d-8b76-3b5d0d74e43d}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.442\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{a90b7984-f6d3-402b-a729-b5ae93b0f4f4}\",\"sessionid\":\"{3f2a67a1-6d69-4d03-b617-e2a5fe9d42b4}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://go-updater.brave.com:443/extensions",
+    "path": "/extensions",
+    "host": "go-updater.brave.com",
+    "id": "POST:/extensions:1758458441",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

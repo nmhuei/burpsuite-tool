@@ -1,0 +1,47 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; auth_redirect_uri=%2Fstudents; state=up943Fgp57; redirect_path=%2Flearn%2Ftimetable",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Cache-Control": "no-cache",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "encoded_state=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0ZSI6InVwOTQzRmdwNTciLCJpYXQiOjE3NzMxNjIyNTUsImV4cCI6MTc3MzE2NTg1NX0.RxKole40CSJV854ZinCRk2qrG8qX2S5xHNt6y282yZM&secured=true",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/students/api/auth/sso/authorize?encoded_state=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0ZSI6InVwOTQzRmdwNTciLCJpYXQiOjE3NzMxNjIyNTUsImV4cCI6MTc3MzE2NTg1NX0.RxKole40CSJV854ZinCRk2qrG8qX2S5xHNt6y282yZM&secured=true",
+    "path": "/students/api/auth/sso/authorize",
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/students/api/auth/sso/authorize:468657613",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

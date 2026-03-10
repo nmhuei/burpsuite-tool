@@ -1,0 +1,37 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "giekcmmlnklenlaomppkphknjmnnpneh",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "go-updater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "bg",
+      "Content-Length": "796",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"appid\":\"giekcmmlnklenlaomppkphknjmnnpneh\",\"cached_items\":[{\"sha256\":\"3eb16d6c28b502ac4cfee8f4a148df05f4d93229fa36a71db8b08d06329ff18a\"}],\"cohort\":\"1:j5l:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{03b4a2f9-18ed-4c22-8ab3-35f7fabd6f74}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"7\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{fe75d50c-75d8-48ca-a689-a1097a2edf6a}\",\"sessionid\":\"{043182d3-20a9-4c38-bd6d-742176a5479c}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://go-updater.brave.com:443/extensions",
+    "path": "/extensions",
+    "host": "go-updater.brave.com",
+    "id": "POST:/extensions:1994168031",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

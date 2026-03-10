@@ -1,0 +1,37 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "collector.bsg.brave.com",
+      "Brave-P3a-Constellation-Threshold": "50",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Brave-P3a-Version": "3",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Brave-P3a": "?1",
+      "Content-Length": "3316",
+      "Content-Type": "text/plain"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "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",
+    "url": "https://collector.bsg.brave.com:443/typical",
+    "path": "/typical",
+    "host": "collector.bsg.brave.com",
+    "id": "POST:/typical:632867073",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

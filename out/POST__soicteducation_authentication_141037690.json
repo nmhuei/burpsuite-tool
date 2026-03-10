@@ -1,0 +1,69 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; JSESSIONID=sQ9FagMBC7JzqBOBGwaD7g.node0",
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "X-Gwt-Permutation": "92DF3AA8F9154662977F8E92417E1D73",
+      "X-Signature": "zTXajDKm5AbQvFqdEQfE5WR+qFxKpBAZz0Qo9JgqrxI=",
+      "Sec-Gpc": "1",
+      "X-Gwt-Module-Base": "https://erp.usth.edu.vn/soicteducation/",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Content-Length": "194",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Content-Type": "text/x-gwt-rpc; charset=UTF-8"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "//OK[0,[],0,7]",
+    "source": "burp",
+    "body": "7|0|6|https://erp.usth.edu.vn/soicteducation/|0DA03E17D4B5C662B28B0D8E7DE48009|com.soict.edu.core.client.service.AuthenticationService|checkLogin|java.lang.String/2004016611|Z|1|2|3|4|2|5|6|0|1|",
+    "url": "https://erp.usth.edu.vn:443/soicteducation/authentication",
+    "path": "/soicteducation/authentication",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:03:52 GMT",
+      "Content-Type: application/json;charset=utf-8",
+      "Content-Length: 14",
+      "Vary: Accept-Encoding",
+      "X-Frame-Options: SAMEORIGIN",
+      "Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.google.com https://unpkg.com https://www.googletagmanager.com http://connect.facebook.net https://www.gstatic.com https://www.google-analytics.com https://hustva.vbeecore.com/sdk.js https://code.tidio.co https://widget-v4.tidiochat.com https://hmu-edu.bkademy.vn https://cdn.syncfusion.com https://cdn.bkademy.vn https://lib.bkademy.vn http://localhost:* https://cdn.jsdelivr.net https://wifi-hsia.netnam.com https://langdingpage.dizzd.website https://*.firebasedatabase.app https://storage.googleapis.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://cdn.syncfusion.com https://fonts.googleapis.com http://localhost:* https://cdn.jsdelivr.net https://cdn.bkademy.vn https://www.gstatic.com https://storage.googleapis.com https://lib.bkademy.vn; object-src 'none';",
+      "Cache-Control: no-cache,no-cache",
+      "Content-Disposition: attachment",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "X-Cloud-Trace-Context: 272619d5fcc9e58bdbe5d244c7e178dc",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=aNRQwDoHoPoM7f%2BJvHhNzcCEwOHu1yLpGHb45LWFxtBmjc4Mceb1IefMT%2FKVVrkRgpJ30x5QhTM0vzjggmPIAGe7MDXws1LzpTpMOOv7Aw%3D%3D\"}]}",
+      "Cf-Ray: 9da3e52df9639e1e-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "POST:/soicteducation/authentication:141037690",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

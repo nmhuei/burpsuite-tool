@@ -1,0 +1,78 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjQ2MTYsImVtYWlsIjoiMjNCQTE0MTA1In0.ndacxHaroFWP3IKy9Cxwa5PssN6p37TjWo-wClFnnjQ; type=userName; soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiRUt2bUhId0NDeTNNWjI5eVQ4VTh0OGc4NGExSHhLNS95NmlQQmgrL1RVUXpubFVDd0d2aUl4b0RnR2tZaFk0Q1RyR2M4cGJIUU56MWJjaUQ5SEdCTWpjR0dXOWhCR29qK3ErVWF6eFQ0MHRxdjh4UjhxWHowb0poM2tyeXdqS0IiLCJpYXQiOjE3NzMxNTk4MjAsImV4cCI6MTc3MzI0NjIyMH0.H0-MOLH9dwbdXkzMAf0mP_OnjfxhfuLoTkDmdNCeBwA",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Cache-Control": "no-cache",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"user\":{\"id\":5801213786324992,\"studentId\":\"23BA14105\",\"bankAccount\":\"\",\"bankName\":\"\",\"phoneNumber\":\"0562637960\",\"cpa\":0,\"creditInfo\":\"\",\"englishInfo\":\"\",\"cvUrl\":\"\",\"gpa\":0,\"tpa\":0,\"ctpa\":0,\"gpa2s\":0,\"tpa2s\":0,\"totalCredit\":0,\"familyEcoType\":-1,\"familyInfo\":\"\",\"address\":\"HÃ  Ná»i\",\"achievement\":\"\",\"otherAchievem\":\"\",\"reasonAward\":\"\",\"countryId\":4881695532646400,\"provinceId\":5638225299243008,\"districtId\":-1,\"communeId\":-1,\"contactCountryId\":-1,\"contactProvinceId\":-1,\"contactDistrictId\":-1,\"contactCommuneId\":-1,\"contactAddress\":\"\",\"fullName\":\"Nguyá»n Minh Hiáº¿u\",\"avatarUrl\":\"\",\"uniId\":-1,\"programId\":6211384979226625,\"programDetailId\":6331982694842369,\"schoolName\":\"\",\"eduProgramName\":\"CÃ´ng nghá» thÃ´ng tin - Truyá»n thÃ´ng\",\"studentYear\":\"2023-2027\",\"birthdateStr\":\"16/01/2005\",\"admissionCode\":\"IT-EP\",\"gender\":1,\"majorCode\":\"7480201\",\"majorName\":\"CÃ´ng nghá» thÃ´ng tin â Truyá»n thÃ´ng \",\"className\":\"B2-ICT 2\",\"email\":\"hieunm.23ba14105@usth.edu.vn\",\"personalEmail\":\"hieunm.23ba14105@usth.edu.vn\",\"relatedEmail\":\"\",\"homeAddress\":\"\",\"homeCommune\":\"\",\"homeDistrict\":\"\",\"homeProvince\":\"ThÃ nh phá» HÃ  Ná»i\",\"countryName\":\"Viá»t Nam\",\"idNumber\":\"001205005120\",\"idNumberPlace\":\"\",\"notes\":\"\",\"status\":0,\"admissionName\":\"CÃ´ng nghá» ThÃ´ng tin (Viá»t-PhÃ¡p)\",\"familyPolicyId\":-1,\"ethnicity\":\"Kinh\",\"rootId\":4987306008117248,\"year\":2023,\"passportNumber\":\"\",\"majorId\":6277401122177024,\"admissionYear\":2023,\"nationality\":\"Viá»t Nam\",\"insuranceNumber\":\"\",\"startSemester\":\"\",\"classId\":4633583641690112,\"_uni\":{\"name\":\"TrÆ°á»ng Äáº¡i há»c Khoa há»c vÃ  CÃ´ng nghá» HÃ  Ná»i\",\"id\":-1},\"_eduProgram\":{\"fullName\":\"CÃ´ng nghá» thÃ´ng tin - Truyá»n thÃ´ng\",\"id\":6331982694842369,\"name\":\"CÃ´ng nghá» thÃ´ng tin - Truyá»n thÃ´ng\",\"nameEn\":\"Information and Communication Technology\",\"trainingLevelName\":\"Cá»­ nhÃ¢n\",\"code\":\"ICT4\"},\"_admission\":{\"name\":\"CÃ´ng nghá» ThÃ´ng tin (Viá»t-PhÃ¡p)\",\"code\":\"IT-EP\",\"id\":6509133182271488},\"_programDetail\":{\"name\":\"CÃ´ng nghá» thÃ´ng tin - Truyá»n thÃ´ng\",\"id\":4665403462647809,\"nameEn\":\"\",\"programId\":4800592274784257},\"_eduMajor\":{\"name\":\"CÃ´ng nghá» thÃ´ng tin â Truyá»n thÃ´ng \",\"id\":6277401122177024,\"nameEn\":\"Information and Communication Technology\",\"code\":\"7480201\",\"rootName\":\"MÃ¡y tÃ­nh vÃ  cÃ´ng nghá» thÃ´ng tin\"},\"_trainingSystem\":{\"fullName\":\"ChÃ­nh quy táº­p trung\",\"id\":5925673822584833,\"nameEn\":\"Full-time\"},\"_trainingType\":{\"fullName\":\"Cá»­ nhÃ¢n\",\"id\":6211384979226625,\"nameEn\":\"Bachelor\"},\"_trainingProgram\":{\"fullName\":\"CÃ´ng nghá» thÃ´ng tin - Truyá»n thÃ´ng\",\"id\":6331982694842369,\"nameEn\":\"Information and Communication Technology\"},\"_studentClass\":{\"id\":4633583641690112,\"name\":\"B2-ICT 2\",\"parentName\":\"\",\"parentCode\":\"\",\"parentId\":-1,\"studentYear\":\"2025\",\"year\":2025,\"rootId\":-1,\"teacherId\":4717221955764224,\"teacherIds\":[],\"monitorId\":\"\",\"secretaryId\":\"\",\"majorId\":-1,\"classId\":\"B2-ICT 2\",\"classCode\":\"\",\"programId\":6211384979226625,\"programDetailId\":6331982694842369,\"classIds\":[],\"deputyIds\":[],\"schoolName\":\"\",\"majorName\":\"\",\"admissionCode\":\"\",\"programName\":\"\",\"status\":0,\"studentNum\":103,\"notes\":\"\"},\"_academicResults\":[{\"id\":4807739886796801,\"absentNum\":-1,\"active\":-1,\"cpa\":11.69,\"cumulateCredit\":56,\"gpa\":12.26,\"gpa1\":-1,\"lastUpdate\":1773044489606,\"level\":-1,\"notes\":\"\",\"registerCredit\":60,\"rootId\":-1,\"semester\":\"20242\",\"status\":0,\"studentId\":\"23BA14105\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":29},{\"id\":5362343376584705,\"absentNum\":-1,\"active\":-1,\"cpa\":11.86,\"cumulateCredit\":60,\"gpa\":14.4,\"gpa1\":0,\"lastUpdate\":1773044489606,\"level\":-1,\"notes\":\"\",\"registerCredit\":66,\"rootId\":-1,\"semester\":\"20251\",\"status\":0,\"studentId\":\"23BA14105\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":4},{\"id\":6518747214905345,\"absentNum\":-1,\"active\":-1,\"cpa\":11.16,\"cumulateCredit\":27,\"gpa\":11.16,\"gpa1\":-1,\"lastUpdate\":1773044489606,\"level\":-1,\"notes\":\"\",\"registerCredit\":31,\"rootId\":-1,\"semester\":\"20241\",\"status\":0,\"studentId\":\"23BA14105\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":31}]}}",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/student-services/api/v1/auth/session",
+    "path": "/student-services/api/v1/auth/session",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 16:48:15 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Vary: Origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-app-version",
+      "Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "Cross-Origin-Opener-Policy: same-origin",
+      "Cross-Origin-Resource-Policy: same-origin",
+      "Origin-Agent-Cluster: ?1",
+      "Referrer-Policy: no-referrer",
+      "Strict-Transport-Security: max-age=15552000; includeSubDomains",
+      "X-Content-Type-Options: nosniff",
+      "X-Dns-Prefetch-Control: off",
+      "X-Download-Options: noopen",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Permitted-Cross-Domain-Policies: none",
+      "X-Xss-Protection: 0",
+      "X-App-Version: 202603101628",
+      "Etag: W/\"1043-+i9nQLXhbirczEsiqd2hq2z2sfE\"",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4mKmUVVVvCEEyWqquQ7LikJFjuLl2zOXN%2B9r8VX6j%2BtZfa6VCa73prebtOGPkUZ6EdYd%2BSNc9mnULIjGm20UN2rayHPdZ%2BxESoXJsf8NbQ%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3ce4fdf8bfda8-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/student-services/api/v1/auth/session:680668588",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

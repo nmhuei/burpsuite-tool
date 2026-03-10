@@ -1,0 +1,65 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://accounts.google.com",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "script",
+      "Host": "www.gstatic.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\"",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "\"use strict\";this.default_AccountsSignInUi=this.default_AccountsSignInUi||{};(function(_){var window=this;\ntry{\n_.l(\"Wt6vjf\");\nvar rFa=function(){var a=_.Bq();return _.wj(a,1)},zs=function(a){this.Ea=_.q(a,0,zs.messageId)};_.I(zs,_.w);zs.prototype.Fa=function(){return _.Ej(this,1,_.Bc)};zs.prototype.Va=function(a){return _.Nj(this,1,a,_.Bc)};zs.messageId=\"f.bo\";var As=function(){_.Ue.call(this)};_.I(As,_.Ue);As.prototype.Fc=function(){this.i2=!1;sFa(this);_.Ue.prototype.Fc.call(this)};As.prototype.aa=function(){tFa(this);if(this.OJ)return uFa(this),!1;if(!this.m4)return Bs(this),!0;this.dispatchEvent(\"m\");if(!this.eZ)return Bs(this),!0;this.rW?(this.dispatchEvent(\"o\"),Bs(this)):uFa(this);return!1};\nvar vFa=function(a){var b=new _.Ge(a.cea);a.d_!=null&&_.yg(b,\"authuser\",a.d_);return b},uFa=function(a){a.OJ=!0;var b=vFa(a),c=\"rt=r&f_uid=\"+_.Ee(a.eZ);_.Lm(b,(0,_.Ve)(a.fa,a),\"POST\",c)};\nAs.prototype.fa=function(a){a=a.target;tFa(this);if(_.Nm(a)){this.XT=0;if(this.rW)this.OJ=!1,this.dispatchEvent(\"o\");else if(this.m4)this.dispatchEvent(\"p\");else{try{var b=_.Om(a),c=JSON.parse(b.substring(b.indexOf(\"\\n\")));var d=(new zs(c[0])).Fa()}catch(e){_.hg(e);this.dispatchEvent(\"q\");wFa(this);return}this.OJ=!1;d?this.dispatchEvent(\"n\"):this.dispatchEvent(\"o\")}Bs(this)}else{if(a.getStatus()!=0){b=\"\";try{b=_.Om(a)}catch(e){}d=a.getStatus()<500;a=Error(\"md`\"+a.getStatus()+\"`\"+vFa(this).toString()+\n\"`\"+String(a.OI)+\"`\"+b);d&&_.hg(a);this.dispatchEvent(\"q\")}wFa(this)}};var tFa=function(a){var b=_.ys.get(window.location.protocol==\"https:\"?\"SAPISID\":\"APISID\",\"\");a.rW=a.UT!==\"\"&&b===\"\";a.m4=a.UT!=b;a.UT=b},wFa=function(a){a.rW||(a.OJ=!0,a.XT=Math.min((a.XT||3)*2,60),Bs(a))},Bs=function(a){if(a.i2||a.OJ)sFa(a),a.LX=window.setTimeout((0,_.Ve)(a.aa,a),Math.max(3,a.XT)*1E3)},sFa=function(a){a.LX&&(window.clearTimeout(a.LX),a.LX=0)};_.k=As.prototype;_.k.Zd=null;_.k.XT=0;_.k.LX=0;_.k.UT=null;_.k.rW=!1;\n_.k.m4=!1;_.k.d_=null;_.k.cea=\"/_/idv/\";_.k.eZ=\"\";_.k.i2=!1;_.k.OJ=!1;_.cf(_.Oua,As);_.yb().um(function(a){var b=new As;_.lo(a,_.Oua,b);if(rFa()){a=rFa();var c=_.pg(\"WZsZ1e\").string(null);b.eZ=a;c!==void 0&&(b.UT=c);a=_.Cq();a.lastIndexOf(\"/\",0)==0||(a=\"/\"+a);b.cea=a+\"/idv/\";(a=_.Aq(_.Bq()))&&_.pg(\"gGcLoe\").bool(!1)&&(b.d_=a);b.i2=!0;b.aa()}});\n_.m();\n_.l(\"hhhU8\");\nvar bVa;new _.vi(function(a){bVa=a});_.ROa();_.$f(function(){bVa()});\n_.m();\n_.l(\"FCpbqb\");\n_.yb().um(function(a){_.vf(_.ag(_.Dua,a))});\n_.m();\n_.l(\"WhJNk\");\nvar rUa=new Date(1262304E6),sUa=new Date(12779424E5),tUa=new Date(129384E7),uUa=function(a,b){b?a.push(Math.round((b-rUa.getTime())/6E4)):a.push(null)},vUa=function(a,b,c){a.push(b.getTimezoneOffset()/15+56);a:{var d=b.getTimezoneOffset();var e=c.getTimezoneOffset();if(d!=e)for(b=b.getTime()/6E4,c=c.getTime()/6E4;b<=c;){var f=(b>>1)+(c>>1),g=f*6E4,h=(new Date(g+3E4)).getTimezoneOffset();if((new Date(g-3E4)).getTimezoneOffset()!=h){d=g;break a}if(h==d)b=f+1;else if(h==e)c=f-1;else break}d=null}uUa(a,\nd)};var wUa=function(a){_.Nr.call(this);this.aa=a.Ga.window;var b=b===void 0?!1:b;if(!_.Sf(_.pg(\"xn5OId\"),!1)&&_.ys.isEnabled()&&(_.ys.get(\"OTZ\")===void 0||b)){a=_.ys.set;b=[];var c=new Date;uUa(b,c.getTime());b.push(c.getTimezoneOffset()/15+56);vUa(b,rUa,sUa);vUa(b,sUa,tUa);b=b.join(\"_\");a.call(_.ys,\"OTZ\",b,{maxAge:2592E3,path:\"/\",domain:void 0,secure:this.aa.get().location.protocol===\"https:\"})}};_.I(wUa,_.Js);wUa.Ca=function(){return{Ga:{window:_.Ls}}};_.Fs(_.Dua,wUa);\n_.m();\n}catch(e){_._DumpException(e)}\n}).call(this,this.default_AccountsSignInUi);\n// Google Inc.\n",
+    "source": "burp",
+    "body": "",
+    "url": "https://www.gstatic.com:443/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.WGUlEhqT-eo.es5.O/ck=boq-identity.AccountsSignInUi.CodLG-4vtZQ.L.B1.O/am=Kf8GAAB0iiAZAOP-vwGABAiigeuZADSByAAAAAAAAAAAgAUAANII/d=1/exm=A7fCU,DiaQ5,DqMihc,E87wgc,EFQ78c,GwYlN,IZT63,K0PMbc,K1ZKnb,KUM7Z,KbEYWb,L9OGUe,LDQI,LEikZe,LvGhrf,MY7mZe,MpJwZc,NLiXbe,P6sQOc,PHUIyb,PrPYRd,RMhBfe,RqjULd,SCuOPb,SD8Jgb,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,WpP9Yc,YHI3We,YTxL4,YgOFye,ZDZcre,ZwDk9d,_b,_tp,bTi8wc,byfTOb,c5uXJe,cYShmd,cciGGe,f8Gu1e,gJzDyc,hc6Ubd,iAskyc,inNHtf,k5xHfe,lsjVmc,ltDFwf,lwddkf,m9oV,mzzZzc,n73qwf,oLggrd,p3hmRc,qPYxq,qmdT9,rCcCxc,rmumx,siKnQd,soHxf,tUnxGc,vHEMJe,vfuNJf,vjKJJ,w9hDv,wHhlDf,ws9Tlc,xQtZb,xiZRqc,y5vRwf,yGfSdd,yRXbo,ywOR5c,z0u0L,zbML3c,ziXSP,zr1jrb,zy0vNb/excm=_b,_tp,devicepromptchallenge/ed=1/wt=2/ujg=1/rs=AOaEmlGWMg23ps_cF73v4YSfUjpLIOmuRA/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:GwYlN;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:XVMNvd;Me32dd:MEeYgc;NJ1rfe:yGfSdd;NPKaK:PVlQOd;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;UpnZUd:nnwwYc;Uvc8o:VDovNc;VlRiDf:j7ZRif;XdiAjb:NLiXbe;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:vfuNJf;lOO0Vd:OTA3Ae;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qQEoOc:KUM7Z;qafBPd:yDVVkb;qddgKe:xQtZb;sHdTOe:nSePib;vNjB7d:YTxL4;wR5FRb:siKnQd;wc73nd:kqeOEd;yxTchf:KUM7Z/dti=1/m=Wt6vjf,hhhU8,FCpbqb,WhJNk",
+    "path": "/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.WGUlEhqT-eo.es5.O/ck=boq-identity.AccountsSignInUi.CodLG-4vtZQ.L.B1.O/am=Kf8GAAB0iiAZAOP-vwGABAiigeuZADSByAAAAAAAAAAAgAUAANII/d=1/exm=A7fCU,DiaQ5,DqMihc,E87wgc,EFQ78c,GwYlN,IZT63,K0PMbc,K1ZKnb,KUM7Z,KbEYWb,L9OGUe,LDQI,LEikZe,LvGhrf,MY7mZe,MpJwZc,NLiXbe,P6sQOc,PHUIyb,PrPYRd,RMhBfe,RqjULd,SCuOPb,SD8Jgb,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,WpP9Yc,YHI3We,YTxL4,YgOFye,ZDZcre,ZwDk9d,_b,_tp,bTi8wc,byfTOb,c5uXJe,cYShmd,cciGGe,f8Gu1e,gJzDyc,hc6Ubd,iAskyc,inNHtf,k5xHfe,lsjVmc,ltDFwf,lwddkf,m9oV,mzzZzc,n73qwf,oLggrd,p3hmRc,qPYxq,qmdT9,rCcCxc,rmumx,siKnQd,soHxf,tUnxGc,vHEMJe,vfuNJf,vjKJJ,w9hDv,wHhlDf,ws9Tlc,xQtZb,xiZRqc,y5vRwf,yGfSdd,yRXbo,ywOR5c,z0u0L,zbML3c,ziXSP,zr1jrb,zy0vNb/excm=_b,_tp,devicepromptchallenge/ed=1/wt=2/ujg=1/rs=AOaEmlGWMg23ps_cF73v4YSfUjpLIOmuRA/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:GwYlN;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:XVMNvd;Me32dd:MEeYgc;NJ1rfe:yGfSdd;NPKaK:PVlQOd;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;UpnZUd:nnwwYc;Uvc8o:VDovNc;VlRiDf:j7ZRif;XdiAjb:NLiXbe;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:vfuNJf;lOO0Vd:OTA3Ae;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qQEoOc:KUM7Z;qafBPd:yDVVkb;qddgKe:xQtZb;sHdTOe:nSePib;vNjB7d:YTxL4;wR5FRb:siKnQd;wc73nd:kqeOEd;yxTchf:KUM7Z/dti=1/m=Wt6vjf,hhhU8,FCpbqb,WhJNk",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Accept-Ranges: bytes",
+      "Vary: Accept-Encoding, Origin",
+      "Content-Type: text/javascript; charset=UTF-8",
+      "Access-Control-Allow-Origin: https://accounts.google.com",
+      "Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/boq-infra/identity-boq-js-css-signers",
+      "Cross-Origin-Resource-Policy: cross-origin",
+      "Cross-Origin-Opener-Policy: same-origin; report-to=\"boq-infra/identity-boq-js-css-signers\"",
+      "Report-To: {\"group\":\"boq-infra/identity-boq-js-css-signers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/boq-infra/identity-boq-js-css-signers\"}]}",
+      "Content-Length: 3512",
+      "Date: Tue, 10 Mar 2026 17:04:00 GMT",
+      "Expires: Wed, 10 Mar 2027 17:04:00 GMT",
+      "Cache-Control: public, immutable, max-age=31536000",
+      "X-Content-Type-Options: nosniff",
+      "Server: sffe",
+      "X-Xss-Protection: 0",
+      "Alt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    ],
+    "host": "www.gstatic.com",
+    "id": "GET:/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.WGUlEhqT-eo.es5.O/ck=boq-identity.AccountsSignInUi.CodLG-4vtZQ.L.B1.O/am=Kf8GAAB0iiAZAOP-vwGABAiigeuZADSByAAAAAAAAAAAgAUAANII/d=1/exm=A7fCU,DiaQ5,DqMihc,E87wgc,EFQ78c,GwYlN,IZT63,K0PMbc,K1ZKnb,KUM7Z,KbEYWb,L9OGUe,LDQI,LEikZe,LvGhrf,MY7mZe,MpJwZc,NLiXbe,P6sQOc,PHUIyb,PrPYRd,RMhBfe,RqjULd,SCuOPb,SD8Jgb,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,WpP9Yc,YHI3We,YTxL4,YgOFye,ZDZcre,ZwDk9d,_b,_tp,bTi8wc,byfTOb,c5uXJe,cYShmd,cciGGe,f8Gu1e,gJzDyc,hc6Ubd,iAskyc,inNHtf,k5xHfe,lsjVmc,ltDFwf,lwddkf,m9oV,mzzZzc,n73qwf,oLggrd,p3hmRc,qPYxq,qmdT9,rCcCxc,rmumx,siKnQd,soHxf,tUnxGc,vHEMJe,vfuNJf,vjKJJ,w9hDv,wHhlDf,ws9Tlc,xQtZb,xiZRqc,y5vRwf,yGfSdd,yRXbo,ywOR5c,z0u0L,zbML3c,ziXSP,zr1jrb,zy0vNb/excm=_b,_tp,devicepromptchallenge/ed=1/wt=2/ujg=1/rs=AOaEmlGWMg23ps_cF73v4YSfUjpLIOmuRA/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:GwYlN;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:XVMNvd;Me32dd:MEeYgc;NJ1rfe:yGfSdd;NPKaK:PVlQOd;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;UpnZUd:nnwwYc;Uvc8o:VDovNc;VlRiDf:j7ZRif;XdiAjb:NLiXbe;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:vfuNJf;lOO0Vd:OTA3Ae;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qQEoOc:KUM7Z;qafBPd:yDVVkb;qddgKe:xQtZb;sHdTOe:nSePib;vNjB7d:YTxL4;wR5FRb:siKnQd;wc73nd:kqeOEd;yxTchf:KUM7Z/dti=1/m=Wt6vjf,hhhU8,FCpbqb,WhJNk:26962125",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

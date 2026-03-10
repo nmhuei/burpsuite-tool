@@ -1,0 +1,77 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoicFBBcXFLZzFqOWRVbTZyeGR2NVJoWXVZaHlIQVFUbEI1M2lhZ2w1T0hrU0lsaFRzdWNsNTg2b2pnTklCQlJ4TFNqc3RDMU0zOWRKSmxvOUd2L3J1RWhibTZENlBsSWVlRlVoOXl5eUVHcEZJL2tld0JuelMwOGhNNDY2MmV3MXgiLCJpYXQiOjE3NzMxNjIyNTYsImV4cCI6MTc3MzI0ODY1Nn0.h0dM-_m7HmxXozBAksy1mSwAL_h2cDeUfbotKW0zZ0Y; auth_logout_redirect_uri=; state=sQ9FagMBC7JzqBOBGwaD7g; x-sso-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmlnaW51cmwiOiJodHRwczovL2VycC51c3RoLmVkdS52bi9zdHVkZW50cy9hcGkvYXV0aC9zc28iLCJzZXNzaW9uaWQiOiJ1cDk0M0ZncDU3IiwiZXhwIjoxNzczMjQ4NjU1fQ.VDfV6CIB8O4vSppBMCmZ0loeYxSpwh1otLmGT0FtTpw; auth_redirect_uri=%2Fstudents; redirect_path=%2Flearn%2Ftimetable",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "[{\"_id\":\"6985c3b2e9e8f6e4757729c5\",\"createdAt\":\"2026-02-06T10:34:26.721Z\",\"updatedAt\":\"2026-02-06T10:34:26.721Z\",\"classId\":4855179411193857,\"calendarInfoId\":\"4968321130692609\",\"calendarInfoType\":\"CLASS_INFO\",\"studentId\":5497557115469824,\"type\":2,\"description\":\"\",\"_calendarData\":{\"id\":4968321130692609,\"classIdInfo\":\"\",\"placeId\":6017409555103744,\"place\":\"2A-112 - PhÃ²ng 112\",\"week\":\"2\",\"date\":1770310800000,\"dayTime\":-1,\"day\":6,\"from\":9,\"to\":10,\"weeks\":[2],\"teacherCode\":\"\",\"teacherId\":6350280954216448,\"teacherIds\":[6350280954216448],\"assistantIds\":[],\"teacherNames\":[\"LÃª NhÆ° Chu Hiá»p\"],\"assistantNames\":[],\"lesson\":\"\",\"lessonType\":\"TH\",\"status\":1,\"createdBy\":6045061359861760,\"studentIds\":[],\"teachingStatus\":0,\"classId\":4855179411193857,\"reason\":\"\",\"note\":\"\",\"docUrls\":[],\"semester\":\"20252\",\"combineClass\":[],\"_combineClass\":[],\"_hasRoolCall\":false}},{\"_id\":\"693928e0d89ccc8ec5f3b07b\",\"createdAt\":\"2025-12-10T08:01:36.101Z\",\"updatedAt\":\"2025-12-10T08:01:36.101Z\",\"classId\":5158388874870784,\"calendarInfoId\":\"6528003198681089\",\"calendarInfoType\":\"CLASS_INFO\",\"studentId\":5497557115469824,\"type\":2,\"description\":\"\",\"_calendarData\":{\"id\":6528003198681089,\"classIdInfo\":\"6528003198681089\",\"placeId\":5555015724826624,\"place\":\"2H-501 - PhÃ²ng há»c 501\",\"week\":\"19\",\"date\":1765299600000,\"dayTime\":-1,\"day\":4,\"from\":8,\"to\":9,\"weeks\":[19],\"teacherCode\":\"\",\"teacherId\":6503831579918336,\"teacherIds\":[6503831579918336],\"assistantIds\":[],\"teacherNames\":[\"Nguyá»n Mai Chung\"],\"assistantNames\":[],\"lesson\":\"\",\"lessonType\":\"BT\",\"status\":1,\"createdBy\":6045061359861760,\"studentIds\":[],\"teachingStatus\":0,\"classId\":5158388874870784,\"reason\":\"\",\"note\":\"\",\"docUrls\":[],\"semester\":\"20251\",\"combineClass\":[],\"_combineClass\":[],\"_hasRoolCall\":false}}]",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/student-services/api/v1/class-roll-calls",
+    "path": "/student-services/api/v1/class-roll-calls",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:04:17 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Vary: Origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-app-version",
+      "Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "Cross-Origin-Opener-Policy: same-origin",
+      "Cross-Origin-Resource-Policy: same-origin",
+      "Origin-Agent-Cluster: ?1",
+      "Referrer-Policy: no-referrer",
+      "Strict-Transport-Security: max-age=15552000; includeSubDomains",
+      "X-Content-Type-Options: nosniff",
+      "X-Dns-Prefetch-Control: off",
+      "X-Download-Options: noopen",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Permitted-Cross-Domain-Policies: none",
+      "X-Xss-Protection: 0",
+      "X-App-Version: 202603101628",
+      "Etag: W/\"6cb-zqq4RdrR7o0igYWesbXsBE3xL7A\"",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K6atv50pyEGlklODaQ1FWUMPCldokVQ%2F4yDQyGWYmoaFKsNFyN%2FRoo9HEytU%2FRLOb8RCwYS7sszYn2KxYwBT8XIuC6aY1NUMu564LXmGvw%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3e5cd1b6e1bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/student-services/api/v1/class-roll-calls:931294373",
+    "toolFlag": 16,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

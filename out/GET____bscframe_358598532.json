@@ -1,0 +1,47 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "OTZ=8492537_76_76_104100_72_446760; SEARCH_SAMESITE=CgQIm6AB; __Secure-BUCKET=CFE; __Secure-1PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; __Secure-3PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; SID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAYzKVzbrq1KuKpkwMP5-JawACgYKAekSARcSFQHGX2MiGKMX3-DkqQ0rfAz7xEkXfxoVAUF8yKoiA9GH_ZlekR4j2R8--HG40076; __Secure-1PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAPfaDNeQYzMyrVdYNMGRNjAACgYKARwSARcSFQHGX2Mi3Ogd1ReIO7DOnVNwICgwohoVAUF8yKrjTp_saMMr5Jg7K__kiml40076; __Secure-3PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAE5ucAAcFXyzW8S2BeChh2AACgYKAeMSARcSFQHGX2MiuQ9u3QgZ1moxtNWdWoqakxoVAUF8yKo5uwL3DwpRLoY5MOxvVF_P0076; LSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0xklT7D4dsz-HNjkWkfcgMwACgYKASMSARcSFQHGX2MinusFksa9KttcBzsVzfMfjhoVAUF8yKp5RyNtiFiwO4hAjegQ1Ebd0076; __Host-1PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0uPUAlMEe8JwD1YuutPJGfwACgYKAZQSARcSFQHGX2Mi_-tGM8rf-i75W6l1MG7-XBoVAUF8yKo8McsqUgxurGx7mfpK-7y40076; __Host-3PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh06sPLuXIlfYLep-DiIYkO5wACgYKASMSARcSFQHGX2Mi05k90OHwJNQbHdyA73MGFBoVAUF8yKry1A-BG6iLogYmh_pEEjVX0076; HSID=AEL3zhaa3Skd7QiAF; SSID=AosFl0Bm0PTRykMPH; APISID=nmzT7JFBvcKLue2N/A-G_BxP4C8bc-nEWY; SAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-1PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-3PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; ACCOUNT_CHOOSER=AFx_qI42Soh7YxkmLhRFTjM2qgFNhB9T14XkgbbBfkgaDVnJrlcbcspk3HgrmHTYRTeDivHg9D31qC8gpUSRS84V8MKgNpFSFmwtdFseQVKaOJUzN2T0ztvGP55UFgqXV1rhKnbXYUpsBhosN45AgYnMcCbQ90XRz9EAwlgoOgKdvfunO42GXdnpTIwfaC3VePKdz0_8J6Z4hQtT23qXMqA63153gsDfZzP0arLIk9GJd_eSQF4l4LkrYJsY_z-QvMrWEm67l1fJW5vUuC0KVG08zXZoEFL6NLcmu8QXLpNcPUgS_QB1WJkkyJriATjjZf0BLXBPKEJYQdjSIEHRmCvEH2et9tbGtjFytg96ak2LYoUIeP5x9JkzP5HC5y1koHqZpnHGAWTd; SMSV=ADHTe-DJeGe2BDFSF3dtC9KM3e5xoDYti0Es9zAR_VgEI1rPZ3x87idz4M7dqjxsTfB7uwZLw3lj8PZGaZscxhc0sTneIZA8lHt8lQOeBI1yCaE51v_kpjm4uzr8s4Yh0qxY8zbWBGIj6W7HWSJDRKFk44-7HkD3YQ; __Host-GAPS=1:dbl6PvUMVgX8yss2bTaUKHsH6Zs04E8aA06CBDiezztZ928eNUCIBcOfLyahAJuJLW9vIEhGK-tG3xiM8MTIXYqIK4sDgA:LSuENK4hPH79z3M6; NID=529=Fg9yYvlpsRtVGxwDYdUD3MyPhEGsLQ5D-9WV-TQwvanPRI84UhM917cq7SL5NEfNzV744HKm0nXbojBK3hh7WnBT3BSxjyRbQ1Z3wL0_Cb-SXATnz8IA33vICUH7_ILG1IWwENQXnTu9JU8_CArHn7o_dm9ZgB5yyEqjmCg_Tw5e2a4ogOzF56pW_5lBuhxT74LFdtLT3D622Mm5_PbbDM44PYtDYui4WlHCsC4uc47x6VsJK48vwOQEWbTGgriMsYf0D4FfG0PcCqkq2ReeX4gBQjVk_2bIIFH1lDTt3BtcVdVfC3VLAhUIz7nUDDlvlLGkcb_u2j_JzSXTZZXNoSIAsAAoZMm5aug_cigi2sNE-IkrucoQNuPvFJiEPDEWwrJ7UwKM16iTr-2EjLtSKUtckGFJ4fhFFAFCXcTis80qMl-7E9Cj4xG_vH0WXgP9IkwKlgK905s3hNL75XEqaMCrvjj5IKuLKopwmIOHczmd5L8cQnFsMKubuY4s6DVoXe8lhFXQrCx-fiMPwuEGOxDJeZzakoMmv0GS362ylHawcTe5hx9oIGph3aXGQizXpKWUCugVQar2kTuHER7pkdeF2h3fPjauaIMh6FZlhsv8QG1GIi_KPIT49oB6kAGUCLIDWG5vojPQusRXikGfJotjYhy4ox8WjX02To9jhunxCLWRUhehzpWXEmupkb0EQr0f5m2KkPF3j2ygDXgHybnUmpclSFruPvj7NmcOGK_GANDzL9ESqC7yUKagSGGxshhj_-QeVev10aENzfnRmh15ancSe19CwIzVpfZqBAgfTEeMgS9HIJlIKAPbce41qyRHuTg3PSeTRk9hDjhu6OKP6tY2Nl5b8z0X3FpfKcuYzBXD2y5HKuAWiSKbSGH_Y4tnxUM9RO_xBoBUspbr_Yq2p8QOMKpD1xImEJK_PT0GUvawXej51lmETVEwfB9PQNSgmXoYQX2ZMBdS_eLV0uIIEpMnTRvCNWZC_h9B3D_a0RStAGjRIwSUDa1nmCWtbH-GZeFN3yV3Gi0ON3XvrnMQLlyVQ7IVs6dIZBcjc-ehOiC8MOP8BqFoBPqXsW7ul6fRJA7N0CX-ireNRB4hq2jqPxmqkQ6hZCpWeXJw6Acx4yev7ZOQ2rsbdDXwz4wI1jdIPiX-5BphggH0XnEaQ986kWyaXDp8eAKlvqHqou4DqsfoIRaz95XAFRjkWeD7frjWzaUGKCOSyMIrHrDPR61Ym7YuI29O-B2dsENaU8PiOm4ye85PIdKcmyITl7fbtPHrOxQZ7VVZjvpWUwPglrQjdYcvgekvE-dpxiM2; SIDCC=AKEyXzWWbE_ng9Fv48zMDGlLArwSplDa5CVguVNJSmNOYbVancE66-0N9T2j0dwwSMXT-ifEwNU; __Secure-1PSIDCC=AKEyXzVqJ24_YjtnzZkWJY_2_6zJzBsxkUNSRAOiOFZyTkxM5yOCOV0vpwpHhnPEfiR-r-G1cqI; __Secure-3PSIDCC=AKEyXzU9vUCca1Jh9gRhMl04YH561lWprYsy_omGoIwxf9XzbhQqlGVaywkfvc94xmc9r0PLySM",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "iframe",
+      "Host": "accounts.google.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Sec-Fetch-User": "?1",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\""
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://accounts.google.com:443/_/bscframe",
+    "path": "/_/bscframe",
+    "host": "accounts.google.com",
+    "id": "GET:/_/bscframe:358598532",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

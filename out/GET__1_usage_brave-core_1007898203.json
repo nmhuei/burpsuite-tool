@@ -1,0 +1,35 @@
+{
+  "event": {
+    "headers": {
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "usage-ping.brave.com",
+      "Pragma": "no-cache",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "Cache-Control": "no-cache",
+      "X-Brave-Api-Key": "fe033168-0ff8-4af6-9a7f-95e2cbfc9f4f"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "platform=linux-bc&channel=release&version=1.87.192&daily=true&weekly=false&monthly=false&first=false&woi=2026-02-23&dtoi=2026-02-23&ref=BRV001&adsEnabled=false&arch=&braveSearch=0&googleSearch=0&otherSearch=0&staleSearch=0",
+    "source": "burp",
+    "body": "",
+    "url": "https://usage-ping.brave.com:443/1/usage/brave-core?platform=linux-bc&channel=release&version=1.87.192&daily=true&weekly=false&monthly=false&first=false&woi=2026-02-23&dtoi=2026-02-23&ref=BRV001&adsEnabled=false&arch=&braveSearch=0&googleSearch=0&otherSearch=0&staleSearch=0",
+    "path": "/1/usage/brave-core",
+    "host": "usage-ping.brave.com",
+    "id": "GET:/1/usage/brave-core:1007898203",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

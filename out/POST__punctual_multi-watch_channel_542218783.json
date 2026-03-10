@@ -1,0 +1,72 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://accounts.google.com",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Dest": "empty",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "X-Webchannel-Content-Type": "application/json+protobuf",
+      "Sec-Gpc": "1",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\"",
+      "Content-Length": "219",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Priority": "u=1, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Host": "signaler-pa.googleapis.com",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&RID=33028&CVER=22&zx=6dgn8upbqvo1&t=1",
+    "response_body": "51\n[[0,[\"c\",\"QWA275LnfmviSP3IIZabUw\",\"\",8,14,30000]]]\n",
+    "source": "burp",
+    "body": "count=1&ofs=0&req0___data__=%5B%5B%5B1%2C%5Bnull%2Cnull%2Cnull%2C%5B9%2C5%5D%2Cnull%2C%5B%5B%22device_prompt%22%5D%2C%5B1%5D%2C%5B%5B%5B%222v-WUcpcwYGVs2dQ_UmPRw~~%22%5D%5D%5D%5D%2Cnull%2Cnull%2C1%5D%2Cnull%2C3%5D%5D%5D",
+    "url": "https://signaler-pa.googleapis.com:443/punctual/multi-watch/channel?VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&RID=33028&CVER=22&zx=6dgn8upbqvo1&t=1",
+    "path": "/punctual/multi-watch/channel",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "X-Client-Wire-Protocol: h2",
+      "Content-Type: text/plain; charset=utf-8",
+      "Date: Tue, 10 Mar 2026 17:04:01 GMT",
+      "Server: ESF",
+      "Content-Length: 54",
+      "X-Xss-Protection: 0",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Content-Type-Options: nosniff",
+      "Access-Control-Allow-Origin: https://accounts.google.com",
+      "Vary: origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-client-wire-protocol",
+      "Alt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    ],
+    "host": "signaler-pa.googleapis.com",
+    "id": "POST:/punctual/multi-watch/channel:542218783",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

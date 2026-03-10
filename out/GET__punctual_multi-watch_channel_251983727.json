@@ -1,0 +1,51 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://accounts.google.com",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "signaler-pa.googleapis.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\"",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&RID=rpc&SID=QWA275LnfmviSP3IIZabUw&AID=5&CI=1&TYPE=xmlhttp&zx=am90dtpc7osv&t=1",
+    "source": "burp",
+    "body": "",
+    "url": "https://signaler-pa.googleapis.com:443/punctual/multi-watch/channel?VER=8&gsessionid=-WoDBFOjNgOc2r9emEq4Cp0EH8Ik4YiDISf4yNtnpqw&key=AIzaSyBK4Jek59hl05JpbITG8AHxRTXZfrATQn8&RID=rpc&SID=QWA275LnfmviSP3IIZabUw&AID=5&CI=1&TYPE=xmlhttp&zx=am90dtpc7osv&t=1",
+    "path": "/punctual/multi-watch/channel",
+    "host": "signaler-pa.googleapis.com",
+    "id": "GET:/punctual/multi-watch/channel:251983727",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

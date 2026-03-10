@@ -1,0 +1,66 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; auth_redirect_uri=%2Fstudents; state=up943Fgp57; redirect_path=%2Flearn%2Ftimetable; decodedState=up943Fgp57",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "\n\n\n   <!DOCTYPE html>\n   <html lang=\"en\">\n\t\n   <head>\n      <title>ÄÄng nháº­p thÃ nh cÃ´ng</title>\n      <meta charset=\"UTF-8\">\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n      <link rel=\"icon\" type=\"image/png\" href=\"/index/images/icons/favicon.ico\" />\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/bootstrap/css/bootstrap.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/fonts/font-awesome-4.7.0/css/font-awesome.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/fonts/iconic/css/material-design-iconic-font.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/animate/animate.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/css-hamburgers/hamburgers.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/animsition/css/animsition.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/select2/select2.min.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/vendor/daterangepicker/daterangepicker.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/css/util.css\">\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"/index/css/main.css\">\n      <style>\n         .success-container {\n            background: #fff;\n            padding: 40px 32px 32px 32px;\n            border-radius: 16px;\n            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);\n            text-align: center;\n            min-width: 320px;\n            margin: 0 auto;\n         }\n\n         .success-title {\n            color: #2d6cdf;\n            font-size: 2.2rem;\n            font-weight: 700;\n            margin-bottom: 12px;\n         }\n\n         .success-message {\n            color: #333;\n            font-size: 1.2rem;\n            margin-bottom: 32px;\n         }\n\n         .logout-btn {\n            display: inline-block;\n            padding: 12px 32px;\n            background: linear-gradient(90deg, #2d6cdf 0%, #4f8cff 100%);\n            color: #fff;\n            border: none;\n            border-radius: 8px;\n            font-size: 1rem;\n            font-weight: 700;\n            text-decoration: none;\n            transition: background 0.2s, transform 0.2s;\n            box-shadow: 0 2px 8px rgba(45, 108, 223, 0.08);\n            cursor: pointer;\n         }\n\n         .logout-btn:hover {\n            background: linear-gradient(90deg, #1a4fa0 0%, #3576d3 100%);\n            transform: translateY(-2px) scale(1.03);\n         }\n\n         .fa-check-circle {\n            color: #2d6cdf;\n            font-size: 3rem;\n            margin-bottom: 16px;\n         }\n\n         body {\n            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);\n            min-height: 100vh;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-family: 'Roboto', Arial, sans-serif;\n         }\n\n         .button-container {\n            display: flex;\n            gap: 16px;\n            justify-content: center;\n            margin-top: 24px;\n         }\n\n         .home-btn {\n            display: inline-block;\n            padding: 12px 32px;\n            background: linear-gradient(90deg, #2d6cdf 0%, #4f8cff 100%);\n            color: #fff;\n            border: none;\n            border-radius: 8px;\n            font-size: 1rem;\n            font-weight: 700;\n            text-decoration: none;\n            transition: background 0.2s, transform 0.2s;\n            box-shadow: 0 2px 8px rgba(45, 108, 223, 0.08);\n            cursor: pointer;\n         }\n\n         .home-btn:hover {\n            background: linear-gradient(90deg, #1a4fa0 0%, #3576d3 100%);\n            transform: translateY(-2px) scale(1.03);\n         }\n      </style>\n   </head>\n\n   <body>\n      <div class=\"success-container\">\n         <div class=\"success-title\">ÄÄng nháº­p thÃ nh cÃ´ng</div>\n         <div class=\"success-message\">ChÃºc má»«ng báº¡n ÄÄng nháº­p thÃ nh cÃ´ng!</div>\n         <div class=\"button-container\">\n            <a class=\"home-btn\" href=\"/\"> </i> Quay vá» trang chá»§</a>\n            <a class=\"logout-btn\" href=\"/sso/logout\"><i class=\"fas fa-sign-out-alt\" aria-hidden=\"true\"></i> ÄÄng\n               xuáº¥t</a>\n         </div>\n      </div>\n   <script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"79757a78bd2943208858569975e1c937\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>\n</body>\n\n   </html>",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/login",
+    "path": "/sso/login",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:04:15 GMT",
+      "Content-Type: text/html;charset=utf-8",
+      "Location: https://erp.usth.edu.vn/students/api/auth/sso/callback?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmlnaW51cmwiOiJodHRwczovL2VycC51c3RoLmVkdS52bi9zdHVkZW50cy9hcGkvYXV0aC9zc28iLCJzZXNzaW9uaWQiOiJ1cDk0M0ZncDU3IiwiZXhwIjoxNzczMjQ4NjU1fQ.VDfV6CIB8O4vSppBMCmZ0loeYxSpwh1otLmGT0FtTpw",
+      "Vary: Accept-Encoding",
+      "Set-Cookie: decodedState=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0",
+      "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
+      "Content-Language: en-US",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "X-Frame-Options: DENY",
+      "X-Cloud-Trace-Context: 1c55b953f9a040b6cab1a8fcb5d239eb",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=2,cfOrigin;dur=164",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3sQqNETGuzKBdapE%2BXIjT6EIP3%2BzZzb%2FK5P355dRcH%2BifTNdvBnjZrGUTVjLR7tu1%2F72Uikr0ZWKMYpaLfP0K0sjBp%2Ft5DUSLnVxxNb6nA%3D%3D\"}]}",
+      "Cf-Ray: 9da3e5c2bba61bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/login:895811526",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

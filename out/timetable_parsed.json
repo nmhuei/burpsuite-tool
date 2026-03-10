@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-03-09",
+    "course": "Tiếng Pháp 2.1",
+    "courseId": "FR2.001",
+    "classCode": "251FR2001.L07",
+    "room": "2C-307 (Phòng 307)",
+    "lecturer": "Trần Thị Phương Thảo",
+    "fromPeriod": 3,
+    "toPeriod": 5,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-09",
+    "course": "Mạng máy tính",
+    "courseId": "ICT2.006",
+    "classCode": "252ICT2006.LP2",
+    "room": "2H-2 (Hội trường tầng 2)",
+    "lecturer": "Giang Anh Tuấn",
+    "fromPeriod": 6,
+    "toPeriod": 8,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-10",
+    "course": "Lập trình mạng",
+    "courseId": "CS2.002",
+    "classCode": "252CS2002.LP1",
+    "room": "VĐC-1 (Hội trường tầng 1)",
+    "lecturer": "Huỳnh Vinh Nam",
+    "fromPeriod": 2,
+    "toPeriod": 5,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-11",
+    "course": "Luật không gian mạng và đạo đức công nghệ thông tin",
+    "courseId": "CS2.003",
+    "classCode": "252CS2003.LT1",
+    "room": "A10-4 (Hội trường tầng 4)",
+    "lecturer": "Đỗ Trung Dũng",
+    "fromPeriod": 1,
+    "toPeriod": 3,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-12",
+    "course": "Tiếng Pháp 2.1",
+    "courseId": "FR2.001",
+    "classCode": "251FR2001.L07",
+    "room": "2H-8 (Hội trường tầng 8)",
+    "lecturer": "Phạm Thị Huyền",
+    "fromPeriod": 3,
+    "toPeriod": 5,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-12",
+    "course": "Mạng máy tính",
+    "courseId": "ICT2.006",
+    "classCode": "252ICT2006.LP2",
+    "room": "2H-2 (Hội trường tầng 2)",
+    "lecturer": "Giang Anh Tuấn",
+    "fromPeriod": 6,
+    "toPeriod": 8,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-13",
+    "course": "Lập trình mạng",
+    "courseId": "CS2.002",
+    "classCode": "252CS2002.LP1",
+    "room": "VĐC-1 (Hội trường tầng 1)",
+    "lecturer": "Huỳnh Vinh Nam",
+    "fromPeriod": 2,
+    "toPeriod": 5,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-13",
+    "course": "Kiến trúc máy tính nâng cao và tập lệnh x86",
+    "courseId": "CS2.001",
+    "classCode": "252CS2001.L1",
+    "room": "2A-318 (Phòng 318)",
+    "lecturer": "Bùi Duy Hiếu",
+    "fromPeriod": 3,
+    "toPeriod": 5,
+    "lessonType": "LT"
+  },
+  {
+    "date": "2026-03-13",
+    "course": "Luật không gian mạng và đạo đức công nghệ thông tin",
+    "courseId": "CS2.003",
+    "classCode": "252CS2003.LT1",
+    "room": "A3-1 (Hội trường tầng 1)",
+    "lecturer": "Đỗ Trung Dũng",
+    "fromPeriod": 6,
+    "toPeriod": 8,
+    "lessonType": "LT"
+  }
+]

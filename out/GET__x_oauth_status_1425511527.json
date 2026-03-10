@@ -1,0 +1,47 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Fetch-Storage-Access": "none",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "www.facebook.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "client_id=145207379481929&input_token&origin=1&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2F&sdk=joey&wants_cookie_data=true",
+    "source": "burp",
+    "body": "",
+    "url": "https://www.facebook.com:443/x/oauth/status?client_id=145207379481929&input_token&origin=1&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2F&sdk=joey&wants_cookie_data=true",
+    "path": "/x/oauth/status",
+    "host": "www.facebook.com",
+    "id": "GET:/x/oauth/status:1425511527",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

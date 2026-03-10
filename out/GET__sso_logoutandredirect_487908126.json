@@ -1,0 +1,73 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjQ2MTYsImVtYWlsIjoiMjNCQTE0MTA1In0.ndacxHaroFWP3IKy9Cxwa5PssN6p37TjWo-wClFnnjQ; type=userName; soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "redirectUrl=https://erp.usth.edu.vn/logout/maindomain",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/logoutandredirect?redirectUrl=https://erp.usth.edu.vn/logout/maindomain",
+    "path": "/sso/logoutandredirect",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:03:49 GMT",
+      "Content-Type: text/html",
+      "Location: https://erp.usth.edu.vn/logout/maindomain",
+      "Vary: Accept-Encoding",
+      "Set-Cookie: token=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0",
+      "Set-Cookie: type=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0",
+      "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
+      "Content-Language: en-US",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "X-Frame-Options: DENY",
+      "X-Cloud-Trace-Context: 4bad18964694a5e8dbe5d244c7e1727f",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=3,cfOrigin;dur=61",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=PmRZVuhlvi87%2BHa0RKpomqmoztVhUFaK%2F0%2F1bwxi7nl6GwykDsTKvr5dTCy9FFEx5CF5D63Yj3ipiGlhRi2aPqwHx7vtFkb3l%2B8rJl%2FiEA%3D%3D\"}]}",
+      "Cf-Ray: 9da3e51e3c5c9e1e-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/logoutandredirect:487908126",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "ssrf",
+        "score": 5,
+        "reason": "Matched pattern(s) for ssrf"
+      }
+    ],
+    "next_tests": [
+      "Thử callback/url tới endpoint kiểm soát của bạn để xác nhận outbound request."
+    ]
+  }
+}

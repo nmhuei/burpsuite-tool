@@ -1,0 +1,57 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://accounts.google.com",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Dest": "empty",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Ext-278367001-Jspb": "[\"GlifWebSignIn\"]",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\"",
+      "Content-Length": "2904",
+      "X-Same-Domain": "1",
+      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+      "Cookie": "OTZ=8492537_76_76_104100_72_446760; SEARCH_SAMESITE=CgQIm6AB; __Secure-BUCKET=CFE; __Secure-1PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; __Secure-3PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; SID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAYzKVzbrq1KuKpkwMP5-JawACgYKAekSARcSFQHGX2MiGKMX3-DkqQ0rfAz7xEkXfxoVAUF8yKoiA9GH_ZlekR4j2R8--HG40076; __Secure-1PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAPfaDNeQYzMyrVdYNMGRNjAACgYKARwSARcSFQHGX2Mi3Ogd1ReIO7DOnVNwICgwohoVAUF8yKrjTp_saMMr5Jg7K__kiml40076; __Secure-3PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAE5ucAAcFXyzW8S2BeChh2AACgYKAeMSARcSFQHGX2MiuQ9u3QgZ1moxtNWdWoqakxoVAUF8yKo5uwL3DwpRLoY5MOxvVF_P0076; LSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0xklT7D4dsz-HNjkWkfcgMwACgYKASMSARcSFQHGX2MinusFksa9KttcBzsVzfMfjhoVAUF8yKp5RyNtiFiwO4hAjegQ1Ebd0076; __Host-1PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0uPUAlMEe8JwD1YuutPJGfwACgYKAZQSARcSFQHGX2Mi_-tGM8rf-i75W6l1MG7-XBoVAUF8yKo8McsqUgxurGx7mfpK-7y40076; __Host-3PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh06sPLuXIlfYLep-DiIYkO5wACgYKASMSARcSFQHGX2Mi05k90OHwJNQbHdyA73MGFBoVAUF8yKry1A-BG6iLogYmh_pEEjVX0076; HSID=AEL3zhaa3Skd7QiAF; SSID=AosFl0Bm0PTRykMPH; APISID=nmzT7JFBvcKLue2N/A-G_BxP4C8bc-nEWY; SAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-1PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-3PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; ACCOUNT_CHOOSER=AFx_qI42Soh7YxkmLhRFTjM2qgFNhB9T14XkgbbBfkgaDVnJrlcbcspk3HgrmHTYRTeDivHg9D31qC8gpUSRS84V8MKgNpFSFmwtdFseQVKaOJUzN2T0ztvGP55UFgqXV1rhKnbXYUpsBhosN45AgYnMcCbQ90XRz9EAwlgoOgKdvfunO42GXdnpTIwfaC3VePKdz0_8J6Z4hQtT23qXMqA63153gsDfZzP0arLIk9GJd_eSQF4l4LkrYJsY_z-QvMrWEm67l1fJW5vUuC0KVG08zXZoEFL6NLcmu8QXLpNcPUgS_QB1WJkkyJriATjjZf0BLXBPKEJYQdjSIEHRmCvEH2et9tbGtjFytg96ak2LYoUIeP5x9JkzP5HC5y1koHqZpnHGAWTd; SMSV=ADHTe-DJeGe2BDFSF3dtC9KM3e5xoDYti0Es9zAR_VgEI1rPZ3x87idz4M7dqjxsTfB7uwZLw3lj8PZGaZscxhc0sTneIZA8lHt8lQOeBI1yCaE51v_kpjm4uzr8s4Yh0qxY8zbWBGIj6W7HWSJDRKFk44-7HkD3YQ; __Host-GAPS=1:dbl6PvUMVgX8yss2bTaUKHsH6Zs04E8aA06CBDiezztZ928eNUCIBcOfLyahAJuJLW9vIEhGK-tG3xiM8MTIXYqIK4sDgA:LSuENK4hPH79z3M6; NID=529=Fg9yYvlpsRtVGxwDYdUD3MyPhEGsLQ5D-9WV-TQwvanPRI84UhM917cq7SL5NEfNzV744HKm0nXbojBK3hh7WnBT3BSxjyRbQ1Z3wL0_Cb-SXATnz8IA33vICUH7_ILG1IWwENQXnTu9JU8_CArHn7o_dm9ZgB5yyEqjmCg_Tw5e2a4ogOzF56pW_5lBuhxT74LFdtLT3D622Mm5_PbbDM44PYtDYui4WlHCsC4uc47x6VsJK48vwOQEWbTGgriMsYf0D4FfG0PcCqkq2ReeX4gBQjVk_2bIIFH1lDTt3BtcVdVfC3VLAhUIz7nUDDlvlLGkcb_u2j_JzSXTZZXNoSIAsAAoZMm5aug_cigi2sNE-IkrucoQNuPvFJiEPDEWwrJ7UwKM16iTr-2EjLtSKUtckGFJ4fhFFAFCXcTis80qMl-7E9Cj4xG_vH0WXgP9IkwKlgK905s3hNL75XEqaMCrvjj5IKuLKopwmIOHczmd5L8cQnFsMKubuY4s6DVoXe8lhFXQrCx-fiMPwuEGOxDJeZzakoMmv0GS362ylHawcTe5hx9oIGph3aXGQizXpKWUCugVQar2kTuHER7pkdeF2h3fPjauaIMh6FZlhsv8QG1GIi_KPIT49oB6kAGUCLIDWG5vojPQusRXikGfJotjYhy4ox8WjX02To9jhunxCLWRUhehzpWXEmupkb0EQr0f5m2KkPF3j2ygDXgHybnUmpclSFruPvj7NmcOGK_GANDzL9ESqC7yUKagSGGxshhj_-QeVev10aENzfnRmh15ancSe19CwIzVpfZqBAgfTEeMgS9HIJlIKAPbce41qyRHuTg3PSeTRk9hDjhu6OKP6tY2Nl5b8z0X3FpfKcuYzBXD2y5HKuAWiSKbSGH_Y4tnxUM9RO_xBoBUspbr_Yq2p8QOMKpD1xImEJK_PT0GUvawXej51lmETVEwfB9PQNSgmXoYQX2ZMBdS_eLV0uIIEpMnTRvCNWZC_h9B3D_a0RStAGjRIwSUDa1nmCWtbH-GZeFN3yV3Gi0ON3XvrnMQLlyVQ7IVs6dIZBcjc-ehOiC8MOP8BqFoBPqXsW7ul6fRJA7N0CX-ireNRB4hq2jqPxmqkQ6hZCpWeXJw6Acx4yev7ZOQ2rsbdDXwz4wI1jdIPiX-5BphggH0XnEaQ986kWyaXDp8eAKlvqHqou4DqsfoIRaz95XAFRjkWeD7frjWzaUGKCOSyMIrHrDPR61Ym7YuI29O-B2dsENaU8PiOm4ye85PIdKcmyITl7fbtPHrOxQZ7VVZjvpWUwPglrQjdYcvgekvE-dpxiM2; SIDCC=AKEyXzXHai20pmePi4GpaZ2jVV0xoxG3z19r0ULPRDjeLKTpaEfp2zxtWBYZcupfLFT1aAnzonU; __Secure-1PSIDCC=AKEyXzVfP66JofL2RTAo6ud5nym8k8d3aQN68m3M7Qx8f_dH2o3e10XO6z8Gkkzwb5XXacumHyo; __Secure-3PSIDCC=AKEyXzU3MeLdrKao9Ft-lw6CYD5N1oM-OXi5HzA8Dx__fuyZK3gYb7AhwDaRHvaSy95O5aRzsS8",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Priority": "u=1, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "X-Goog-Ext-391502476-Jspb": "[\"S1963236680:1773162237565386\",null,null,\"ASfE1-oaR0AOXN8w4ILcUdSv4S1bP4JU4SK7kjjYkesi7MLEfHC_6lgwS_S-5r2eDAvDmutB_ew7OA\"]",
+      "Host": "accounts.google.com",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "rpcids=B4hajb&source-path=%2Fv3%2Fsignin%2Fchallenge%2Fdp&f.sid=286305428283396982&bl=boq_identityfrontendauthuiserver_20260308.04_p0&hl=en&authuser=3&TL=AHU8sQuq6D7ytA6XfH81sCaeKi1E_9HdwaebEq1qkXduJ2NUsWzMNiXerU0Gz5Sg&_reqid=100244&rt=c",
+    "source": "burp",
+    "body": "f.req=%5B%5B%5B%22B4hajb%22%2C%22%5B1%2C3%2Cnull%2C%5B39%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B%5C%22ANgoxceI2DO8FJjZkSiq5-hMiZbZ6xxKcRIplRfJoCrCgjMpMgqjoNPTInUPJXlJeKKUtXcMdSnmYVQZqSuavLQeJEJhENpVLSNVqRZ6_OM9qmQ0OurIAOk%5C%22%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3D3%26part%3DAJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg%26flowName%3DGeneralOAuthFlow%26as%3DS318839101%253A1773162234994282%26client_id%3D465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%26pli%3D1%5C%22%5D%2Cnull%2C%5B%5B%5B%5C%22TL%5C%22%2C%5C%22AHU8sQuq6D7ytA6XfH81sCaeKi1E_9HdwaebEq1qkXduJ2NUsWzMNiXerU0Gz5Sg%5C%22%5D%2C%5B%5C%22authuser%5C%22%2C%5C%223%5C%22%5D%2C%5B%5C%22cid%5C%22%2C%5C%223%5C%22%5D%2C%5B%5C%22continue%5C%22%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3D3%26part%3DAJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg%26flowName%3DGeneralOAuthFlow%26as%3DS318839101%253A1773162234994282%26client_id%3D465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%26pli%3D1%5C%22%5D%2C%5B%5C%22dsh%5C%22%2C%5C%22S1963236680%3A1773162237565386%5C%22%5D%2C%5B%5C%22flowName%5C%22%2C%5C%22GlifWebSignIn%5C%22%5D%2C%5B%5C%22ifkv%5C%22%2C%5C%22ASfE1-oaR0AOXN8w4ILcUdSv4S1bP4JU4SK7kjjYkesi7MLEfHC_6lgwS_S-5r2eDAvDmutB_ew7OA%5C%22%5D%2C%5B%5C%22rart%5C%22%2C%5C%22ANgoxceI2DO8FJjZkSiq5-hMiZbZ6xxKcRIplRfJoCrCgjMpMgqjoNPTInUPJXlJeKKUtXcMdSnmYVQZqSuavLQeJEJhENpVLSNVqRZ6_OM9qmQ0OurIAOk%5C%22%5D%2C%5B%5C%22rpbg%5C%22%2C%5C%221%5C%22%5D%5D%2C%5C%22accounts.google.com%5C%22%2C%5C%22%2Fv3%2Fsignin%2Fchallenge%2Fdp%5C%22%5D%2Cnull%2C%5B%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&at=AJuGmadkoLhwwfWcB6_2g_jM4VUa%3A1773162239997&",
+    "url": "https://accounts.google.com:443/v3/signin/_/AccountsSignInUi/data/batchexecute?rpcids=B4hajb&source-path=%2Fv3%2Fsignin%2Fchallenge%2Fdp&f.sid=286305428283396982&bl=boq_identityfrontendauthuiserver_20260308.04_p0&hl=en&authuser=3&TL=AHU8sQuq6D7ytA6XfH81sCaeKi1E_9HdwaebEq1qkXduJ2NUsWzMNiXerU0Gz5Sg&_reqid=100244&rt=c",
+    "path": "/v3/signin/_/AccountsSignInUi/data/batchexecute",
+    "host": "accounts.google.com",
+    "id": "POST:/v3/signin/_/AccountsSignInUi/data/batchexecute:1749051232",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

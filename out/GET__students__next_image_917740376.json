@@ -1,0 +1,66 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoicFBBcXFLZzFqOWRVbTZyeGR2NVJoWXVZaHlIQVFUbEI1M2lhZ2w1T0hrU0lsaFRzdWNsNTg2b2pnTklCQlJ4TFNqc3RDMU0zOWRKSmxvOUd2L3J1RWhibTZENlBsSWVlRlVoOXl5eUVHcEZJL2tld0JuelMwOGhNNDY2MmV3MXgiLCJpYXQiOjE3NzMxNjIyNTYsImV4cCI6MTc3MzI0ODY1Nn0.h0dM-_m7HmxXozBAksy1mSwAL_h2cDeUfbotKW0zZ0Y; auth_logout_redirect_uri=; state=sQ9FagMBC7JzqBOBGwaD7g; x-sso-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmlnaW51cmwiOiJodHRwczovL2VycC51c3RoLmVkdS52bi9zdHVkZW50cy9hcGkvYXV0aC9zc28iLCJzZXNzaW9uaWQiOiJ1cDk0M0ZncDU3IiwiZXhwIjoxNzczMjQ4NjU1fQ.VDfV6CIB8O4vSppBMCmZ0loeYxSpwh1otLmGT0FtTpw; auth_redirect_uri=%2Fstudents; redirect_path=%2Flearn%2Ftimetable",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "image",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "url=%2Fstudents%2Fimages%2Fappstore-en.avif&w=256&q=75",
+    "response_body": "RIFFz\b\u0000\u0000WEBPVP8X\n\u0000\u0000\u0000\u0010\u0000\u0000\u0000©\u0000\u00008\u0000\u0000ALPHß\u0000\u0000\u0000\u0001kÛÚ±WÏ\u0013zÛF{É\u001d¨fíÔ¶Ó§µmï÷>OÐïð\u0011\u0011\u0013@îD\u0014U=±|¯ ^­Ç»¸2\u00111E6Ü+¸G5AnDÌÅ{FÁ\u0015+Ç)L\u001c½¨ÎÇ\u0019\u001fòRG]K\u0015åÇ>Lûº\bH²x\u0005\u001e\u000bLr#¢(=\u0002õ\"âd¾ùÿò3ß{ö7ÊË\u0017 å\u0000e¡ºDIåx\u0003§n´©LED Ês¶b-B\u001dì\u0016¶¬\"\u0000ÍD3sî¶µÀc\u001cQ]Jd&v\u000bm<ù ¨ªË@f&\"òÈ¬\u0018ß¸u\u0004ëÕáêX\"f\u0006\u0000VP8 t\u0007\u0000\u0000P)\u0000\u0001*ª\u00009\u0000>DK¥£¢¡£³9p°\u0012\ti\u0000\u0016Ò~(ë¿ûoä>\u0017|íß!~dÿIäë¿å¿²þá~Nü7þ7Àß~_Æz~'üßü¯åïõ?0\u000e×\u0013Ì\u000bÓ¿¡ÿþ«áµüç \u001fV½?HÿGùðoù\u0006ÿ'ö\u0005üÑÿ\u001fíwé?ùOû¿é|æüÿÿü¿ÀOóí_ôýt=~Ý{<þ¼§ôÝ¸BØÃfëMÓJ\u0013)AN´\u0017>=}\u0018fïh/´Q5GÚ]\rÜ \u0005ö\u0018=t£´à<\nEè··\u00046Ò¼Jö |\u000eÚU \b{µÍÐC\u0007ßp^¹+íÉ9\u0005i\u0004ªàÉgMPwëä<\f<Þ|É\u0004\u001f¬×\t\u001foQÒ\u001eï_ãýÒùW8ï7\n(Åº½\u001dLÉà\u0010oø~5ºÅ7Ý\"à®Z4~U\u001f\b¯mÐøYN|\u001dx'¾w7\u0000\u0000þìL©rÐj¬\u0003©j4o··qÔì®XÅ\u0005Ú\u0002*É»'ì\u0011DA1èÄ [43©<tÊ@ð[gÒQ@(¡6>'\tß§Î\u0010'V\u0004¥âá7ç\\oÐE9J0\bÚÛ\u001dÝô§ðmmff&£Áaï®ú|þ¢ú\u0011º5]kN¯=«>2ï¸\fª Õãó¢üj3^\u000e«SÀ\u000fõX·ó¼º\u000bP!è>a8HZy\u0013\\\u0017V¸\u001a\u0012èôYü¹ÊØuÞÿÅØd­ \r\u0000\rÕö¯üw÷Wý<5.\u0016{õmO± Ú\u0003G`mûÂ[Ð üdG×gáy<àòq(TE±ñóÐ\u0004Ê}àÊ/õ\u001a³¾aÏ`tKN#o¾þZ¹Ç~Ö\u001c\b\u0004¸åú²CùÜs§èáýW4eâêàëOºÃ\u000fâ\u0017ÒãÖd©\u000f\u001ci\u0007\u000bËH%pr²\u0014ÁLêU®9\u0004V[áÃÉ²_´ÿ¢\u0006\u0019CN\u0014u\u001eÔiT}göàÀÔ,\u0007?ú_\u000f\bÑA\u0016\u0015\\¤vÁ<âG\u001c\t{PwÏ®ÈSÂ\u000e§\t~Eu±sé´éÿ\u0005Èée¥ôe)>\t[,£økR÷ÖkH¿ó0Ö\fCþ#y\u000fÞNÅ\u0015Þ»gy<T?\u0012n»»\u0015î\u000b\u0016\u0013ÑÂ4É\u0006¶¢ÿw*ô /ó·<Ýè\u0011<\u0013H¼5{þxÝþGd?\u000býçÃF;äpèî8-!òE¶\"rCE(XK<Áµ\u0013£Z\u001bÒþìc\u000bÅ´\u0016Õ\bð·_ø_ÕH?\u0019Z'ÛÐT{Á\u0006J:ð~m1º×d¢Ø4\bªr/­>q¶Pu\u000e\u0003ß½ÕüIõÅL&3\u001cD`ª~°É?½­¥ÿ÷ÉCâÜ`«zco¸ºk¦;T7PÈ7\u000e®ùÎÎCIÆ¥vÐ[©%¼Hösþ\bÔñ ;¿ðT=:l\"MÂÕZ+¬{À\u000b\u0016KßÉ\f*hVû\u001aäG@RÁ°åhvkøÆtó>¢¡u\u0015£\u0002ëÐ\u0010j»Ú­7È t\u0014d\u001d-\u0006±«å» }z\"\u0000âtn2\u0003J¬\\Wgh\u0010íÛÀ~'aú\\\u0007Öè/ä¥¶RèEv\u0006ýf\u000fù+h`)\u0017Æ¯ÅfRAuNCÀ!\u0014 Ü[B~=ÏÒ/×Psß\u0010\u0014ÓH)!'÷\u0012rÆýÜçü¸¢^Æã§è×bÈÐvÉË<\u0007oì~\u001a\u0001 Õ®,#g*`ôG^0ÓW5Íì:ËífH\u000b2\u0010).\u000e{wé\u001fhd+ËÉ¸ÿ|ÙS\u001d|í»9*ëóÅ»\u00022ßzbaßMù¸IT~@`N&Ï\u000f8§P0Ó¸¡ÜÃd@\u0015ì½ÐwÂ\fUê]»é$z\u0016fh e-¼öwTOïð0Yþ\u0012\\1\u001fAm(¼ý*\nXùhKK.%[*\u00123æb ®×À¯ÖJôÖý¿<6ù¥rWtu'áM¤½tbh\tm®ö|ûÏJe\\\u0013I8ÔÒÔsFx¤I£ÎnTx;\u001b¶¼ô¥a¥âÜ¨I\u001d\\eÕÊVl(Íê@\f.W¬ó\u0018mLnß¢¸ÓyX\u0012Î ¢å2\u001d¦ Ü\"n7=Xè)êþêé<-UQ\u001f¡ ÞkaªF®\r #)=ä\u001f.mÝQS½RsûÆ° ~¯n«~4öPR4ÕÏ\u00110\u000b_\u0002júù\u001b)P_Ç\u0003èuÚ÷½\"\u0016`\u0015$3¼éÄrÀ\u0015Õf-ã\f\u0014¸1 ìÃvÜí\u001f\u0016<Óy0+jï4\u001c·ö×Wnn¹ÿA3Ç`:¸æ­÷>\u0011psP\u0018a\rRbl\u0003DYb¡d0²¬f#*$52\u0003á+(FpB\tðü¦Væ´în\u0018ÕU½$\u000f\u001b&ä 35\u0005ûØsÄ\u0007ÞaÜ\u0004\b1ë(iÇ×\u001e\u0012ãþ¿úøl¢Àd`Jv;Õ-\u0019\u0012(9±_èB¥\t\u0016Gká\u0013UÊBúp#T\\\u001döæÒ\u0011\u001ajàvØî¥2ìù\u001c\u00046Ã3JÏLÒ;t\bH¤Óßõ{(}kßÓuæÍåx×ÇÝÂ\u0019â:ê3J\u001bÞ¸üÍÈ2TÿgC\u001doôºeâÂQ0\u000e\u000bñ¾RÚÖ\u0007e&Ó¤Ñ5-Þ²Ñ\"T;~\u001c§0ìÎ±²Ð\u0000\u0000\u0000",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/students/_next/image?url=%2Fstudents%2Fimages%2Fappstore-en.avif&w=256&q=75",
+    "path": "/students/_next/image",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:06:18 GMT",
+      "Content-Type: image/webp",
+      "Content-Length: 2178",
+      "Vary: Accept",
+      "Cache-Control: public, max-age=60, must-revalidate",
+      "Etag: zZuipWIJkicROt-sYH6hrEh+71tnUDrURd6+8F-JxNk=",
+      "Content-Disposition: inline; filename=\"appstore-en.webp\"",
+      "Content-Security-Policy: script-src 'none'; frame-src 'none'; sandbox;",
+      "X-Nextjs-Cache: STALE",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=a5dQx1WPKvPxrMaMglZus92fuvalajREq%2FBxKBUysqSVuuVJso5Xo5qbzklP126izt7D5LiIZmRXe5nf5Lg7n8lWzqR4PlXcZ99ajKIyXg%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3e8c18b7c8b16-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/students/_next/image:917740376",
+    "toolFlag": 16,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "ssrf",
+        "score": 5,
+        "reason": "Matched pattern(s) for ssrf"
+      }
+    ],
+    "next_tests": [
+      "Thử callback/url tới endpoint kiểm soát của bạn để xác nhận outbound request."
+    ]
+  }
+}

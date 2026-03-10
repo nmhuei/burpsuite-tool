@@ -1,0 +1,37 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "mfddibmblmbccpadfndgakiopmmhebop,gkboaolpopklhgplhaaiboijnklogmbc,aoojcmojmmcbpfgoecoadbdpnagfchel,nlpaeekllejnmhoonlpcefpfnpbajbpe,memmkfnkoigleebghlpgeiecaddoblcl,afalakplffnnnlkncjhbmahjfjhmlkal,iodkpdagapdfkphljnddpjlldadblomo,kihnoaefogbkmblfimmibknnmkllbhlf,cdbbhgbmjhfnhnmgeddbliobbofkgdhe,bfpgedeaaibpoidldhjcknekahbikncb,adcocjohghhfpidemphmcmlmhnfgikei,pphbpmdlkglnolofoaifgkbmkdoobalm,jcffalbkohmmfjmgkdcphlimplejkmon",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "go-updater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "bg",
+      "Content-Length": "4129",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"appid\":\"mfddibmblmbccpadfndgakiopmmhebop\",\"cached_items\":[{\"sha256\":\"3311b4f48e2a3fee9f4e1ebc1f335d13c871a048598072e70aa6110bace8c881\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{1b0b2e43-4a28-4f22-83d8-4c6883d7f271}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.126\"},{\"appid\":\"gkboaolpopklhgplhaaiboijnklogmbc\",\"cached_items\":[{\"sha256\":\"0cc84b6bf580c1f10f1db297638f102acea61604c9066dabe23d71df3200af09\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{f0fe7781-6cd9-4ceb-a743-cede2304ce60}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.89\"},{\"appid\":\"aoojcmojmmcbpfgoecoadbdpnagfchel\",\"cached_items\":[{\"sha256\":\"387485832571de3b74393586e52200d875b55402290cbaa8169bf7815e0a1aed\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{781fe7b2-b6de-49e3-b7cb-f85c1b4b87d9}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.21\"},{\"appid\":\"nlpaeekllejnmhoonlpcefpfnpbajbpe\",\"cached_items\":[{\"sha256\":\"3fe188de097db02f03141f1115af38db1307cbe14b0002c2bca2a60d16fbff6a\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{cb065e22-1809-4883-bd57-06ada7b1d23e}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.371\"},{\"appid\":\"memmkfnkoigleebghlpgeiecaddoblcl\",\"cached_items\":[{\"sha256\":\"cd90570f02ef6465d8e324fb9eb3729b08100f73cdd8c521e3c819b001526877\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{b7065cea-576f-41dc-b312-eb3af1a83361}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.5\"},{\"appid\":\"afalakplffnnnlkncjhbmahjfjhmlkal\",\"cached_items\":[{\"sha256\":\"b03af1f823097344e6744c0d7d40011d84d95cef024870de6be8d1833c0f790f\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{ab7c2b65-5f27-48c0-8aa0-2ccc1ddb730a}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.1388\"},{\"appid\":\"iodkpdagapdfkphljnddpjlldadblomo\",\"cached_items\":[{\"sha256\":\"bae6f9df60f1a7756714badfd02b26fd2290d22d7b4a50fbe3ca0a78aa4a6743\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{7e034eb8-2cbd-4081-94eb-4cd09cd77c95}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.18293\"},{\"appid\":\"kihnoaefogbkmblfimmibknnmkllbhlf\",\"cached_items\":[{\"sha256\":\"ac420b83206e4992d8ede88e7499e7e3c4297d2b2f44d02ec025eec0651ebd4a\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{52f45e57-4b74-495f-bec8-b5f1d2f72cd5}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.3875\"},{\"appid\":\"cdbbhgbmjhfnhnmgeddbliobbofkgdhe\",\"cached_items\":[{\"sha256\":\"502240b1a5bbe39a16321ccaaffd4bc13d76ac05e55db1f0f6b0df6c655d711a\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{be3e5f0c-1d5c-4d00-b2f8-1ffbffb2bc1e}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.19410\"},{\"appid\":\"bfpgedeaaibpoidldhjcknekahbikncb\",\"cached_items\":[{\"sha256\":\"2839e0f02e9348c1eeb1dca41e0eeb3ce3e3a236afab2dcb594f849babfbd0b2\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{7d9dcd25-dc9e-4e9b-9704-48abd9437c43}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.16838\"},{\"appid\":\"adcocjohghhfpidemphmcmlmhnfgikei\",\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{5cc9f1f0-1332-4505-a8e4-911922b3d4fd}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.442\"},{\"appid\":\"pphbpmdlkglnolofoaifgkbmkdoobalm\",\"cached_items\":[{\"sha256\":\"1c3c8fc61038439e19984cf9aba4d2adc51036139a427bde99f76f5b2ec06fbe\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{9b9568ec-2a86-4225-99be-cd72efe86a83}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.2269\"},{\"appid\":\"jcffalbkohmmfjmgkdcphlimplejkmon\",\"cached_items\":[{\"sha256\":\"81161fb0bf4ebb6b88f58aa557ee23d9c1f4a3891ad7598c468b688d675e3a0d\"}],\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{4f6a9d18-e55f-4f64-bbce-77a29571533c}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.42\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{82a775c9-d95e-4c1e-ac81-0047462e1c68}\",\"sessionid\":\"{e8351400-0aa3-407f-a86e-12f446b14a36}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://go-updater.brave.com:443/extensions",
+    "path": "/extensions",
+    "host": "go-updater.brave.com",
+    "id": "POST:/extensions:1050686006",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

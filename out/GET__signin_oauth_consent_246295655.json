@@ -1,0 +1,78 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "OTZ=8492537_76_76_104100_72_446760; SEARCH_SAMESITE=CgQIm6AB; __Secure-BUCKET=CFE; __Secure-1PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; __Secure-3PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; SID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAYzKVzbrq1KuKpkwMP5-JawACgYKAekSARcSFQHGX2MiGKMX3-DkqQ0rfAz7xEkXfxoVAUF8yKoiA9GH_ZlekR4j2R8--HG40076; __Secure-1PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAPfaDNeQYzMyrVdYNMGRNjAACgYKARwSARcSFQHGX2Mi3Ogd1ReIO7DOnVNwICgwohoVAUF8yKrjTp_saMMr5Jg7K__kiml40076; __Secure-3PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAE5ucAAcFXyzW8S2BeChh2AACgYKAeMSARcSFQHGX2MiuQ9u3QgZ1moxtNWdWoqakxoVAUF8yKo5uwL3DwpRLoY5MOxvVF_P0076; LSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0xklT7D4dsz-HNjkWkfcgMwACgYKASMSARcSFQHGX2MinusFksa9KttcBzsVzfMfjhoVAUF8yKp5RyNtiFiwO4hAjegQ1Ebd0076; __Host-1PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0uPUAlMEe8JwD1YuutPJGfwACgYKAZQSARcSFQHGX2Mi_-tGM8rf-i75W6l1MG7-XBoVAUF8yKo8McsqUgxurGx7mfpK-7y40076; __Host-3PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh06sPLuXIlfYLep-DiIYkO5wACgYKASMSARcSFQHGX2Mi05k90OHwJNQbHdyA73MGFBoVAUF8yKry1A-BG6iLogYmh_pEEjVX0076; HSID=AEL3zhaa3Skd7QiAF; SSID=AosFl0Bm0PTRykMPH; APISID=nmzT7JFBvcKLue2N/A-G_BxP4C8bc-nEWY; SAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-1PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-3PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; ACCOUNT_CHOOSER=AFx_qI42Soh7YxkmLhRFTjM2qgFNhB9T14XkgbbBfkgaDVnJrlcbcspk3HgrmHTYRTeDivHg9D31qC8gpUSRS84V8MKgNpFSFmwtdFseQVKaOJUzN2T0ztvGP55UFgqXV1rhKnbXYUpsBhosN45AgYnMcCbQ90XRz9EAwlgoOgKdvfunO42GXdnpTIwfaC3VePKdz0_8J6Z4hQtT23qXMqA63153gsDfZzP0arLIk9GJd_eSQF4l4LkrYJsY_z-QvMrWEm67l1fJW5vUuC0KVG08zXZoEFL6NLcmu8QXLpNcPUgS_QB1WJkkyJriATjjZf0BLXBPKEJYQdjSIEHRmCvEH2et9tbGtjFytg96ak2LYoUIeP5x9JkzP5HC5y1koHqZpnHGAWTd; SMSV=ADHTe-DJeGe2BDFSF3dtC9KM3e5xoDYti0Es9zAR_VgEI1rPZ3x87idz4M7dqjxsTfB7uwZLw3lj8PZGaZscxhc0sTneIZA8lHt8lQOeBI1yCaE51v_kpjm4uzr8s4Yh0qxY8zbWBGIj6W7HWSJDRKFk44-7HkD3YQ; __Host-GAPS=1:dbl6PvUMVgX8yss2bTaUKHsH6Zs04E8aA06CBDiezztZ928eNUCIBcOfLyahAJuJLW9vIEhGK-tG3xiM8MTIXYqIK4sDgA:LSuENK4hPH79z3M6; NID=529=Fg9yYvlpsRtVGxwDYdUD3MyPhEGsLQ5D-9WV-TQwvanPRI84UhM917cq7SL5NEfNzV744HKm0nXbojBK3hh7WnBT3BSxjyRbQ1Z3wL0_Cb-SXATnz8IA33vICUH7_ILG1IWwENQXnTu9JU8_CArHn7o_dm9ZgB5yyEqjmCg_Tw5e2a4ogOzF56pW_5lBuhxT74LFdtLT3D622Mm5_PbbDM44PYtDYui4WlHCsC4uc47x6VsJK48vwOQEWbTGgriMsYf0D4FfG0PcCqkq2ReeX4gBQjVk_2bIIFH1lDTt3BtcVdVfC3VLAhUIz7nUDDlvlLGkcb_u2j_JzSXTZZXNoSIAsAAoZMm5aug_cigi2sNE-IkrucoQNuPvFJiEPDEWwrJ7UwKM16iTr-2EjLtSKUtckGFJ4fhFFAFCXcTis80qMl-7E9Cj4xG_vH0WXgP9IkwKlgK905s3hNL75XEqaMCrvjj5IKuLKopwmIOHczmd5L8cQnFsMKubuY4s6DVoXe8lhFXQrCx-fiMPwuEGOxDJeZzakoMmv0GS362ylHawcTe5hx9oIGph3aXGQizXpKWUCugVQar2kTuHER7pkdeF2h3fPjauaIMh6FZlhsv8QG1GIi_KPIT49oB6kAGUCLIDWG5vojPQusRXikGfJotjYhy4ox8WjX02To9jhunxCLWRUhehzpWXEmupkb0EQr0f5m2KkPF3j2ygDXgHybnUmpclSFruPvj7NmcOGK_GANDzL9ESqC7yUKagSGGxshhj_-QeVev10aENzfnRmh15ancSe19CwIzVpfZqBAgfTEeMgS9HIJlIKAPbce41qyRHuTg3PSeTRk9hDjhu6OKP6tY2Nl5b8z0X3FpfKcuYzBXD2y5HKuAWiSKbSGH_Y4tnxUM9RO_xBoBUspbr_Yq2p8QOMKpD1xImEJK_PT0GUvawXej51lmETVEwfB9PQNSgmXoYQX2ZMBdS_eLV0uIIEpMnTRvCNWZC_h9B3D_a0RStAGjRIwSUDa1nmCWtbH-GZeFN3yV3Gi0ON3XvrnMQLlyVQ7IVs6dIZBcjc-ehOiC8MOP8BqFoBPqXsW7ul6fRJA7N0CX-ireNRB4hq2jqPxmqkQ6hZCpWeXJw6Acx4yev7ZOQ2rsbdDXwz4wI1jdIPiX-5BphggH0XnEaQ986kWyaXDp8eAKlvqHqou4DqsfoIRaz95XAFRjkWeD7frjWzaUGKCOSyMIrHrDPR61Ym7YuI29O-B2dsENaU8PiOm4ye85PIdKcmyITl7fbtPHrOxQZ7VVZjvpWUwPglrQjdYcvgekvE-dpxiM2; SIDCC=AKEyXzXzSLOX04_4G7V2TKg2xDZi0CQFaD4zvgU5C0osS3Wp_4ocY9H5DouR7t3LkdV_fTOLeMs; __Secure-1PSIDCC=AKEyXzWOmuQJlujipEU-2C3XWMV3Rmaq8j2p2GrrYqUNW7CBsve3uDpCDepb3cAaZiIg7RQnaJk; __Secure-3PSIDCC=AKEyXzWCZwSxIGR7t6Sts4SIvmIynlvLydlA59THxhifTBplooCbrOKAOrKVkxJv-B2h3fBtP-I",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Host": "accounts.google.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.6",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\""
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "authuser=3&part=AJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg&flowName=GeneralOAuthFlow&as=S318839101:1773162234994282&client_id=465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com&requestPath=/signin/oauth/consent&pli=1&rapt=AEjHL4Por6SXOuDtaAkYcJ2iWBmbJGZWQk7PfeqOCFKvWqlvq3HmvSLq2w0mL70H4-9skLTRFO8HfBoSJ1H_Bz02eQ3OFuZMxwrqMcbhTJG4d4qtLHFELe0",
+    "response_body": "<HTML>\n<HEAD>\n<TITLE>Moved Temporarily</TITLE>\n</HEAD>\n<BODY BGCOLOR=\"#FFFFFF\" TEXT=\"#000000\">\n<!-- GSE Default Error -->\n<H1>Moved Temporarily</H1>\nThe document has moved <A HREF=\"https://erp.usth.edu.vn/sso/oauth2/callback/google?state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&amp;iss=https%3A%2F%2Faccounts.google.com&amp;code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&amp;scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&amp;authuser=3&amp;hd=usth.edu.vn&amp;prompt=none\">here</A>.\n</BODY>\n</HTML>\n",
+    "source": "burp",
+    "body": "",
+    "url": "https://accounts.google.com:443/signin/oauth/consent?authuser=3&part=AJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg&flowName=GeneralOAuthFlow&as=S318839101:1773162234994282&client_id=465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com&requestPath=/signin/oauth/consent&pli=1&rapt=AEjHL4Por6SXOuDtaAkYcJ2iWBmbJGZWQk7PfeqOCFKvWqlvq3HmvSLq2w0mL70H4-9skLTRFO8HfBoSJ1H_Bz02eQ3OFuZMxwrqMcbhTJG4d4qtLHFELe0",
+    "path": "/signin/oauth/consent",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Content-Type: text/html; charset=UTF-8",
+      "X-Frame-Options: DENY",
+      "Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+      "Cache-Control: no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma: no-cache",
+      "Expires: Mon, 01 Jan 1990 00:00:00 GMT",
+      "Date: Tue, 10 Mar 2026 17:04:11 GMT",
+      "Location: https://erp.usth.edu.vn/sso/oauth2/callback/google?state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=3&hd=usth.edu.vn&prompt=none",
+      "Strict-Transport-Security: max-age=31536000; includeSubDomains",
+      "Report-To: {\"group\":\"coop_gse_qebhlk\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gse_qebhlk\"}]}",
+      "Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=\"coop_gse_qebhlk\"",
+      "Content-Security-Policy: script-src 'report-sample' 'nonce-vguGIkC05rROjGgh-6iPPA' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport",
+      "Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Content-Length: 636",
+      "Server: GSE",
+      "Set-Cookie: SIDCC=AKEyXzUkWqllaOgDJwdgXuJpRJtm21pr1q552zXp77EMZQyYKU4zAUIvZi1r74epqy7JxNkQ42Q; expires=Wed, 10-Mar-2027 17:04:11 GMT; path=/; domain=.google.com; priority=high",
+      "Set-Cookie: __Secure-1PSIDCC=AKEyXzVywkbz-ZKvFPxqnAlcKea9UrRoY5o0gARAvMjc3NOQK2ZEKXfaHHondanTCR34o944d9A; expires=Wed, 10-Mar-2027 17:04:11 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high",
+      "Set-Cookie: __Secure-3PSIDCC=AKEyXzXXKnZj0YHu9iOPHTHTDKrIUdYlfIdg46_LIXEy6CVO33jgy07x6CWUQ3Cwj-8kYreOphI; expires=Wed, 10-Mar-2027 17:04:11 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none",
+      "Alt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    ],
+    "host": "accounts.google.com",
+    "id": "GET:/signin/oauth/consent:246295655",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

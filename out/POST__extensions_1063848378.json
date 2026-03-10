@@ -1,0 +1,37 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "gkboaolpopklhgplhaaiboijnklogmbc",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "go-updater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "fg",
+      "Content-Length": "790",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"appid\":\"gkboaolpopklhgplhaaiboijnklogmbc\",\"cached_items\":[{\"sha256\":\"0cc84b6bf580c1f10f1db297638f102acea61604c9066dabe23d71df3200af09\"}],\"enabled\":true,\"installdate\":6993,\"installsource\":\"ondemand\",\"ping\":{\"ping_freshness\":\"{83b72815-3ef0-4fdb-aa5f-74186857df8b}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"1.0.89\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{6eef4e5d-91f7-429d-a6fc-5794cb8d2927}\",\"sessionid\":\"{c319b6d2-7ba7-4c3a-8dff-a07388aaed6a}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://go-updater.brave.com:443/extensions",
+    "path": "/extensions",
+    "host": "go-updater.brave.com",
+    "id": "POST:/extensions:1063848378",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

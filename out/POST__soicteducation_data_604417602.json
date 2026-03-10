@@ -1,0 +1,45 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; JSESSIONID=sQ9FagMBC7JzqBOBGwaD7g.node0",
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "X-Gwt-Permutation": "92DF3AA8F9154662977F8E92417E1D73",
+      "X-Signature": "h/zwuFkJt3yyBkv9QjK9ql5jSkubVtI37dBM5kbcOMI=",
+      "Sec-Gpc": "1",
+      "X-Gwt-Module-Base": "https://erp.usth.edu.vn/soicteducation/",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Content-Length": "188",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Content-Type": "text/x-gwt-rpc; charset=UTF-8"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "7|0|5|https://erp.usth.edu.vn/soicteducation/|41B003B6A3D52DCDDD9AD8B36971BF87|com.soict.edu.core.client.service.DataService|getAppData|java.lang.Long/4227064769|1|2|3|4|1|5|5|P__________|",
+    "url": "https://erp.usth.edu.vn:443/soicteducation/data",
+    "path": "/soicteducation/data",
+    "host": "erp.usth.edu.vn",
+    "id": "POST:/soicteducation/data:604417602",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

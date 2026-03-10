@@ -1,0 +1,40 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjQ2MTYsImVtYWlsIjoiMjNCQTE0MTA1In0.ndacxHaroFWP3IKy9Cxwa5PssN6p37TjWo-wClFnnjQ; type=userName; soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiRUt2bUhId0NDeTNNWjI5eVQ4VTh0OGc4NGExSHhLNS95NmlQQmgrL1RVUXpubFVDd0d2aUl4b0RnR2tZaFk0Q1RyR2M4cGJIUU56MWJjaUQ5SEdCTWpjR0dXOWhCR29qK3ErVWF6eFQ0MHRxdjh4UjhxWHowb0poM2tyeXdqS0IiLCJpYXQiOjE3NzMxNTk4MjAsImV4cCI6MTc3MzI0NjIyMH0.H0-MOLH9dwbdXkzMAf0mP_OnjfxhfuLoTkDmdNCeBwA",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Sec-Fetch-User": "?1",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/students",
+    "path": "/students",
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/students:986747931",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

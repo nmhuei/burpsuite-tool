@@ -1,0 +1,54 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "variations.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "A-Im": "x-bm,gzip",
+      "Sec-Fetch-Mode": "no-cors",
+      "If-None-Match": "27b4f17585b62612bf5c1a242f06b267"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "osname=linux&channel=stable&milestone=145",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://variations.brave.com:443/seed?osname=linux&channel=stable&milestone=145",
+    "path": "/seed",
+    "response_headers": [
+      "HTTP/2 304 Not Modified",
+      "Date: Tue, 10 Mar 2026 16:49:32 GMT",
+      "Last-Modified: Tue, 10 Mar 2026 06:02:33 GMT",
+      "Etag: 27b4f17585b62612bf5c1a242f06b267",
+      "X-Amz-Server-Side-Encryption: AES256",
+      "X-Amz-Version-Id: CjJL9YckhSwYeHqA3UB7HOqsz5LZDvGp",
+      "Server: AmazonS3",
+      "X-Country: vn",
+      "Im: gzip",
+      "X-Seed-Signature: MEYCIQDqBzFaow7gbg62c01lV0G51Uf7dEVjVCvKM5kYi69AGgIhAPN+0yoDH1XeV9LKTMP3qS5SqJUIvbVhz2wAniI57H/T",
+      "Via: 1.1 a9f64edc565259ff93a6c863cc7e85b2.cloudfront.net (CloudFront)",
+      "Age: 38810",
+      "X-Cache: Hit from cloudfront",
+      "X-Amz-Cf-Pop: HAN51-P1",
+      "X-Amz-Cf-Id: RDtRufbXSCER1LgAe1UiN4do96tff7gfj6LqJcZIv6ZHASfBj-hR3A=="
+    ],
+    "host": "variations.brave.com",
+    "id": "GET:/seed:1770826279",
+    "toolFlag": 4,
+    "status": 304
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

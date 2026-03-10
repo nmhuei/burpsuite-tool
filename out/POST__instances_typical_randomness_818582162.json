@@ -1,0 +1,43 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Sec-Fetch-Storage-Access": "active",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "star-randsrv.bsg.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "Content-Length": "400",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"points\":[\"zH2bv2IazM3SwdTZCm+7ghbufC1cTs0TtNKvhQ6lLT8=\",\"Dnx2GLJuiFxMiyEqDWQfLnrSeUO2GiNGWosY35v+QlQ=\",\"0vukHS7fnbaes5S2O+kWCV1E4QlCij4toXA7MoJuaDo=\",\"EprSQeg4n3tBmPM3HeXd4PIbJTY/M1I9V1wWWLSVBh0=\",\"tPsg3DaqLSCpvzzxz1q9Z4St6CVGrA2BjFZL0u7wQQw=\",\"lLSKVn893xfDfP0hDdp/p64SCJs3zPnJBU0hL7xuOnk=\",\"PBpj7Kx0FfvBoTinmKTnETrN59julsY3bT5nl1iQVgc=\",\"NgibRte71py+7aXO3cjWqcSCqE84twdP2uQ9zNUefmQ=\"],\"epoch\":149}",
+    "source": "burp",
+    "body": "{\"epoch\":149,\"points\":[\"gApGf4ytU1o5h/9CtyCxpZs2rHsa+Xfeej4XdN84InM=\",\"HnYgKs2ZOktB3wtj+5t+LG8bi/tPP/upTVB5UsiagWc=\",\"7qY0aEN362P83tr4upfkM5YXRgKqypFU0znPcKupfUI=\",\"gng5BNRQeKySB8I4xd5JT8GfsEqrLKVXINJ2xqARUno=\",\"VG5hxivdwGU5tx1ZMOzQEka8EvpQouDwvQe6MbFZOXA=\",\"UKGYzZAd9R0dTa1LGm9JobD4z65GwMfFpEmD7lFO2Tg=\",\"enTKyujDknehnuxgPiAeEcK1iJfWHHzF5pzH/KSLZWA=\",\"7t89jeBJrPv6nv08QmVHZlYw5aOdTjY4PY0+fKX8+j0=\"]}",
+    "url": "https://star-randsrv.bsg.brave.com:443/instances/typical/randomness",
+    "path": "/instances/typical/randomness",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 16:48:33 GMT",
+      "Content-Type: application/json",
+      "Content-Length: 400"
+    ],
+    "host": "star-randsrv.bsg.brave.com",
+    "id": "POST:/instances/typical/randomness:818582162",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

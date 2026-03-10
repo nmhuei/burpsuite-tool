@@ -1,0 +1,75 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Fetch-Storage-Access": "none",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "www.facebook.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "client_id=145207379481929&input_token&origin=1&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2F&sdk=joey&wants_cookie_data=true",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://www.facebook.com:443/x/oauth/status?client_id=145207379481929&input_token&origin=1&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2F&sdk=joey&wants_cookie_data=true",
+    "path": "/x/oauth/status",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Content-Type: text/plain; charset=UTF-8",
+      "Access-Control-Expose-Headers: fb-s",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Allow-Origin: https://erp.usth.edu.vn",
+      "Fb-S: unknown",
+      "Reporting-Endpoints: coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", default=\"https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7615673794355295654&cpp=C3&cv=1034852356&st=1773162231955\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+      "Document-Policy: force-load-at-top",
+      "Document-Policy: include-js-call-stacks-in-crash-reports",
+      "Permissions-Policy: accelerometer=(), attribution-reporting=(self), autoplay=(), bluetooth=(), browsing-topics=(self), camera=(self \"https://www.fbsbx.com\"), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(self), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(self), fullscreen=(self), gamepad=*, geolocation=(self), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(self), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=(self);report-to=\"permissions_policy\"",
+      "Cross-Origin-Resource-Policy: cross-origin",
+      "Cross-Origin-Embedder-Policy-Report-Only: require-corp;report-to=\"coep_report\"",
+      "Pragma: no-cache",
+      "Cache-Control: private, no-cache, no-store, must-revalidate",
+      "Expires: Sat, 01 Jan 2000 00:00:00 GMT",
+      "X-Content-Type-Options: nosniff",
+      "Report-To: {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":259200,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/?device_level=unknown&brsid=7615673794355295654&cpp=C3&cv=1034852356&st=1773162231955\"}]}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+      "Origin-Agent-Cluster: ?1",
+      "Strict-Transport-Security: max-age=15552000; preload",
+      "X-Fb-Debug: wiV7DgVEICN7Q6VX4rZeuu2o/WiZ7LUoC4YuXsEfH4Pv7lr8N20QMKPlJbukMqovlLf00QupISH0+/Baf6knWg==",
+      "Content-Length: 0",
+      "Date: Tue, 10 Mar 2026 17:03:51 GMT",
+      "X-Fb-Connection-Quality: EXCELLENT; q=0.9, rtt=29, rtx=0, c=10, mss=1380, tbw=509, tp=-1, tpl=-1, uplat=223, ullat=0",
+      "Alt-Svc: h3=\":443\"; ma=86400"
+    ],
+    "host": "www.facebook.com",
+    "id": "GET:/x/oauth/status:1386884177",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

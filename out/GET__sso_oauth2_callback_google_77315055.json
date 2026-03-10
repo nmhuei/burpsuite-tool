@@ -1,0 +1,40 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; JSESSIONID=sQ9FagMBC7JzqBOBGwaD7g.node0; language=vi; state=sQ9FagMBC7JzqBOBGwaD7g; decodedState=sQ9FagMBC7JzqBOBGwaD7g; currentUrl=https://erp.usth.edu.vn/",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.6",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=3&hd=usth.edu.vn&prompt=none",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/oauth2/callback/google?state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=3&hd=usth.edu.vn&prompt=none",
+    "path": "/sso/oauth2/callback/google",
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/oauth2/callback/google:77315055",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; auth_redirect_uri=%2Fstudents; state=up943Fgp57; redirect_path=%2Flearn%2Ftimetable",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "redirectUrl=https://erp.usth.edu.vn/students/api/auth/sso&clientId=clientId_usth&encodedState=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0ZSI6InVwOTQzRmdwNTciLCJpYXQiOjE3NzMxNjIyNTUsImV4cCI6MTc3MzE2NTg1NX0.RxKole40CSJV854ZinCRk2qrG8qX2S5xHNt6y282yZM",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/init?redirectUrl=https://erp.usth.edu.vn/students/api/auth/sso&clientId=clientId_usth&encodedState=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0ZSI6InVwOTQzRmdwNTciLCJpYXQiOjE3NzMxNjIyNTUsImV4cCI6MTc3MzE2NTg1NX0.RxKole40CSJV854ZinCRk2qrG8qX2S5xHNt6y282yZM",
+    "path": "/sso/init",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:04:15 GMT",
+      "Content-Type: text/html",
+      "Vary: Accept-Encoding",
+      "Set-Cookie: decodedState=up943Fgp57; Path=/; Expires=Tue, 10 Mar 2026 18:04:15 GMT; Max-Age=3600",
+      "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
+      "Content-Language: en-US",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "X-Frame-Options: DENY",
+      "Location: /sso/login",
+      "X-Cloud-Trace-Context: 5c469504ca6c5b80d0d4d54e237fe102",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=2,cfOrigin;dur=98",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Mp%2FHwKqCcW7m6N%2B2VBFkFTXvSOA%2BQCFuTmFrvaXOS%2FkvIHns3DlZc50lEXltvQYbedW6iG%2FFbX6f9PwGIS9uKWu8iNR024H93fm%2BgiGQwQ%3D%3D\"}]}",
+      "Cf-Ray: 9da3e5c13fe31bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/init:140765725",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 15,
+    "severity": "high",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      },
+      {
+        "category": "ssrf",
+        "score": 5,
+        "reason": "Matched pattern(s) for ssrf"
+      },
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập.",
+      "Thử callback/url tới endpoint kiểm soát của bạn để xác nhận outbound request."
+    ]
+  }
+}

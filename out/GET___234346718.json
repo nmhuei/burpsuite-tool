@@ -1,0 +1,68 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; state=sQ9FagMBC7JzqBOBGwaD7g; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.6",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/",
+    "path": "/",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:04:12 GMT",
+      "Content-Type: text/html",
+      "Vary: Accept-Encoding",
+      "X-Frame-Options: SAMEORIGIN",
+      "Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.google.com https://unpkg.com https://www.googletagmanager.com http://connect.facebook.net https://www.gstatic.com https://www.google-analytics.com https://hustva.vbeecore.com/sdk.js https://code.tidio.co https://widget-v4.tidiochat.com https://hmu-edu.bkademy.vn https://cdn.syncfusion.com https://cdn.bkademy.vn https://lib.bkademy.vn http://localhost:* https://cdn.jsdelivr.net https://wifi-hsia.netnam.com https://langdingpage.dizzd.website https://*.firebasedatabase.app https://storage.googleapis.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://cdn.syncfusion.com https://fonts.googleapis.com http://localhost:* https://cdn.jsdelivr.net https://cdn.bkademy.vn https://www.gstatic.com https://storage.googleapis.com https://lib.bkademy.vn; object-src 'none';",
+      "Content-Language: vi",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Cache-Control: no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma: no-cache",
+      "Expires: 0",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "Location: /students/",
+      "X-Cloud-Trace-Context: 21f69268c67cd5df7d2a986fa0a7bbc5",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=2,cfOrigin;dur=103",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jdQf%2F0Z8uZ2hkWIBPJg%2BNZFITr3IgFHqVWWN8K6O7r4L4RxB07fl54HGkvBUGWyoDMumMhUu3v%2FOhPaxkEz6UgvdAvQ8mdcAreYSRLiyfg%3D%3D\"}]}",
+      "Cf-Ray: 9da3e5ad8a90ce23-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/:234346718",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

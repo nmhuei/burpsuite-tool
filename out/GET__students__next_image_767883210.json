@@ -1,0 +1,46 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjQ2MTYsImVtYWlsIjoiMjNCQTE0MTA1In0.ndacxHaroFWP3IKy9Cxwa5PssN6p37TjWo-wClFnnjQ; type=userName; soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiRUt2bUhId0NDeTNNWjI5eVQ4VTh0OGc4NGExSHhLNS95NmlQQmgrL1RVUXpubFVDd0d2aUl4b0RnR2tZaFk0Q1RyR2M4cGJIUU56MWJjaUQ5SEdCTWpjR0dXOWhCR29qK3ErVWF6eFQ0MHRxdjh4UjhxWHowb0poM2tyeXdqS0IiLCJpYXQiOjE3NzMxNTk4MjAsImV4cCI6MTc3MzI0NjIyMH0.H0-MOLH9dwbdXkzMAf0mP_OnjfxhfuLoTkDmdNCeBwA",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "image",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "If-None-Match": "hIrd-kPEY45U+nqFa4PaQ7bBmoYDJoej2kSVReWMjwk=",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "url=%2Fstudents%2Fimages%2Fchplay-en.png&w=256&q=75",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/students/_next/image?url=%2Fstudents%2Fimages%2Fchplay-en.png&w=256&q=75",
+    "path": "/students/_next/image",
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/students/_next/image:767883210",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "ssrf",
+        "score": 5,
+        "reason": "Matched pattern(s) for ssrf"
+      }
+    ],
+    "next_tests": [
+      "Thử callback/url tới endpoint kiểm soát của bạn để xác nhận outbound request."
+    ]
+  }
+}

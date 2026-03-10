@@ -1,0 +1,53 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "OTZ=8492537_76_76_104100_72_446760; __Secure-BUCKET=CFE; __Secure-1PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; __Secure-3PSIDTS=sidts-CjEBBj1CYtheUM4Odtz1yhZFpnlZrSXGSz-o4rtVEoQe2WNmZOKSWhiZvR_BjnJtdYZQEAA; NID=529=OX8VH-LrQtH_Q8Jb6ou1-3rlgj9SSNtNgxdcwJCZeLMNFqTNcCxe6u05HHVdqNDQYvzl00sxLI4a6H2de4n3ySYYS9s7GXWdmbJ5p8IoOqz-1jgIOyQMeI8kevUynYsKRoI_HrDiPwcYA-KyezG_jwT793PRJQByaEKTQcUth-otJVFFYA8dlGVc-lD127bCc0obzTNYYAiE27Chj4vySI9OtGb3GL63k--JCKZ3dgkmzYv6sBuQP3wzl-GXs2kUay-rwhfxdoj3X7dHK-Sclh_-85Jv6AhG-XEanjq5jXiK-hlWcmBm9nJidAmgBUO79zOOhH3Oo-KVViKb2pVUqjAiLiEeGs6AQ1vF3l2SpMqhjenzXHAgCdD7VpdOBUBSZMGB-j8F1RRGw-G6_m7jEOyYDpH--KqIUC7dbHvHR2Arm1pcqYhDBtcs-XClBILRIVaeg39Pvy4TLvMyCpIh7u91mpDKycW3FNUEb1wfo3sNlEv04qcxVpCWXd8YJNtyeZETAJQd0vuPJm301pCJQBxSlOBwNe9BPAS4kWBc1YhIPnV9JLcnIwkqkVrTBYlFG3RGZkX5BmjK1a-NK9yJSyHcED1hSLGidlS3-FODqstw_7ahFoCZiQOK8itXyZxklowvY9xhUj4qOpQBnxaVGFptdDQ-FuDH2r6V-f3ozVSCtIw20z74Y1pj1k9pR1Rw3E3vMrk6RpJrfsbsbNpAJvlAkazKhuSgszpQkfTeUyY5iOh7b6JDO_QbA_68x64E_lcwdgA8x7oUUS7JkPbVLdANuPoFNKZbWp6zNMuXXud8WqphTklI_ZvWrfhKRuSW3RXh5XilWBXod5XZCKqEmctbG8S78DlXzCTjNnHGZtxS4J8uz5zTHzwm_J0xDGq_6csgLBnze1Zd1RDIF05YYJJkpwnHq1_OIRGjeh-TVM3UljCtD5pLQ_UH9nrqbDeAGpwuXHtxbWBdu8smyx-p45IJOaaglDbqd3yvtaTFWj6mSAjCt3AbJuFL_VmWjyNRsbsqtGK0xipyQSZgXu6ecxOKnOTf0KWSlrb_SYrLwRcqeu8Umunl4RTDrbmhPJZrz2L0552lxxnqWh3Pzblgq9x8Nkso4E0hM2OP5R9jqscmqhl4rKvfWdDw4gzXyy44HyJbVdds5EBejer2PSaCq9mh8vSj1rDj9GCq14SW7BeCxvGLJdoSqy06-G4nMGxwT92Ia934-Qg4Qulq9moPhdIO16uu35GolGiZs-7RH5XZMuQQ9Nl8Ez5JlLU925O4TGsiVjRC5nOWuxXDyHqv-Z9hxBEmkl_YDNTYul2h; SID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAYzKVzbrq1KuKpkwMP5-JawACgYKAekSARcSFQHGX2MiGKMX3-DkqQ0rfAz7xEkXfxoVAUF8yKoiA9GH_ZlekR4j2R8--HG40076; __Secure-1PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAPfaDNeQYzMyrVdYNMGRNjAACgYKARwSARcSFQHGX2Mi3Ogd1ReIO7DOnVNwICgwohoVAUF8yKrjTp_saMMr5Jg7K__kiml40076; __Secure-3PSID=g.a0007ggo-cW8qoxMvuDxYImIz8CiDbt7M6ta48eUWNBeXtV6NJhAE5ucAAcFXyzW8S2BeChh2AACgYKAeMSARcSFQHGX2MiuQ9u3QgZ1moxtNWdWoqakxoVAUF8yKo5uwL3DwpRLoY5MOxvVF_P0076; LSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0xklT7D4dsz-HNjkWkfcgMwACgYKASMSARcSFQHGX2MinusFksa9KttcBzsVzfMfjhoVAUF8yKp5RyNtiFiwO4hAjegQ1Ebd0076; __Host-1PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh0uPUAlMEe8JwD1YuutPJGfwACgYKAZQSARcSFQHGX2Mi_-tGM8rf-i75W6l1MG7-XBoVAUF8yKo8McsqUgxurGx7mfpK-7y40076; __Host-3PLSID=o.chat.google.com|o.mail.google.com|o.meet.google.com|s.VN|s.youtube:g.a0007ggo-V8ouu3b8v9ap-TDZ-wxJEXzotJxrjz8WEPtRKUHeVh06sPLuXIlfYLep-DiIYkO5wACgYKASMSARcSFQHGX2Mi05k90OHwJNQbHdyA73MGFBoVAUF8yKry1A-BG6iLogYmh_pEEjVX0076; HSID=AEL3zhaa3Skd7QiAF; SSID=AosFl0Bm0PTRykMPH; APISID=nmzT7JFBvcKLue2N/A-G_BxP4C8bc-nEWY; SAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-1PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; __Secure-3PAPISID=7OQtYJbfOFieUT7z/AHyhjOK-MFqWliew5; ACCOUNT_CHOOSER=AFx_qI42Soh7YxkmLhRFTjM2qgFNhB9T14XkgbbBfkgaDVnJrlcbcspk3HgrmHTYRTeDivHg9D31qC8gpUSRS84V8MKgNpFSFmwtdFseQVKaOJUzN2T0ztvGP55UFgqXV1rhKnbXYUpsBhosN45AgYnMcCbQ90XRz9EAwlgoOgKdvfunO42GXdnpTIwfaC3VePKdz0_8J6Z4hQtT23qXMqA63153gsDfZzP0arLIk9GJd_eSQF4l4LkrYJsY_z-QvMrWEm67l1fJW5vUuC0KVG08zXZoEFL6NLcmu8QXLpNcPUgS_QB1WJkkyJriATjjZf0BLXBPKEJYQdjSIEHRmCvEH2et9tbGtjFytg96ak2LYoUIeP5x9JkzP5HC5y1koHqZpnHGAWTd; SMSV=ADHTe-DJeGe2BDFSF3dtC9KM3e5xoDYti0Es9zAR_VgEI1rPZ3x87idz4M7dqjxsTfB7uwZLw3lj8PZGaZscxhc0sTneIZA8lHt8lQOeBI1yCaE51v_kpjm4uzr8s4Yh0qxY8zbWBGIj6W7HWSJDRKFk44-7HkD3YQ; SIDCC=AKEyXzXtM0fqCh-Af-AR_1ePcl_Nnanmggp38h4cKFfJdlvzZvODmWMCDrTQQ_pXECB11ptPv-Y; __Secure-1PSIDCC=AKEyXzWJw8gqvitd9Vm5opgr_AhFW9OuQc74EF_fChOjq-iWV8pGSVOhJNwcb2zFVXzq9KDPCg0; __Secure-3PSIDCC=AKEyXzXQTmVd2n4OM7aj0AwEBq-6D8kgwwEx8MB3kYOqzFXGYMWT7QOYzvaoBzFhc4ZoFuERl8k; __Host-GAPS=1:dbl6PvUMVgX8yss2bTaUKHsH6Zs04E8aA06CBDiezztZ928eNUCIBcOfLyahAJuJLW9vIEhGK-tG3xiM8MTIXYqIK4sDgA:LSuENK4hPH79z3M6",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Sec-Ch-Ua-Wow64": "?0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "Sec-Ch-Ua-Arch": "\"x86\"",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Sec-Ch-Ua-Model": "\"\"",
+      "Host": "accounts.google.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Ch-Ua-Bitness": "\"64\"",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Ch-Ua-Platform-Version": "\"\"",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Sec-Fetch-User": "?1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Full-Version-List": "\"Not:A-Brand\";v=\"99.0.0.0\", \"Brave\";v=\"145.0.0.0\", \"Chromium\";v=\"145.0.0.0\""
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "client_id=465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com&prompt=select_account&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2Fsso%2Foauth2%2Fcallback%2Fgoogle&response_type=code&scope=email+profile&state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&dsh=S318839101%3A1773162234994282&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg%26flowName%3DGeneralOAuthFlow%26as%3DS318839101%253A1773162234994282%26client_id%3D465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Ferp.usth.edu.vn",
+    "source": "burp",
+    "body": "",
+    "url": "https://accounts.google.com:443/v3/signin/accountchooser?client_id=465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com&prompt=select_account&redirect_uri=https%3A%2F%2Ferp.usth.edu.vn%2Fsso%2Foauth2%2Fcallback%2Fgoogle&response_type=code&scope=email+profile&state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&dsh=S318839101%3A1773162234994282&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOwXpg6deLSjiwaWQxYRvFoVfrforCi-PxeZsllUBdGVG7cy-DpJfCdq2YDCsBk1f942mo3Gd2V9G0ETUTYM-motv9jPEca1aiyngYy0mdn_yI73NcEMswszkDTpppS_Zkm-UJ7C4gObXUS1-WrQhZkH6m27IN7gQ4xF7-zP4m5P4avnIoq_xcxQR4aBjfNglTU-n-NoDoM24WOczI6K9logkz-pSR78O40_irK9SG4g9IKdwKvdPPJz0YdYMsxyCpcHJmmlVT7ca3h5dmYELlEayTFk9lrGYaM1Bh55Xf9-64VDLmBcVCIBusrE9jKJxReY_oDdAc9wgtFDfG6mrvGyeNZqbWv4gswu0rdIJ691C02BlJUBmk7CPfnX3LPB0OKbOScyow8J-GahIm_sTQbxzDeE0PnvOD4AyQwJHO__s-YRDIHiOQ4OWJfoeFKDTzAMsf5WFNap2ztMm3WhZARl7Wxdg%26flowName%3DGeneralOAuthFlow%26as%3DS318839101%253A1773162234994282%26client_id%3D465277929641-rkq7oqdae10s9kqkc64660qhs15svhet.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Ferp.usth.edu.vn",
+    "path": "/v3/signin/accountchooser",
+    "host": "accounts.google.com",
+    "id": "GET:/v3/signin/accountchooser:2030131794",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

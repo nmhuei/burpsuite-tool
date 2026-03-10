@@ -1,0 +1,44 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "collector.wdp.brave.com",
+      "Encryption": "6gRLchtJSx9wedyZeNVavvHccvZxUt3mUy+Ht1Sv8AznFN/TrgyWIBQuJecgKZ5Z5pG1CvIgypiOqCVvWlZNsShgVp07K1SZJsCn+akJ",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Version": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Content-Length": "1040",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Key-Date": "20260310",
+      "Content-Type": "application/octet-stream"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": ".\u0001.\bi\"RÄ´g7P\u0019B´0ü\u0011¸\u000f]«ÇSøe\u0002ÝÎm{¦\\'\u0010ñæjn'³acäp&Q\u001aõMºEÉ8\u0018y«¨â1'\u000b©è2Í¢Ïy:¾±<*Ýf&âýäDöy;\u0001¶*Ü\\0\u0011Ø|X\u0010ù\u0002ê3ËÕàj]\u0016ä¨/øÇc\\þK56\u0017|î_Óª4\u0016èIq>\u0015@ÿnu\rÝ\u0018FHÈÀn\u001e\u0005y\u0002Pn`ßÑ6µäýE¿0Õ\u001bz\u0006³ç=j§/®båÞÜhí\n.-*ât´ãR\u0004\u001d0\u0017ê\u0012¾YsT\r]\u0010ýd5ú×6:\u0019Öû3üV²Jå3-P­D­XIUËÚ\u00148£7ó\u0003\u001bl/H7¢Ì*cÜz±9/\u0014@îC/o\u0002-./Mº²tó\u0018 ½ì_±öXjëÆ|iÇ\u000b\r*¸Z\u0016Hw­ØÐRµ\u0011.ûZ(Úñ\u000fv\u000bZ ûPÜø¾×-v&Ä+Ç|=°\rj\\KýÐ7Æ&Y8`\u0006ò\u0015üj\u0014ç_°S\u00007:õ~Ó&Ió§ºÌê­¼xÐ\u000e.ÂÌ¶ÂMtâNþ±{¸\u0011å¤!éá\u0019Jëw5UCO\u0007ZHä:9¨ò51\u0010zañÚ©ÿyúÖ\u0006yu/ÄY»Á¤zwº;ð,f=§*\u0015U;¾Ë¸Í\u0019\u001b.ö\u0001$]]ô­è\u001d¨ðXE]\u001dU«V¼ÌKB¦éê\u0017\u001dsm¾[a±/«¸×\u001a:¦*\u0007#Ù\u00124\u0006\f³wÉ±Dæ,ÿbL\u0010N\fâ_¬\u00165mÇq\u0004^\u0015=¢°¸ß$\u001bÎÉ+rPV»GÎ\fë6#S;nox-ëå¬íéÍt\"\u0006é\u0005SU©:óX©$ôeG\rÕiÖÍ_F¯D¾ûÎ´øTphh­Ë\u0015Û?\f¥phÛëo*$M@f`x\u0016öq7ú÷ú á\u0004æå;®½\u000e\u0019,4¿¦c¡ï»¸RÒV\u001aõ»î|éCöZ=ÌÄöM·!.ïiº/£\u000e1ar\u000e©þù\u0019GN3WÅÖ\r+ ¢=Î\u000eÇ\f\u0003º¤0\u000b\u001aÎLí3±\u0011ãaíy\b&,À\u001d!\u0014\u001c¥/A´)Ðé¡b¡Ý\u001b>§Óåùø\u000bZB\u000bùÔÀï<oéÔiÕPoâ44 lêFá7÷Jhâ÷8p.¡¼«¥ \u001c9¾\nÕMîÀEo2á\u001dwj\u0004L\u0011m\u0014g_\u001f%åw`\u0000´Ù#\u0017²1òÙ\u0012 ÿw¢*¨k\u0014ì¥0Éð¦ÂÉË\u001aL¹\u0005úL?*\u000b±EXÓ¢jµrÕSIæ\u0005|\u0000¸\u0016Øu\rïEópNÓz}_\u0012fsM\f»÷A²{Xû\u001a5þ|ìÓ¤Ú¢\u0014éÇÂxX\f¤\rpg\róbñ¤¾äeW°\u001e<\u001d,, KOkåD«'Hw>³$ó\u0006Ý7ûFÑVðîIÑrÑÊ½¢\tYâ\u000eç",
+    "url": "https://collector.wdp.brave.com:443/",
+    "path": "/",
+    "host": "collector.wdp.brave.com",
+    "id": "POST:/:1873167669",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

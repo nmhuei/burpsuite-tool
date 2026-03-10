@@ -1,0 +1,82 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; auth_redirect_uri=%2Fstudents; state=up943Fgp57; redirect_path=%2Flearn%2Ftimetable",
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "X-Check-Sum": "d2cc598b87fecc2161685b53442877c7c0b1a0bc3e288dee10dbe794c1327ad3",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Content-Length": "22",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"data\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0ZSI6InVwOTQzRmdwNTciLCJpYXQiOjE3NzMxNjIyNTUsImV4cCI6MTc3MzE2NTg1NX0.RxKole40CSJV854ZinCRk2qrG8qX2S5xHNt6y282yZM\"}",
+    "source": "burp",
+    "body": "{\"state\":\"up943Fgp57\"}",
+    "url": "https://erp.usth.edu.vn:443/student-services/api/v1/auth/enc-state",
+    "path": "/student-services/api/v1/auth/enc-state",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:04:15 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Access-Control-Allow-Origin: https://erp.usth.edu.vn",
+      "Vary: Origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-app-version",
+      "Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "Cross-Origin-Opener-Policy: same-origin",
+      "Cross-Origin-Resource-Policy: same-origin",
+      "Origin-Agent-Cluster: ?1",
+      "Referrer-Policy: no-referrer",
+      "Strict-Transport-Security: max-age=15552000; includeSubDomains",
+      "X-Content-Type-Options: nosniff",
+      "X-Dns-Prefetch-Control: off",
+      "X-Download-Options: noopen",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Permitted-Cross-Domain-Policies: none",
+      "X-Xss-Protection: 0",
+      "X-App-Version: 202603101628",
+      "Etag: W/\"a7-toduErem3EddWQ6Louu+bOyZpI0\"",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=66MkNwLZPatNNhRklIAbRcmQBDc8v2aUSYC%2FWRE1Dol7qtEhwdEDj8qNEPmQM8JcL5vahZcYy3c1W8%2FgpAdFAU7oVcQ70aFWJSW8TsT8qA%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3e5bf2bbc1bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "POST:/student-services/api/v1/auth/enc-state:377737473",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

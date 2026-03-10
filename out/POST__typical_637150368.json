@@ -1,0 +1,43 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "collector.bsg.brave.com",
+      "Brave-P3a-Constellation-Threshold": "50",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Brave-P3a-Version": "3",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Brave-P3a": "?1",
+      "Content-Length": "3304",
+      "Content-Type": "text/plain"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "",
+    "source": "burp",
+    "body": "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",
+    "url": "https://collector.bsg.brave.com:443/typical",
+    "path": "/typical",
+    "response_headers": [
+      "HTTP/2 204 No Content",
+      "Date: Tue, 10 Mar 2026 16:50:44 GMT"
+    ],
+    "host": "collector.bsg.brave.com",
+    "id": "POST:/typical:637150368",
+    "toolFlag": 4,
+    "status": 204
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "obedbbhbpmojnkanicioggnmelmoomoc",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "componentupdater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "bg",
+      "Content-Length": "855",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": ")]}'\n{\"response\":{\"server\":\"prod\",\"protocol\":\"4.0\",\"daystart\":{\"elapsed_seconds\":35434,\"elapsed_days\":7008},\"apps\":[{\"appid\":\"obedbbhbpmojnkanicioggnmelmoomoc\",\"cohort\":\"1:s6f:3cr3@0.025\",\"status\":\"ok\",\"cohortname\":\"Auto\",\"ping\":{\"status\":\"ok\"},\"updatecheck\":{\"status\":\"noupdate\"}}]}}",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"accept_locale\":\"ENUS500000\",\"appid\":\"obedbbhbpmojnkanicioggnmelmoomoc\",\"cached_items\":[{\"sha256\":\"23759e3f6d0119a00038b963cec9fb7abafd7b65a35a7e83c7697511db59e6e7\"}],\"cohort\":\"1:s6f:3cr3@0.025\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{f52238b9-5505-4516-ab32-a19724be723b}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"20251024.824731831.14\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{793ec9ab-c97b-43c1-9afa-b1a01b0b8e4f}\",\"sessionid\":\"{d4319860-cd8b-40a6-927b-6f859863282c}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://componentupdater.brave.com:443/service/update2/json",
+    "path": "/service/update2/json",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 16:50:34 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Server: nginx",
+      "Content-Security-Policy: script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+      "Cache-Control: no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma: no-cache",
+      "Expires: Mon, 01 Jan 1990 00:00:00 GMT",
+      "X-Daynum: 7008",
+      "X-Daystart: 35434",
+      "X-Content-Type-Options: nosniff",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Xss-Protection: 1; mode=block"
+    ],
+    "host": "componentupdater.brave.com",
+    "id": "POST:/service/update2/json:1921503546",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

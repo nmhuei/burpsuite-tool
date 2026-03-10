@@ -1,0 +1,51 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; JSESSIONID=sQ9FagMBC7JzqBOBGwaD7g.node0; language=vi; state=sQ9FagMBC7JzqBOBGwaD7g",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Sec-Fetch-User": "?1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "redirectUrl=https://erp.usth.edu.vn&clientId=clientId_usth&encodedState=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZSI6InNROUZhZ01CQzdKenFCT0JHd2FEN2ciLCJleHAiOjE3NzMxNjU4MzN9.OhC97kikeP6tvMnGYv7sqEA0KFVgQYSMQPQE1DbOQ4o&currentUrl=https://erp.usth.edu.vn/",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/init?redirectUrl=https://erp.usth.edu.vn&clientId=clientId_usth&encodedState=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZSI6InNROUZhZ01CQzdKenFCT0JHd2FEN2ciLCJleHAiOjE3NzMxNjU4MzN9.OhC97kikeP6tvMnGYv7sqEA0KFVgQYSMQPQE1DbOQ4o&currentUrl=https://erp.usth.edu.vn/",
+    "path": "/sso/init",
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/init:583377729",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 10,
+    "severity": "high",
+    "findings": [
+      {
+        "category": "ssrf",
+        "score": 5,
+        "reason": "Matched pattern(s) for ssrf"
+      },
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Thử callback/url tới endpoint kiểm soát của bạn để xác nhận outbound request."
+    ]
+  }
+}

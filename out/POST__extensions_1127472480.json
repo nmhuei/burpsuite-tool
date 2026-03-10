@@ -1,0 +1,46 @@
+{
+  "event": {
+    "headers": {
+      "X-Goog-Update-Appid": "hfnkpimlhhgieaddgfemjhofmfblmnib",
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "go-updater.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Goog-Update-Updater": "BraveComponentUpdater-145.1.87.192",
+      "Sec-Fetch-Mode": "no-cors",
+      "X-Goog-Update-Interactivity": "bg",
+      "Content-Length": "806",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "response",
+    "query": "",
+    "response_body": "",
+    "source": "burp",
+    "body": "{\"request\":{\"@os\":\"linux\",\"@updater\":\"BraveComponentUpdater\",\"acceptformat\":\"crx3,download,puff,run,xz,zucc\",\"apps\":[{\"appid\":\"hfnkpimlhhgieaddgfemjhofmfblmnib\",\"cached_items\":[{\"sha256\":\"34a71668c9f6498c59159beb199bcecb3b19327c33ff43a5123c0fbc3bd7e4e6\"}],\"cohort\":\"1:287f:\",\"cohortname\":\"Auto full\",\"enabled\":true,\"installdate\":6993,\"ping\":{\"ping_freshness\":\"{56492b9b-6765-4016-8a23-4c536e1da49f}\",\"rd\":7008},\"updatecheck\":{},\"version\":\"10394\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"hw\":{},\"ismachine\":true,\"os\":{\"arch\":\"x86_64\",\"platform\":\"Linux\",\"version\":\"6.18.12+kali-amd64\"},\"prodchannel\":\"stable\",\"prodversion\":\"145.1.87.192\",\"protocol\":\"4.0\",\"requestid\":\"{af215283-07f4-4459-b4dd-b43da1b63c2b}\",\"sessionid\":\"{2985eb45-3371-40cd-b195-82c0f11d3a5e}\",\"updaterchannel\":\"stable\",\"updaterversion\":\"145.1.87.192\"}}",
+    "url": "https://go-updater.brave.com:443/extensions",
+    "path": "/extensions",
+    "response_headers": [
+      "HTTP/2 307 Temporary Redirect",
+      "Date: Tue, 10 Mar 2026 16:50:33 GMT",
+      "Content-Length: 0",
+      "Location: https://componentupdater.brave.com/service/update2/json",
+      "Vary: Accept-Encoding"
+    ],
+    "host": "go-updater.brave.com",
+    "id": "POST:/extensions:1127472480",
+    "toolFlag": 4,
+    "status": 307
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

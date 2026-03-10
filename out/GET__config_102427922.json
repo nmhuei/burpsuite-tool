@@ -1,0 +1,48 @@
+{
+  "event": {
+    "headers": {
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "*/*",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Fetch-Storage-Access": "active",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "quorum.wdp.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"oc\":185,\"expiry\":30,\"location\":\"--\",\"threshold\":5}",
+    "source": "burp",
+    "body": "",
+    "url": "https://quorum.wdp.brave.com:443/config",
+    "path": "/config",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Server: awselb/2.0",
+      "Date: Tue, 10 Mar 2026 16:49:34 GMT",
+      "Content-Type: application/json",
+      "Content-Length: 52"
+    ],
+    "host": "quorum.wdp.brave.com",
+    "id": "GET:/config:102427922",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

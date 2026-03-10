@@ -1,0 +1,18 @@
+version: 1
+risk_weights:
+  auth_bypass: 5
+  idor: 5
+  sqli: 5
+  ssrf: 5
+  xss: 4
+  sensitive_data_exposure: 4
+  open_redirect: 2
+  csrf: 2
+  misconfig: 2
+patterns:
+  idor: ['/api/','/user/','/account/','/order/']
+  auth_bypass: ['/admin','/internal','/manage']
+  ssrf: ['url=','callback=','redirect=']
+  sqli: ['id=','sort=','filter=']
+sensitive_keys: [token, authorization, api_key, password, secret]
+ignore_extensions: ['.png','.jpg','.jpeg','.gif','.css','.js','.woff','.svg']

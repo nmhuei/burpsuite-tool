@@ -1,0 +1,52 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-WebSocket-Key": "SlUQP17s5uSztC7MImfhnw==",
+      "Connection": "Upgrade",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-WebSocket-Version": "13",
+      "Host": "socket.tidio.co",
+      "Pragma": "no-cache",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Upgrade": "websocket",
+      "Cache-Control": "no-cache",
+      "Accept-Language": "en-US,en;q=0.7"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "ppk=p2isvjtfc8h8ua8tviqzxyojuwm9wzyo&device=desktop&cmv=2_0&ver=1.412.0&seid=f67fd239-d896-4873-9e37-f3f4162128ed&vid=945poq1r206q9572o271429po1501112&EIO=4&transport=websocket",
+    "response_body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+    "source": "burp",
+    "body": "",
+    "url": "https://socket.tidio.co:443/socket.io/?ppk=p2isvjtfc8h8ua8tviqzxyojuwm9wzyo&device=desktop&cmv=2_0&ver=1.412.0&seid=f67fd239-d896-4873-9e37-f3f4162128ed&vid=945poq1r206q9572o271429po1501112&EIO=4&transport=websocket",
+    "path": "/socket.io/",
+    "response_headers": [
+      "HTTP/1.1 502 Bad Gateway",
+      "Server: cloudflare",
+      "Date: Tue, 10 Mar 2026 16:50:06 GMT",
+      "Content-Type: text/html",
+      "Content-Length: 557",
+      "Connection: keep-alive",
+      "CF-RAY: 9da3d1056ac6f4fb-HKG"
+    ],
+    "host": "socket.tidio.co",
+    "id": "GET:/socket.io/:679309818",
+    "toolFlag": 4,
+    "status": 502
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509; JSESSIONID=sQ9FagMBC7JzqBOBGwaD7g.node0; language=vi; state=sQ9FagMBC7JzqBOBGwaD7g; decodedState=sQ9FagMBC7JzqBOBGwaD7g; currentUrl=https://erp.usth.edu.vn/",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://accounts.google.com/",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.6",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=3&hd=usth.edu.vn&prompt=none",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/sso/oauth2/callback/google?state=oAMXt6ZU3scBl9cZYSBtFl46tKhonOWjXvSWv1hzjEQ%3D&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AfrIepAgoujK5P9_5FRRDfxKt1cynOpd_eQJo_sEk64uhgz3oMUmVtUv70FFPtyAUH5n-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=3&hd=usth.edu.vn&prompt=none",
+    "path": "/sso/oauth2/callback/google",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:04:11 GMT",
+      "Content-Type: text/html",
+      "Vary: Accept-Encoding",
+      "Set-Cookie: JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; Path=/; Secure",
+      "Set-Cookie: token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; Path=/; Expires=Tue, 17 Mar 2026 17:04:11 GMT; Max-Age=604800",
+      "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "X-Frame-Options: DENY",
+      "Location: /sso/login",
+      "X-Cloud-Trace-Context: 3a1a9750623238e7c5cc3c6b59703704;o=1",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=7,cfOrigin;dur=271",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yuz1wqXG%2Boaxu4F8yph7AJ3Vu3JdkSthT8U%2Fz2r9hPdfXZJSh%2BEyd96pytI4r%2B63MKfxzF4LTaHwZZXkPYbqmqL9puIVhjA84Y%2B5syl7BQ%3D%3D\"}]}",
+      "Cf-Ray: 9da3e5a7cf00ce23-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/sso/oauth2/callback/google:843821734",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "event": {
+    "headers": {
+      "Origin": "https://erp.usth.edu.vn",
+      "Sec-WebSocket-Key": "zzfix11JrUPSISUUqqMe6A==",
+      "Connection": "Upgrade",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-WebSocket-Version": "13",
+      "Host": "socket.tidio.co",
+      "Pragma": "no-cache",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Upgrade": "websocket",
+      "Cache-Control": "no-cache",
+      "Accept-Language": "en-US,en;q=0.7"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "ppk=p2isvjtfc8h8ua8tviqzxyojuwm9wzyo&device=desktop&cmv=2_0&ver=1.412.0&seid=db275352-a3a0-4a8f-b275-eeaa8ee865e2&vid=945poq1r206q9572o271429po1501112&EIO=4&transport=websocket",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://socket.tidio.co:443/socket.io/?ppk=p2isvjtfc8h8ua8tviqzxyojuwm9wzyo&device=desktop&cmv=2_0&ver=1.412.0&seid=db275352-a3a0-4a8f-b275-eeaa8ee865e2&vid=945poq1r206q9572o271429po1501112&EIO=4&transport=websocket",
+    "path": "/socket.io/",
+    "response_headers": [
+      "HTTP/1.1 101 Switching Protocols",
+      "Date: Tue, 10 Mar 2026 17:25:38 GMT",
+      "Connection: upgrade",
+      "Upgrade: websocket",
+      "Sec-WebSocket-Accept: nv08swNXJl902jUQqfphzWmf7CE=",
+      "Access-Control-Allow-Origin: *",
+      "cf-cache-status: DYNAMIC",
+      "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=jnBR0Q%2BaaTfwBySK4suZJd2c78jsJ6IUymadtW46XamPVhj7RmmxRbRqANIrUDySOKgfZjUwAGYdrUhwMyKd8y9bTe212gikas7kbVYQ%2B60L9VWqhAMQ9a8UAspv85sw7w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Server: cloudflare",
+      "CF-RAY: 9da4050c9c7204fd-HKG"
+    ],
+    "host": "socket.tidio.co",
+    "id": "GET:/socket.io/:27190477",
+    "toolFlag": 4,
+    "status": 101
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "sqli",
+        "score": 5,
+        "reason": "Matched pattern(s) for sqli"
+      }
+    ],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

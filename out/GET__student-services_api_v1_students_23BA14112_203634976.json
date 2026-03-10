@@ -1,0 +1,77 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "language=vi; JSESSIONID=pchiSFg2gvNpu0ewBqoJwQ.node0; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzM3NjcwNTEsImVtYWlsIjoiaGlldW5tLjIzYmExNDExMkB1c3RoLmVkdS52biJ9.1DIhx2kqt8rQ510F9kbpB-rR5MvozqERpbbCXvZupZo; soict-session-id=DC3F235E-3E59-4304-88BA-A96F39E674B4-1773162252196_1773162252196; x-student-portal-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoicFBBcXFLZzFqOWRVbTZyeGR2NVJoWXVZaHlIQVFUbEI1M2lhZ2w1T0hrU0lsaFRzdWNsNTg2b2pnTklCQlJ4TFNqc3RDMU0zOWRKSmxvOUd2L3J1RWhibTZENlBsSWVlRlVoOXl5eUVHcEZJL2tld0JuelMwOGhNNDY2MmV3MXgiLCJpYXQiOjE3NzMxNjIyNTYsImV4cCI6MTc3MzI0ODY1Nn0.h0dM-_m7HmxXozBAksy1mSwAL_h2cDeUfbotKW0zZ0Y",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "application/json",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=1, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "{\"id\":5497557115469824,\"studentId\":\"23BA14112\",\"bankAccount\":\"\",\"bankName\":\"\",\"phoneNumber\":\"0984801274\",\"cpa\":0,\"creditInfo\":\"\",\"englishInfo\":\"\",\"cvUrl\":\"\",\"gpa\":0,\"tpa\":0,\"ctpa\":0,\"gpa2s\":0,\"tpa2s\":0,\"totalCredit\":0,\"familyEcoType\":-1,\"familyInfo\":\"\",\"address\":\"VÄ©nh PhÃºc\",\"achievement\":\"\",\"otherAchievem\":\"\",\"reasonAward\":\"\",\"countryId\":4881695532646400,\"provinceId\":5106115620634624,\"districtId\":-1,\"communeId\":-1,\"contactCountryId\":-1,\"contactProvinceId\":-1,\"contactDistrictId\":-1,\"contactCommuneId\":-1,\"contactAddress\":\"\",\"fullName\":\"Nguyá»n Minh Hiáº¿u\",\"avatarUrl\":\"\",\"uniId\":-1,\"programId\":6211384979226625,\"programDetailId\":6224954022428673,\"schoolName\":\"\",\"eduProgramName\":\"An toÃ n thÃ´ng tin\",\"studentYear\":\"2023-2027\",\"birthdateStr\":\"14/12/2005\",\"admissionCode\":\"IT-E15\",\"gender\":1,\"majorCode\":\"7480202\",\"majorName\":\"An toÃ n thÃ´ng tin\",\"className\":\"B2-CS\",\"email\":\"hieunm.23ba14112@usth.edu.vn\",\"personalEmail\":\"hieunm.23ba14112@usth.edu.vn\",\"relatedEmail\":\"\",\"homeAddress\":\"\",\"homeCommune\":\"\",\"homeDistrict\":\"\",\"homeProvince\":\"Tá»nh VÄ©nh PhÃºc\",\"countryName\":\"Viá»t Nam\",\"idNumber\":\"026205011896\",\"idNumberPlace\":\"\",\"notes\":\"\",\"status\":0,\"admissionName\":\"An toÃ n khÃ´ng gian sá» (ChÆ°Æ¡ng trÃ¬nh tiÃªn tiáº¿n)\",\"familyPolicyId\":-1,\"ethnicity\":\"Kinh\",\"rootId\":4987306008117248,\"year\":2023,\"passportNumber\":\"\",\"majorId\":4510819769384960,\"admissionYear\":2023,\"nationality\":\"Viá»t Nam\",\"insuranceNumber\":\"\",\"startSemester\":\"\",\"classId\":6678426228359168,\"_uni\":{\"name\":\"TrÆ°á»ng Äáº¡i há»c Khoa há»c vÃ  CÃ´ng nghá» HÃ  Ná»i\",\"id\":-1},\"_eduProgram\":{\"fullName\":\"An toÃ n thÃ´ng tin\",\"id\":6224954022428673,\"name\":\"An toÃ n thÃ´ng tin\",\"nameEn\":\"Cyber Security\",\"trainingLevelName\":\"Cá»­ nhÃ¢n\",\"code\":\"CS4\"},\"_admission\":{\"name\":\"An toÃ n khÃ´ng gian sá» (ChÆ°Æ¡ng trÃ¬nh tiÃªn tiáº¿n)\",\"code\":\"IT-E15\",\"id\":6735970586066945},\"_programDetail\":{\"name\":\"An toÃ n thÃ´ng tin\",\"id\":5036058542604288,\"nameEn\":\"\",\"programId\":4800592274784257},\"_eduMajor\":{\"name\":\"An toÃ n thÃ´ng tin\",\"id\":4510819769384960,\"nameEn\":\"Cyber Security\",\"code\":\"7480202\",\"rootName\":\"MÃ¡y tÃ­nh vÃ  cÃ´ng nghá» thÃ´ng tin\"},\"_trainingSystem\":{\"fullName\":\"ChÃ­nh quy táº­p trung\",\"id\":5925673822584833,\"nameEn\":\"Full-time\"},\"_trainingType\":{\"fullName\":\"Cá»­ nhÃ¢n\",\"id\":6211384979226625,\"nameEn\":\"Bachelor\"},\"_trainingProgram\":{\"fullName\":\"An toÃ n thÃ´ng tin\",\"id\":6224954022428673,\"nameEn\":\"Cyber Security\"},\"_studentClass\":{\"id\":6678426228359168,\"name\":\"B2-CS\",\"parentName\":\"\",\"parentCode\":\"\",\"parentId\":-1,\"studentYear\":\"2024-2027\",\"year\":2025,\"rootId\":-1,\"teacherId\":6350280954216448,\"teacherIds\":[],\"monitorId\":\"\",\"secretaryId\":\"\",\"majorId\":-1,\"classId\":\"B2-CS\",\"classCode\":\"\",\"programId\":6211384979226625,\"programDetailId\":6319197109878784,\"classIds\":[],\"deputyIds\":[],\"schoolName\":\"\",\"majorName\":\"\",\"admissionCode\":\"\",\"programName\":\"\",\"status\":0,\"studentNum\":62,\"notes\":\"\"},\"_academicResults\":[{\"id\":4665489361993729,\"absentNum\":-1,\"active\":-1,\"cpa\":16.66,\"cumulateCredit\":31,\"gpa\":16.66,\"gpa1\":-1,\"lastUpdate\":1773044453397,\"level\":-1,\"notes\":\"\",\"registerCredit\":31,\"rootId\":-1,\"semester\":\"20241\",\"status\":0,\"studentId\":\"23BA14112\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":31},{\"id\":5388282026262529,\"absentNum\":-1,\"active\":-1,\"cpa\":16.85,\"cumulateCredit\":60,\"gpa\":17.05,\"gpa1\":-1,\"lastUpdate\":1773044453397,\"level\":-1,\"notes\":\"\",\"registerCredit\":60,\"rootId\":-1,\"semester\":\"20242\",\"status\":0,\"studentId\":\"23BA14112\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":29},{\"id\":5953571394682881,\"absentNum\":-1,\"active\":-1,\"cpa\":16.53,\"cumulateCredit\":67,\"gpa\":13.79,\"gpa1\":-1,\"lastUpdate\":1773044453397,\"level\":-1,\"notes\":\"\",\"registerCredit\":69,\"rootId\":-1,\"semester\":\"20251\",\"status\":0,\"studentId\":\"23BA14112\",\"studentName\":\"Nguyá»n Minh Hiáº¿u\",\"tpa\":-1,\"warningLevel\":-1,\"minCredit\":-1,\"maxCredit\":-1,\"gpaCredit\":7}]}",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/student-services/api/v1/students/23BA14112",
+    "path": "/student-services/api/v1/students/23BA14112",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Date: Tue, 10 Mar 2026 17:04:17 GMT",
+      "Content-Type: application/json; charset=utf-8",
+      "Vary: Origin",
+      "Access-Control-Allow-Credentials: true",
+      "Access-Control-Expose-Headers: x-app-version",
+      "Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "Cross-Origin-Opener-Policy: same-origin",
+      "Cross-Origin-Resource-Policy: same-origin",
+      "Origin-Agent-Cluster: ?1",
+      "Referrer-Policy: no-referrer",
+      "Strict-Transport-Security: max-age=15552000; includeSubDomains",
+      "X-Content-Type-Options: nosniff",
+      "X-Dns-Prefetch-Control: off",
+      "X-Download-Options: noopen",
+      "X-Frame-Options: SAMEORIGIN",
+      "X-Permitted-Cross-Domain-Policies: none",
+      "X-Xss-Protection: 0",
+      "X-App-Version: 202603101628",
+      "Etag: W/\"f6c-hthxTsEIS1kBF5dljJbSqFY4AXg\"",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZsEXEW8g7Ex7E5IV5H1%2Fy3qMFtyhhb1WfP5uZGGF%2BjUl5LPwCcADGwGtuFD%2FhkZ%2B2VQKLGI8g%2BdbxR%2FzDpy9bc8lsBnnTpeGOhLhugFXew%3D%3D\"}]}",
+      "Server: cloudflare",
+      "Cf-Ray: 9da3e5cb4fa71bd5-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/student-services/api/v1/students/23BA14112:203634976",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 5,
+    "severity": "medium",
+    "findings": [
+      {
+        "category": "idor",
+        "score": 5,
+        "reason": "Matched pattern(s) for idor"
+      }
+    ],
+    "next_tests": [
+      "Đổi object ID sang user khác và so sánh response.",
+      "Thử object cũ sau khi đổi phiên đăng nhập."
+    ]
+  }
+}

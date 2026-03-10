@@ -1,0 +1,35 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Sec-Fetch-Storage-Access": "active",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "star-randsrv.bsg.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "Content-Length": "400",
+      "Content-Type": "application/json"
+    },
+    "method": "POST",
+    "kind": "request",
+    "query": "",
+    "source": "burp",
+    "body": "{\"epoch\":149,\"points\":[\"olHHUT7bMIHeJgzGmhPrkWoDCeHVBoCpFPjdvpIINyQ=\",\"VDUyeISfkp9p6fP0B7+lfzXkBb73W5HgJuAP0yoUgkE=\",\"CjYZ5En/BbWVvuOw2ZM91yZt5uKiV6ke3aTMiyJeoi4=\",\"eph3gUnWTMek74TRP0prfk4UyT0TVw5DbTX1A1rizRU=\",\"wDgGTzRhr/NyOMvtqaiiGEdxWMhMxsQ3mxzBoRaxuHA=\",\"aNdYw9oGa2HednSF7oNqSZbykjcWw3lju1+tuPM7m3U=\",\"imgaEADWfMi6SZ1+hIg4IjMFNgbKgRIMtke4QLtvMT0=\",\"PEDtN2qyGUZhaYq+xO0dJos1asqJJtiJcpm4ake/6lQ=\"]}",
+    "url": "https://star-randsrv.bsg.brave.com:443/instances/typical/randomness",
+    "path": "/instances/typical/randomness",
+    "host": "star-randsrv.bsg.brave.com",
+    "id": "POST:/instances/typical/randomness:1958297088",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

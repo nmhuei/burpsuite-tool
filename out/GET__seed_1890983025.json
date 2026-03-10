@@ -1,0 +1,35 @@
+{
+  "event": {
+    "headers": {
+      "Braveservicekey": "qztbjzBqJueQZLFkwTTJrieu8Vw3789u",
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "variations.brave.com",
+      "Accept-Encoding": "gzip, deflate, br",
+      "A-Im": "x-bm,gzip",
+      "Sec-Fetch-Mode": "no-cors",
+      "If-None-Match": "27b4f17585b62612bf5c1a242f06b267"
+    },
+    "method": "GET",
+    "kind": "request",
+    "query": "osname=linux&channel=stable&milestone=145",
+    "source": "burp",
+    "body": "",
+    "url": "https://variations.brave.com:443/seed?osname=linux&channel=stable&milestone=145",
+    "path": "/seed",
+    "host": "variations.brave.com",
+    "id": "GET:/seed:1890983025",
+    "toolFlag": 4
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

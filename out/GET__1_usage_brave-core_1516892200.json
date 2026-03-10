@@ -1,0 +1,55 @@
+{
+  "event": {
+    "headers": {
+      "Priority": "u=4, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Connection": "keep-alive",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Dest": "empty",
+      "Host": "usage-ping.brave.com",
+      "Pragma": "no-cache",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "no-cors",
+      "Cache-Control": "no-cache",
+      "X-Brave-Api-Key": "fe033168-0ff8-4af6-9a7f-95e2cbfc9f4f"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "platform=linux-bc&channel=release&version=1.87.192&daily=true&weekly=false&monthly=false&first=false&woi=2026-02-23&dtoi=2026-02-23&ref=BRV001&adsEnabled=false&arch=&braveSearch=0&googleSearch=0&otherSearch=0&staleSearch=0",
+    "response_body": "{\"Renderer\":null,\"status\":\"ok\",\"ts\":1773162272,\"latestVersion\":\"1.87.192\"}\n",
+    "source": "burp",
+    "body": "",
+    "url": "https://usage-ping.brave.com:443/1/usage/brave-core?platform=linux-bc&channel=release&version=1.87.192&daily=true&weekly=false&monthly=false&first=false&woi=2026-02-23&dtoi=2026-02-23&ref=BRV001&adsEnabled=false&arch=&braveSearch=0&googleSearch=0&otherSearch=0&staleSearch=0",
+    "path": "/1/usage/brave-core",
+    "response_headers": [
+      "HTTP/2 200 OK",
+      "Content-Type: application/json",
+      "Cache-Control: no-cache, no-store, must-revalidate, private, max-age=0",
+      "Expires: 0",
+      "Pragma: no-cache",
+      "X-Ratelimit-Limit: 1",
+      "X-Ratelimit-Remaining: 0",
+      "X-Ratelimit-Reset: 1800",
+      "Accept-Ranges: bytes",
+      "Date: Tue, 10 Mar 2026 17:04:32 GMT",
+      "Via: 1.1 varnish",
+      "X-Served-By: cache-sin-wsss1830064-SIN",
+      "X-Cache: MISS",
+      "X-Cache-Hits: 0",
+      "X-Timer: S1773162272.193088,VS0,VE204",
+      "Content-Length: 75"
+    ],
+    "host": "usage-ping.brave.com",
+    "id": "GET:/1/usage/brave-core:1516892200",
+    "toolFlag": 4,
+    "status": 200
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}

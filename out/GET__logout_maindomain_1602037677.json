@@ -1,0 +1,68 @@
+{
+  "event": {
+    "headers": {
+      "Cookie": "soict-session-id=3ABD6DB2-5B21-46A3-8A6C-D237FB7006E5-1773159816509_1773159816509",
+      "Sec-Ch-Ua": "\"Not:A-Brand\";v=\"99\", \"Brave\";v=\"145\", \"Chromium\";v=\"145\"",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Priority": "u=0, i",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "Referer": "https://erp.usth.edu.vn/students/learn/timetable",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Dest": "document",
+      "Host": "erp.usth.edu.vn",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Sec-Fetch-Mode": "navigate",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Gpc": "1",
+      "Accept-Language": "en-US,en;q=0.7",
+      "Sec-Ch-Ua-Mobile": "?0"
+    },
+    "method": "GET",
+    "kind": "response",
+    "query": "",
+    "response_body": "",
+    "source": "burp",
+    "body": "",
+    "url": "https://erp.usth.edu.vn:443/logout/maindomain",
+    "path": "/logout/maindomain",
+    "response_headers": [
+      "HTTP/2 302 Found",
+      "Date: Tue, 10 Mar 2026 17:03:49 GMT",
+      "Content-Type: text/html",
+      "Vary: Accept-Encoding",
+      "X-Frame-Options: SAMEORIGIN",
+      "Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.google.com https://unpkg.com https://www.googletagmanager.com http://connect.facebook.net https://www.gstatic.com https://www.google-analytics.com https://hustva.vbeecore.com/sdk.js https://code.tidio.co https://widget-v4.tidiochat.com https://hmu-edu.bkademy.vn https://cdn.syncfusion.com https://cdn.bkademy.vn https://lib.bkademy.vn http://localhost:* https://cdn.jsdelivr.net https://wifi-hsia.netnam.com https://langdingpage.dizzd.website https://*.firebasedatabase.app https://storage.googleapis.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://cdn.syncfusion.com https://fonts.googleapis.com http://localhost:* https://cdn.jsdelivr.net https://cdn.bkademy.vn https://www.gstatic.com https://storage.googleapis.com https://lib.bkademy.vn; object-src 'none';",
+      "Content-Language: vi",
+      "X-Content-Type-Options: nosniff",
+      "X-Xss-Protection: 1; mode=block",
+      "Cache-Control: no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma: no-cache",
+      "Expires: 0",
+      "Strict-Transport-Security: max-age=31536000 ; includeSubDomains",
+      "Location: /",
+      "X-Cloud-Trace-Context: 4464bb5fe2a2246bdbe5d244c7e17e3d;o=1",
+      "Server: cloudflare",
+      "Via: 1.1 google",
+      "Alt-Svc: h3=\":443\"; ma=86400",
+      "Cf-Cache-Status: DYNAMIC",
+      "Nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server-Timing: cfCacheStatus;desc=\"DYNAMIC\"",
+      "Server-Timing: cfEdge;dur=2,cfOrigin;dur=126",
+      "Report-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BPBih7wSnm3F%2B3GTNOvNzhLjxO1bRUwYF5lj%2FsrK8NTG5sKRelpOOXkd%2B7zUIcqKlCH2wRPYkRMZJ0MafDWdTPiWzhxe5JLdVlFYbL1Y7A%3D%3D\"}]}",
+      "Cf-Ray: 9da3e51f1e5b9e1e-SIN"
+    ],
+    "host": "erp.usth.edu.vn",
+    "id": "GET:/logout/maindomain:1602037677",
+    "toolFlag": 4,
+    "status": 302
+  },
+  "analysis": {
+    "risk_score": 0,
+    "severity": "low",
+    "findings": [],
+    "next_tests": [
+      "Chạy baseline checks: authz, validation, error leakage, rate limit."
+    ]
+  }
+}
