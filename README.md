@@ -1,173 +1,206 @@
-# Burpsuite Tool (Burp Bridge)
+<div align="center">
 
-Bridge nhẹ để lấy request/response từ Burp Suite, phân tích heuristic, và xuất báo cáo Markdown.
+# 🛡️ Burpsuite Tool (Burp Bridge)
 
-> Repo: `nmhuei/burpsuite-tool`
+**Capture HTTP traffic from Burp Suite → analyze with rules → export clear markdown report**
 
----
+[Quick Start](#-quick-start-3-phút) · [Burp Setup](#-burp-setup-chi-tiết) · [Pipeline](#-kiến-trúc-pipeline) · [Troubleshooting](#-troubleshooting)
 
-## 1) Tổng quan nhanh
-
-Tool gồm 3 phần chính:
-
-1. **Burp extension (`burp_extender.py`)**
-   - chạy bên trong Burp Suite (Jython)
-   - export traffic HTTP ra file JSONL
-
-2. **Pipeline phân tích**
-   - `collector.py` → normalize input
-   - `analyzer.py` → chấm heuristic theo `rules.yaml`
-   - `reporter.py` → xuất markdown report
-
-3. **Script chạy nhanh**
-   - `run_mvp.sh`: chạy pipeline mẫu
-   - `auto_timetable.sh`: pipeline mở rộng
+</div>
 
 ---
 
-## 2) Cài từ đầu (clean setup)
+## Burpsuite Tool là gì?
 
-### Yêu cầu
-- Python 3.10+
-- Burp Suite (Community hoặc Professional)
-- Java runtime (cho Burp)
-- Jython standalone jar (để Burp load Python extension)
+Đây là bộ bridge/pipeline nhỏ gọn để bạn:
 
-### Cài package Python
+1. lấy traffic HTTP từ Burp extension (`burp_extender.py`),
+2. chuẩn hoá dữ liệu (`collector.py`),
+3. phân tích heuristic theo `rules.yaml` (`analyzer.py`),
+4. xuất báo cáo Markdown (`reporter.py`).
+
+Mục tiêu: **đỡ làm tay**, có output rõ để review nhanh khi test web security.
+
+---
+
+## 🧭 Kiến trúc pipeline
+
+```text
+Burp Suite
+   │
+   │  (Extension: burp_extender.py)
+   ▼
+JSONL traffic (request/response)
+   ▼
+collector.py   -> normalize/clean fields
+   ▼
+analyzer.py    -> apply rules.yaml / scoring / findings
+   ▼
+reporter.py    -> out/report.md
+```
+
+---
+
+## ⚡ Quick Start (3 phút)
 
 ```bash
 cd /home/light/Downloads/burpsuite-tool
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-# Nếu repo có requirements thì dùng:
-# pip install -r requirements.txt
+
+# chạy nhanh pipeline mẫu
+./run_mvp.sh
 ```
 
-Hiện tại script chủ yếu dùng stdlib, nên thường không cần thêm nhiều package.
+Kết quả xem tại thư mục `out/`.
 
 ---
 
-## 3) Mở Burp Suite + gắn extension
+## 📦 Yêu cầu hệ thống
 
-### Bước A — Mở Burp
+- Linux
+- Python 3.10+
+- Burp Suite (Community/Professional)
+- Java runtime
+- Jython standalone jar (để Burp load extension Python)
 
-Ví dụ trên Linux:
+---
+
+## 🔌 Burp Setup chi tiết
+
+### 1) Mở Burp
 
 ```bash
 burpsuite
 ```
 
-hoặc chạy từ file `.sh` Burp bạn tải về.
+hoặc chạy launcher Burp bạn đang dùng.
 
-### Bước B — Cấu hình Jython
+### 2) Load extension `burp_extender.py`
 
-1. Vào **Extensions → Installed → Add**
-2. Chọn:
-   - **Extension type**: `Python`
-   - **Extension file**: `burp_extender.py` (trong repo này)
-3. Nếu Burp báo thiếu Python runtime:
-   - vào **Extensions → Python Environment**
-   - trỏ tới `jython-standalone-*.jar`
+- vào **Extensions → Installed → Add**
+- chọn:
+  - **Extension type**: `Python`
+  - **Extension file**: `burp_extender.py`
 
-### Bước C — Verify extension
+### 3) Trỏ Jython nếu Burp yêu cầu
 
-- Tab output của extension phải không có stacktrace đỏ
-- Burp không báo `Failed to load extension`
+- vào **Extensions → Python Environment**
+- chọn file `jython-standalone-*.jar`
+
+### 4) Verify
+
+- tab output không có lỗi đỏ
+- không có dòng `Failed to load extension`
 
 ---
 
-## 4) Luồng chạy chuẩn
+## 🛠️ Cách chạy chuẩn (manual pipeline)
 
-### 4.1 Thu traffic từ Burp
-
-- Bật proxy/Intercept như bình thường
-- Cho request chạy qua Burp
-- Extension ghi log ra file (theo cấu hình trong `burp_extender.py`)
-
-### 4.2 Chạy pipeline phân tích
+Sau khi Burp đã capture/export traffic:
 
 ```bash
 cd /home/light/Downloads/burpsuite-tool
 source .venv/bin/activate
-./run_mvp.sh
-```
 
-Hoặc chạy tay từng bước:
-
-```bash
-python3 collector.py   <input-jsonl> > out/collected.json
-python3 analyzer.py    out/collected.json rules.yaml > out/findings.json
-python3 reporter.py    out/findings.json > out/report.md
+python3 collector.py <input-jsonl> > out/collected.json
+python3 analyzer.py out/collected.json rules.yaml > out/findings.json
+python3 reporter.py out/findings.json > out/report.md
 ```
 
 ---
 
-## 5) File quan trọng
+## 📁 Cấu trúc file quan trọng
 
-- `burp_extender.py` — extension Burp
-- `collector.py` — ingest/normalize
-- `analyzer.py` — heuristic engine
-- `reporter.py` — xuất report markdown
-- `rules.yaml` — rule tuning
-- `out/` — output artifacts
-
----
-
-## 6) Cách chỉnh rule nhanh
-
-Sửa `rules.yaml` để:
-- tăng/giảm độ nhạy
-- thêm pattern header/body đáng ngờ
-- đổi mức severity
-
-Sau khi sửa, chạy lại `analyzer.py` + `reporter.py`.
+- `burp_extender.py` → Burp extension
+- `collector.py` → ingest/normalize
+- `analyzer.py` → heuristic/rules engine
+- `reporter.py` → markdown output
+- `rules.yaml` → rule tuning
+- `run_mvp.sh` → chạy nhanh
+- `out/` → artifacts
 
 ---
 
-## 7) Troubleshooting
+## 🧪 Demo checklist (để chắc chắn pipeline OK)
+
+1. Burp đã load extension thành công
+2. Có traffic thực sự đi qua proxy Burp
+3. File input được tạo (JSONL không rỗng)
+4. `collector.py` chạy không lỗi
+5. `analyzer.py` có findings
+6. `reporter.py` xuất `out/report.md`
+
+---
+
+## 🎯 Rule tuning nhanh (`rules.yaml`)
+
+Bạn có thể chỉnh:
+
+- mức độ nghiêm trọng (severity)
+- pattern header/body đáng ngờ
+- trọng số heuristic
+- ngưỡng để cảnh báo
+
+Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so kết quả trước/sau.
+
+---
+
+## 🧯 Troubleshooting
 
 ### Burp không load extension
-- Kiểm tra Jython đã trỏ đúng jar chưa
-- Kiểm tra path `burp_extender.py` đúng repo chưa
-- Mở tab Errors trong Extensions để đọc traceback
 
-### Không thấy output trong `out/`
-- kiểm tra extension có ghi file chưa
-- đảm bảo script có quyền ghi thư mục
-- chạy thử `./run_mvp.sh` rồi kiểm tra log console
+- kiểm tra Jython path đúng chưa
+- kiểm tra `burp_extender.py` có đúng file không
+- xem tab **Extensions → Errors** để đọc traceback
+
+### Không có output trong `out/`
+
+- kiểm tra extension có thật sự ghi file chưa
+- kiểm tra quyền ghi thư mục
+- chạy `./run_mvp.sh` và xem log console
 
 ### Report trống
-- có thể input không có request hợp lệ
-- kiểm tra định dạng JSONL đầu vào
-- tăng logging trong `collector.py`
+
+- input có thể rỗng / format sai
+- kiểm tra JSONL đầu vào
+- tăng debug print trong `collector.py`
+
+### Findings quá nhiều false-positive
+
+- giảm sensitivity trong `rules.yaml`
+- thêm whitelist theo endpoint/header nếu cần
 
 ---
 
-## 8) Chạy nhanh 1 lệnh
+## 🚀 Lệnh dùng hàng ngày
 
 ```bash
-cd /home/light/Downloads/burpsuite-tool
-source .venv/bin/activate
+# chạy nhanh
 ./run_mvp.sh
+
+# chạy tự động luồng timetable (nếu bạn dùng script này)
+./auto_timetable.sh
 ```
 
-Sau đó đọc kết quả trong thư mục `out/`.
+---
+
+## 🔐 Lưu ý an toàn
+
+- Chỉ test trên hệ thống bạn có quyền hợp pháp
+- Không quét/khai thác mục tiêu trái phép
+- Report có thể chứa dữ liệu nhạy cảm -> lưu trữ cẩn thận
 
 ---
 
-## 9) Gợi ý workflow thực tế
+## 📌 Next improvements (nếu muốn mình làm tiếp)
 
-1. Mở Burp + load extension
-2. Crawl/scan ứng dụng mục tiêu trong phạm vi cho phép
-3. Export/stream traffic
-4. Chạy analyzer + reporter
-5. Review findings theo severity và retest
+- thêm `run_full.sh` để tự check env + validate input + generate report
+- xuất HTML report đẹp hơn
+- thêm score trend theo thời gian
+- thêm chế độ suppress finding theo rule ID
 
 ---
 
-Nếu muốn, mình có thể viết thêm `run_full.sh` để tự:
-- kiểm tra env,
-- tạo `out/` sạch,
-- chạy pipeline,
-- in đường dẫn report cuối cùng cho nhanh demo.
+Nếu bạn muốn, mình có thể viết thêm phiên bản README “for team onboarding” (siêu ngắn, 1 trang, copy-paste là chạy).
