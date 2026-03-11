@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🛡️ Burpsuite Tool (Burp Bridge)
+# 🛡️ Burpsuite Tool (Burp Bridge + Timetable Export)
 
-**Capture HTTP traffic from Burp Suite → analyze with rules → export clear markdown report**
+**Capture HTTP traffic from Burp Suite Professional → inspect/export useful artifacts → replay timetable requests → write owner-scoped timetable files**
 
-[Quick Start](#-quick-start-3-phút) · [Burp Setup](#-burp-setup-chi-tiết) · [Pipeline](#-kiến-trúc-pipeline) · [Troubleshooting](#-troubleshooting)
+[Quick Start](#-quick-start) · [Burp Setup](#-burp-setup) · [Timetable Workflow](#-crawl-timetable-from-erp) · [Troubleshooting](#-troubleshooting)
 
 </div>
 
@@ -12,36 +12,39 @@
 
 ## Burpsuite Tool là gì?
 
-Đây là bộ bridge/pipeline nhỏ gọn để bạn:
+Đây là bộ bridge/pipeline để:
 
 1. lấy traffic HTTP từ Burp extension (`burp_extender.py`),
-2. chuẩn hoá dữ liệu (`collector.py`),
-3. phân tích heuristic theo `rules.yaml` (`analyzer.py`),
-4. xuất báo cáo Markdown (`reporter.py`).
+2. ghi request/response thành file trong `out/`,
+3. lọc các request timetable từ ERP,
+4. replay request timetable mới nhất,
+5. xuất file lịch học theo **từng owner riêng**.
 
-Mục tiêu: **đỡ làm tay**, có output rõ để review nhanh khi test web security.
+Hiện repo này dùng thực tế cho workflow ERP USTH timetable qua Burp Suite Professional.
 
 ---
 
 ## 🧭 Kiến trúc pipeline
 
 ```text
-Burp Suite
+Burp Suite Professional
    │
    │  (Extension: burp_extender.py)
    ▼
-JSONL traffic (request/response)
+collector.py  -> ingest tại 127.0.0.1:8765
    ▼
-collector.py   -> normalize/clean fields
+out/*.json + out/*.md
    ▼
-analyzer.py    -> apply rules.yaml / scoring / findings
+extract_timetable.py -> tìm request timetable
    ▼
-reporter.py    -> out/report.md
+auto_timetable.sh -> replay request mới nhất
+   ▼
+/home/light/Documents/timetable/<owner-slug>/
 ```
 
 ---
 
-## ⚡ Quick Start (3 phút)
+## ⚡ Quick Start
 
 ```bash
 cd ~/GitHub/burpsuite-tool
@@ -49,11 +52,15 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip pyyaml
 
-# chạy bridge để Burp đẩy traffic vào đây
+# bật bridge ingest để Burp đẩy traffic vào repo này
 ./run_mvp.sh
 ```
 
-Kết quả xem tại thư mục `out/`.
+Bridge endpoint:
+- `http://127.0.0.1:8765/ingest`
+
+Artifacts capture nằm ở:
+- `~/GitHub/burpsuite-tool/out/`
 
 ---
 
@@ -61,54 +68,60 @@ Kết quả xem tại thư mục `out/`.
 
 - Linux
 - Python 3.10+
-- Burp Suite (Community/Professional)
+- **Burp Suite Professional**
 - Java runtime
 - Jython standalone jar (để Burp load extension Python)
 
 ---
 
-## 🔌 Burp Setup chi tiết
+## 🔌 Burp Setup
 
-### 1) Mở Burp
+### 1) Mở Burp Suite Professional
 
-```bash
-burpsuite
-```
+Dùng bản Pro bạn đã cài, không phải launcher Community mặc định.
 
-hoặc chạy launcher Burp bạn đang dùng.
+### 2) Proxy listener
 
-### 2) Load extension `burp_extender.py`
+Trong Burp:
+- **Proxy → Options**
+- đảm bảo có listener:
+  - `127.0.0.1:8080`
 
-- vào **Extensions → Installed → Add**
+### 3) Load extension `burp_extender.py`
+
+- **Extensions / Extender → Installed → Add**
 - chọn:
   - **Extension type**: `Python`
-  - **Extension file**: `burp_extender.py`
+  - **Extension file**: `~/GitHub/burpsuite-tool/burp_extender.py`
 
-### 3) Trỏ Jython nếu Burp yêu cầu
+### 4) Trỏ Jython
 
-- vào **Extensions → Python Environment**
-- chọn file `jython-standalone-*.jar`
+Nếu Burp hỏi Python/Jython environment:
+- `~/GitHub/burpsuite-tool/lib/jython-standalone-2.7.3.jar`
 
-### 4) Verify
+### 5) Verify
 
+Nếu load đúng:
 - tab output không có lỗi đỏ
-- không có dòng `Failed to load extension`
+- Burp extension gửi traffic sang `127.0.0.1:8765`
+- repo sẽ bắt đầu có file mới trong `out/`
 
 ---
 
-## 🛠️ Cách chạy chuẩn (manual pipeline)
-
-Sau khi Burp đã capture/export traffic:
+## 🛠️ Cách chạy chuẩn
 
 ```bash
 cd ~/GitHub/burpsuite-tool
 source .venv/bin/activate
 
-# bật bridge ingest từ Burp
-python3 collector.py
-
-# hoặc chạy helper script
+# bật bridge ingest
 ./run_mvp.sh
+```
+
+Hoặc chạy trực tiếp:
+
+```bash
+python3 collector.py
 ```
 
 ---
@@ -117,35 +130,117 @@ python3 collector.py
 
 - `burp_extender.py` → Burp extension
 - `collector.py` → local ingest server, nhận traffic từ Burp và ghi `out/*.json`, `out/*.md`
+- `extract_timetable.py` → lọc các request timetable từ capture đã có
+- `auto_timetable.sh` → replay request timetable mới nhất và export file lịch
 - `analyzer.py` → heuristic/rules engine
-- `reporter.py` → markdown output
+- `reporter.py` → markdown output cho flow report
 - `rules.yaml` → rule tuning
-- `run_mvp.sh` → chạy nhanh
-- `out/` → artifacts
+- `run_mvp.sh` → helper để bật bridge nhanh
+- `out/` → capture/artifacts
 
 ---
 
-## 🧪 Demo checklist (để chắc chắn pipeline OK)
+## 📚 Crawl timetable from ERP
 
-1. Burp đã load extension thành công
-2. Có traffic thực sự đi qua proxy Burp
-3. File input được tạo (JSONL không rỗng)
-4. `collector.py` chạy không lỗi
-5. `analyzer.py` có findings
-6. `reporter.py` xuất `out/report.md`
+### 1) Bật bridge
+
+```bash
+cd ~/GitHub/burpsuite-tool
+source .venv/bin/activate
+./run_mvp.sh
+```
+
+### 2) Mở browser qua Burp proxy
+
+Ví dụ Brave:
+
+```bash
+brave-browser --new-window --proxy-server='127.0.0.1:8080' 'https://erp.usth.edu.vn/students/learn/timetable'
+```
+
+### 3) Đăng nhập ERP và mở trang timetable
+
+Khi request đi qua Burp + extension bridge, repo sẽ capture vào `out/`.
+
+### 4) Lọc nhanh request timetable
+
+```bash
+python3 extract_timetable.py
+```
+
+### 5) Export lịch học
+
+Owner mặc định là `Huei`:
+
+```bash
+./auto_timetable.sh
+```
+
+Chỉ định owner khác:
+
+```bash
+TIMETABLE_OWNER="Emiu" ./auto_timetable.sh
+TIMETABLE_OWNER="Another Student" ./auto_timetable.sh
+```
 
 ---
 
-## 🎯 Rule tuning nhanh (`rules.yaml`)
+## 👥 Quản lý nhiều người
 
-Bạn có thể chỉnh:
+`auto_timetable.sh` giờ không còn hardcode một người duy nhất nữa.
 
-- mức độ nghiêm trọng (severity)
-- pattern header/body đáng ngờ
-- trọng số heuristic
-- ngưỡng để cảnh báo
+Nó tự:
+- nhận owner từ `TIMETABLE_OWNER`
+- tạo slug tên owner
+- tạo thư mục riêng theo owner
+- ghi file theo tháng
+- tạo alias `latest` cho mỗi owner
+- giữ backup file cũ trước khi ghi đè
 
-Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so kết quả trước/sau.
+### Ví dụ output
+
+Với `TIMETABLE_OWNER="Huei"`:
+- `/home/light/Documents/timetable/huei/huei-timetable-2026-03.json`
+- `/home/light/Documents/timetable/huei/huei-timetable-2026-03.ics`
+- `/home/light/Documents/timetable/huei/huei-timetable-2026-03-details.md`
+- `/home/light/Documents/timetable/huei/huei-timetable-latest.json`
+- `/home/light/Documents/timetable/huei/huei-timetable-latest.ics`
+- `/home/light/Documents/timetable/huei/huei-timetable-latest-details.md`
+
+Với `TIMETABLE_OWNER="Emiu"`:
+- `/home/light/Documents/timetable/emiu/...`
+
+---
+
+## 🧾 Dữ liệu chi tiết mỗi tiết học
+
+Exporter hiện cố gắng lấy ra các field kiểu popup timetable:
+- owner
+- mã lớp
+- tên môn
+- mã học phần
+- ngày học
+- tiết học / giờ bắt đầu / giờ kết thúc
+- địa điểm
+- giảng viên
+- danh sách giảng viên
+- trợ giảng
+- số lượng sinh viên
+- hình thức học
+
+File details:
+- `<owner>-timetable-YYYY-MM-details.md`
+
+---
+
+## 🧪 Demo checklist
+
+1. Burp Pro đã load extension thành công
+2. Proxy listener `127.0.0.1:8080` đang hoạt động
+3. Browser đi qua Burp proxy
+4. ERP timetable request thực sự xuất hiện trong `out/`
+5. `extract_timetable.py` tìm thấy request timetable
+6. `auto_timetable.sh` replay thành công và tạo file trong thư mục owner
 
 ---
 
@@ -153,43 +248,49 @@ Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so 
 
 ### Burp không load extension
 
-- kiểm tra Jython path đúng chưa
-- kiểm tra `burp_extender.py` có đúng file không
+- kiểm tra đúng file `burp_extender.py`
+- kiểm tra đúng Jython jar path
 - xem tab **Extensions → Errors** để đọc traceback
 
-### Không có output trong `out/`
+### Không có file mới trong `out/`
 
-- kiểm tra extension có thật sự ghi file chưa
-- kiểm tra quyền ghi thư mục
-- chạy `./run_mvp.sh` và xem log console
+- kiểm tra bridge có đang chạy không
+- kiểm tra browser có thật sự đi qua `127.0.0.1:8080` không
+- kiểm tra extension đã load chưa
 
-### Report trống
+### `HTTP 401 Unauthorized` khi chạy `auto_timetable.sh`
 
-- input có thể rỗng / format sai
-- kiểm tra JSONL đầu vào
-- tăng debug print trong `collector.py`
+Nghĩa là request timetable capture đã hết hạn session/cookie.
 
-### Findings quá nhiều false-positive
+Cách xử lý:
+- mở lại ERP qua Burp
+- vào lại trang timetable
+- bắt request mới còn sống
+- chạy lại `./auto_timetable.sh`
 
-- giảm sensitivity trong `rules.yaml`
-- thêm whitelist theo endpoint/header nếu cần
+### `No module named yaml`
+
+```bash
+source .venv/bin/activate
+pip install pyyaml
+```
 
 ---
 
 ## 🚀 Lệnh dùng hàng ngày
 
 ```bash
-# bật bridge để Burp gửi request/response vào repo này
+# bật bridge
 ./run_mvp.sh
 
-# lọc nhanh các request timetable đã capture
+# lọc request timetable đã capture
 python3 extract_timetable.py
 
-# replay request timetable mới nhất cho owner mặc định (Huei)
+# export owner mặc định (Huei)
 ./auto_timetable.sh
 
-# hoặc chỉ định owner khác
-TIMETABLE_OWNER="Alice" ./auto_timetable.sh
+# export cho owner cụ thể
+TIMETABLE_OWNER="Emiu" ./auto_timetable.sh
 ```
 
 ---
@@ -197,21 +298,9 @@ TIMETABLE_OWNER="Alice" ./auto_timetable.sh
 ## 🔐 Lưu ý an toàn
 
 - Chỉ test trên hệ thống bạn có quyền hợp pháp
-- Không quét/khai thác mục tiêu trái phép
-- Report có thể chứa dữ liệu nhạy cảm -> lưu trữ cẩn thận
+- Không dùng repo này cho mục tiêu trái phép
+- File output có thể chứa dữ liệu nhạy cảm → lưu trữ cẩn thận
 
----
-
-## 📌 Next improvements (nếu muốn mình làm tiếp)
-
-- thêm `run_full.sh` để tự check env + validate input + generate report
-- xuất HTML report đẹp hơn
-- thêm score trend theo thời gian
-- thêm chế độ suppress finding theo rule ID
-
----
-
-Nếu bạn muốn, mình có thể viết thêm phiên bản README “for team onboarding” (siêu ngắn, 1 trang, copy-paste là chạy).
 ---
 
 ## 🤝 Project hygiene
