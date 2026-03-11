@@ -43,7 +43,14 @@ This will:
 - replay it against ERP,
 - fetch the full timetable payload,
 - parse + normalize it,
-- update Emiu timetable files under `/home/light/Documents/timetable/emiu/`.
+- write owner-scoped timetable files under `/home/light/Documents/timetable/<owner-slug>/`.
+
+Examples:
+```bash
+./auto_timetable.sh
+TIMETABLE_OWNER="Huei" ./auto_timetable.sh
+TIMETABLE_OWNER="Another Student" ./auto_timetable.sh
+```
 
 ## Troubleshooting
 

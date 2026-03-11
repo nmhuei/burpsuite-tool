@@ -185,8 +185,11 @@ Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so 
 # lọc nhanh các request timetable đã capture
 python3 extract_timetable.py
 
-# replay request timetable mới nhất và cập nhật file lịch Emiu
+# replay request timetable mới nhất cho owner mặc định (Huei)
 ./auto_timetable.sh
+
+# hoặc chỉ định owner khác
+TIMETABLE_OWNER="Alice" ./auto_timetable.sh
 ```
 
 ---
