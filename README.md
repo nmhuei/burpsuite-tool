@@ -44,12 +44,12 @@ reporter.py    -> out/report.md
 ## ⚡ Quick Start (3 phút)
 
 ```bash
-cd /home/light/Downloads/burpsuite-tool
+cd ~/GitHub/burpsuite-tool
 python3 -m venv .venv
 source .venv/bin/activate
-pip install --upgrade pip
+pip install --upgrade pip pyyaml
 
-# chạy nhanh pipeline mẫu
+# chạy bridge để Burp đẩy traffic vào đây
 ./run_mvp.sh
 ```
 
@@ -101,12 +101,14 @@ hoặc chạy launcher Burp bạn đang dùng.
 Sau khi Burp đã capture/export traffic:
 
 ```bash
-cd /home/light/Downloads/burpsuite-tool
+cd ~/GitHub/burpsuite-tool
 source .venv/bin/activate
 
-python3 collector.py <input-jsonl> > out/collected.json
-python3 analyzer.py out/collected.json rules.yaml > out/findings.json
-python3 reporter.py out/findings.json > out/report.md
+# bật bridge ingest từ Burp
+python3 collector.py
+
+# hoặc chạy helper script
+./run_mvp.sh
 ```
 
 ---
@@ -114,7 +116,7 @@ python3 reporter.py out/findings.json > out/report.md
 ## 📁 Cấu trúc file quan trọng
 
 - `burp_extender.py` → Burp extension
-- `collector.py` → ingest/normalize
+- `collector.py` → local ingest server, nhận traffic từ Burp và ghi `out/*.json`, `out/*.md`
 - `analyzer.py` → heuristic/rules engine
 - `reporter.py` → markdown output
 - `rules.yaml` → rule tuning
@@ -177,10 +179,13 @@ Gợi ý: chỉnh rule xong chạy lại `analyzer.py` + `reporter.py` để so 
 ## 🚀 Lệnh dùng hàng ngày
 
 ```bash
-# chạy nhanh
+# bật bridge để Burp gửi request/response vào repo này
 ./run_mvp.sh
 
-# chạy tự động luồng timetable (nếu bạn dùng script này)
+# lọc nhanh các request timetable đã capture
+python3 extract_timetable.py
+
+# replay request timetable mới nhất và cập nhật file lịch Emiu
 ./auto_timetable.sh
 ```
 

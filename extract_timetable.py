@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import json,re
+import json
 
-out=Path(__file__).resolve().parent/'out'
-rows=[]
+out = Path(__file__).resolve().parent / 'out'
+rows = []
 for f in sorted(out.glob('*.json')):
-    try:d=json.loads(f.read_text())
-    except:continue
-    ev=d.get('event',{})
-    a=d.get('analysis',{})
-    url=(ev.get('url') or '').lower()
-    body=(ev.get('response_body') or ev.get('body') or '')
-    if any(k in url for k in ['timetable','schedule','calendar','students/learn']):
-        rows.append((f.name,ev.get('kind'),ev.get('status'),ev.get('method'),ev.get('url'),len(body)))
+    try:
+        d = json.loads(f.read_text())
+    except Exception:
+        continue
+    if not isinstance(d, dict):
+        continue
+    ev = d.get('event', {})
+    if not isinstance(ev, dict):
+        continue
+    url = (ev.get('url') or '').lower()
+    body = (ev.get('response_body') or ev.get('body') or '')
+    if any(k in url for k in ['timetable', 'schedule', 'calendar', 'students/learn']):
+        rows.append((f.name, ev.get('kind'), ev.get('status'), ev.get('method'), ev.get('url'), len(body)))
 
-rep=out/'timetable_auto_report.md'
-lines=['# Timetable Auto Report','']
+rep = out / 'timetable_auto_report.md'
+lines = ['# Timetable Auto Report', '']
 if not rows:
     lines.append('- Chưa có dữ liệu timetable trong out/*.json')
 else:

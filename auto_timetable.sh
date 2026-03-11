@@ -2,7 +2,6 @@
 set -euo pipefail
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
-PROJECT_DIR="$(cd "$BASE_DIR/.." && pwd)"
 OUT_DIR="$BASE_DIR/out"
 EMIU_DIR="/home/light/Documents/timetable/emiu"
 
@@ -26,7 +25,7 @@ import json, ssl, urllib.request
 from pathlib import Path
 from datetime import datetime, UTC
 
-out_dir = Path('/home/light/Downloads/security_audit_tool/burp_bridge/out')
+out_dir = Path('/home/light/GitHub/burpsuite-tool/out')
 emiu_dir = Path('/home/light/Documents/timetable/emiu')
 
 # pick latest timetable request captured by Burp bridge

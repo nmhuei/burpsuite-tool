@@ -3,13 +3,16 @@
 ## 1) Requirements
 
 - Python 3.10+
-- Burp Suite (Community/Pro)
+- Burp Suite Professional
 - Jython standalone jar (for Python extension in Burp)
 
 ## 2) Start bridge
 
 ```bash
-cd /home/light/Downloads/burpsuite-tool
+cd ~/GitHub/burpsuite-tool
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip pyyaml
 ./run_mvp.sh
 ```
 
@@ -19,28 +22,31 @@ Bridge endpoint: `http://127.0.0.1:8765/ingest`
 
 1. Burp → Extender → Extensions → Add
 2. Extension type: `Python`
-3. Extension file: `burp_extender.py`
-4. If Burp asks Jython path, set Jython jar in Burp settings first.
+3. Extension file: `~/GitHub/burpsuite-tool/burp_extender.py`
+4. If Burp asks Jython path, set: `~/GitHub/burpsuite-tool/lib/jython-standalone-2.7.3.jar`
 
 ## 4) Verify
 
-- Browse target through Burp proxy.
-- Check generated outputs in `out/`.
+- Browse ERP target through Burp proxy.
+- Check generated outputs in `~/GitHub/burpsuite-tool/out/`.
+- If the bridge is healthy, Burp traffic will be written as `out/*.json` and `out/*.md`.
 
 ## 5) One-command timetable update
 
 ```bash
+cd ~/GitHub/burpsuite-tool
 ./auto_timetable.sh
 ```
 
 This will:
-- replay latest captured timetable request,
-- fetch full timetable payload,
-- parse + normalize,
+- find the latest captured timetable request,
+- replay it against ERP,
+- fetch the full timetable payload,
+- parse + normalize it,
 - update Emiu timetable files under `/home/light/Documents/timetable/emiu/`.
 
 ## Troubleshooting
 
-- `Connection refused 127.0.0.1:8765` → run `./run_mvp.sh`.
-- `No module named yaml` → `pip install pyyaml` (or use project venv).
-- No timetable found → open timetable page once in Burp-browser flow, then rerun.
+- `Connection refused 127.0.0.1:8765` → run `./run_mvp.sh` first.
+- `No module named yaml` → activate `.venv` and `pip install pyyaml`.
+- No timetable found → open the ERP timetable page once through Burp, then rerun `./auto_timetable.sh`.
