@@ -3,7 +3,7 @@ set -euo pipefail
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 OUT_DIR="$BASE_DIR/out"
-EMIU_DIR="/home/light/Documents/timetable/emiu"
+EMIU_DIR="/home/light/Documents/timetable/huei"
 
 mkdir -p "$OUT_DIR" "$EMIU_DIR"
 
@@ -26,7 +26,7 @@ from pathlib import Path
 from datetime import datetime, UTC
 
 out_dir = Path('/home/light/GitHub/burpsuite-tool/out')
-emiu_dir = Path('/home/light/Documents/timetable/emiu')
+emiu_dir = Path('/home/light/Documents/timetable/huei')
 
 # pick latest timetable request captured by Burp bridge
 candidates = sorted(out_dir.glob('POST__student-services_api_v2_timetables_query-student-timetable-in-range_*json'), key=lambda p: p.stat().st_mtime, reverse=True)
@@ -73,16 +73,27 @@ for e in arr:
         dt = c.get('date')
         if isinstance(dt, (int, float)):
             dt = datetime.fromtimestamp(dt / 1000).strftime('%Y-%m-%d')
+        teacher_names = c.get('teacherNames') or []
+        assistant_names = c.get('assistantNames') or []
+        if not teacher_names and e.get('teacherName'):
+            teacher_names = [e.get('teacherName')]
         slots.append({
             'date': dt,
             'course': e.get('name') or e.get('courseName') or '',
             'courseId': e.get('courseId') or '',
             'classCode': e.get('classId') or '',
             'location': c.get('place') or '',
-            'lecturer': ', '.join(c.get('teacherNames') or []),
+            'lecturer': ', '.join(teacher_names),
+            'teachers': teacher_names,
+            'assistants': assistant_names,
+            'studentNum': e.get('studentNum'),
             'fromPeriod': c.get('from'),
             'toPeriod': c.get('to'),
-            'lessonType': c.get('lessonType') or ''
+            'lessonType': c.get('lessonType') or '',
+            'calendarId': c.get('id'),
+            'placeId': c.get('placeId'),
+            'week': c.get('week'),
+            'status': c.get('status')
         })
 
 # dedup
@@ -105,33 +116,45 @@ for s in uniq:
     fp, tp = s.get('fromPeriod'), s.get('toPeriod')
     final.append({
         'date': s.get('date'),
+        'classCode': s.get('classCode',''),
+        'courseName': s.get('course',''),
+        'courseId': s.get('courseId',''),
         'course': f"{s.get('classCode','')} - {s.get('course','')} - {s.get('courseId','')}",
         'start': start_map.get(fp, ''),
         'end': end_map.get(tp, ''),
         'location': s.get('location',''),
         'lecturer': s.get('lecturer',''),
+        'teachers': s.get('teachers') or [],
+        'assistants': s.get('assistants') or [],
+        'studentNum': s.get('studentNum'),
         'format': 'Lý thuyết' if s.get('lessonType') == 'LT' else (s.get('lessonType') or ''),
-        'period': f"{fp}-{tp}" if fp and tp else ''
+        'period': f"{fp}-{tp}" if fp and tp else '',
+        'fromPeriod': fp,
+        'toPeriod': tp,
+        'week': s.get('week'),
+        'calendarId': s.get('calendarId'),
+        'placeId': s.get('placeId'),
+        'status': s.get('status')
     })
 
 # save parsed helper
 (out_dir / 'timetable_parsed.json').write_text(json.dumps(uniq, ensure_ascii=False, indent=2))
 (out_dir / 'timetable_parsed.md').write_text('# Timetable Parsed\n\n' + '\n'.join(
-    f"- {r['date']} | tiết {r['fromPeriod']}-{r['toPeriod']} | {r['course']} ({r['courseId']}) | {r['location']} | {r['lecturer']}" for r in uniq
+    f"- {r['date']} | tiết {r['fromPeriod']}-{r['toPeriod']} | {r['classCode']} - {r['course']} ({r['courseId']}) | {r['location']} | GV: {r['lecturer']} | SV: {r.get('studentNum')}" for r in uniq
 ))
 
 # backups + update emiu files
-json_path = emiu_dir / 'emiu-timetable-2026-03.json'
-ics_path = emiu_dir / 'emiu-timetable-2026-03.ics'
+json_path = emiu_dir / 'huei-timetable-2026-03.json'
+ics_path = emiu_dir / 'huei-timetable-2026-03.ics'
 stamp = datetime.now().strftime('%Y%m%d-%H%M%S')
 if json_path.exists():
-    (emiu_dir / f'emiu-timetable-2026-03.json.bak-{stamp}').write_text(json_path.read_text())
+    (emiu_dir / f'huei-timetable-2026-03.json.bak-{stamp}').write_text(json_path.read_text())
 if ics_path.exists():
-    (emiu_dir / f'emiu-timetable-2026-03.ics.bak-{stamp}').write_text(ics_path.read_text())
+    (emiu_dir / f'huei-timetable-2026-03.ics.bak-{stamp}').write_text(ics_path.read_text())
 
 json_path.write_text(json.dumps(final, ensure_ascii=False, indent=2))
 
-lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//OpenClaw//Emiu Timetable//EN','CALSCALE:GREGORIAN']
+lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//OpenClaw//Huei Timetable//EN','CALSCALE:GREGORIAN']
 for i, e in enumerate(final, 1):
     if not (e['date'] and e['start'] and e['end']):
         continue
@@ -139,7 +162,7 @@ for i, e in enumerate(final, 1):
     de = e['date'].replace('-', '') + e['end'].replace(':', '') + '00'
     lines += [
         'BEGIN:VEVENT',
-        f'UID:emiu-{i}@openclaw',
+        f'UID:huei-{i}@openclaw',
         f'DTSTAMP:{datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")}',
         f'DTSTART;TZID=Asia/Ho_Chi_Minh:{ds}',
         f'DTEND;TZID=Asia/Ho_Chi_Minh:{de}',
@@ -151,7 +174,26 @@ for i, e in enumerate(final, 1):
 lines.append('END:VCALENDAR')
 ics_path.write_text('\n'.join(lines))
 
+popup_md = emiu_dir / 'huei-timetable-2026-03-details.md'
+popup_lines = ['# Huei Timetable Details', '']
+for e in final:
+    popup_lines += [
+        f"## {e['classCode']} - {e['courseName']} - {e['courseId']}",
+        '',
+        f"- Tiết học: {e['period']} ({e['start']}-{e['end']})",
+        f"- Địa điểm: {e['location']}",
+        f"- Ngày học: {e['date']}",
+        f"- Giảng viên: {e['lecturer']}",
+        f"- Các giảng viên: {', '.join(e.get('teachers') or [])}",
+        f"- Trợ giảng: {', '.join(e.get('assistants') or [])}",
+        f"- Số lượng sinh viên: {e.get('studentNum')}",
+        f"- Hình thức: {e.get('format')}",
+        ''
+    ]
+popup_md.write_text('\n'.join(popup_lines))
+
 print(f'✅ Done. raw_events={len(arr)} parsed_slots={len(uniq)} final_events={len(final)}')
 print(f'📁 {json_path}')
 print(f'📁 {ics_path}')
+print(f'📁 {popup_md}')
 PY
